@@ -1,8 +1,6 @@
 # Read Me!
 
-example website, first project for localhost.
-
-Documentation: https://www.notion.so/Startup-37f44ac062f0400a92e5f0aae49ad20c
+SESA Website
 
 # Dev set up information
 
