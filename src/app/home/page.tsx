@@ -2,7 +2,7 @@ import Heading from "@/components/Heading";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import CardContainer from "@/components/CardContainer";
-import HomeBackground from "../../public/homeBackgroundGreen.png";
+import HomeBackground from "../../../public/homeBackgroundGreen.png";
 
 // below are possible ways to add the coloured overlay using css (which would make it easy to change themes)
 // currently the green background is part odf the image because text appears behind the coloured overlay otherwise.
