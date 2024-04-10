@@ -1,18 +1,17 @@
 import React from "react";
 import Card from "./Card";
 
-import Image from "./test_image.jpeg";
-import XIVImage from "../../public/XIV.png";
+import Image from "../../public/test_image.jpeg";
 
 const CardContainer = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10">
       <Card
-        title="XIV"
+        title="Project 1"
         description="Project description, what we did, how we did it. Who the client was etc."
-        imgSrc={XIVImage.src}
+        imgSrc={Image.src}
         imgAlt="Project 1"
-        linkUrl="https://tonylxm.github.io/sesa-x-wdcc-hackathon/"
+        linkUrl="https://www.google.com/"
       />
       <Card
         title="Project 2"
