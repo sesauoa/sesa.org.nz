@@ -10,5 +10,8 @@ assignees: ''
 **Description:**
 
 **Criteria:**
+- [ ] Criteria 1
+- [ ] Criteria 2
+- [ ] Criteria 3
 
 **Technical Discussion:**
