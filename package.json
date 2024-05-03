@@ -12,12 +12,15 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@types/three": "^0.164.0",
     "dotenv": "^16.4.5",
     "framer-motion": "^10.0.0",
     "mongoose": "^8.2.3",
     "next": "14.1.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "three": "^0.164.1",
+    "three-orbitcontrols": "^2.110.3"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.2",
@@ -25,6 +28,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/stats.js": "^0.17.3",
     "autoprefixer": "^10.0.1",
     "daisyui": "^4.7.3",
     "eslint": "8.57.0",
