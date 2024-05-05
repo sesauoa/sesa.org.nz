@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -14,7 +15,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        sans: ["monospace", "sans-serif"],
+        sans: ["Overpass", "sans-serif"],
       },
     },
   },
@@ -25,6 +26,20 @@ const config: Config = {
           primary: "#000000",
           secondary: "#e5e7eb",
           accent: "#3EFBCB",
+          neutral: "#1e8f8a",
+          "base-100": "#044C4C",
+          info: "#0e7490",
+          success: "#00FFFF",
+          warning: "#eab308",
+          error: "#881337",
+        },
+      },
+      {
+        sesaTheme: {
+          primary: "#00112b", // navy
+          "primary-content": "#FFFFFF", // white
+          secondary: "#e5e7eb",
+          accent: "#70c7b0", // light teal
           neutral: "#1e8f8a",
           "base-100": "#044C4C",
           info: "#0e7490",
