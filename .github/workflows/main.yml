@@ -20,12 +20,28 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "Build"
+  Prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: |
+          npm install
+
+      # Runs prettier
+      - name: Run code style check
+        run: npm run prettier
   Build:
-    # The type of runner that the job will run on
+    needs: Prettier
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check out code
@@ -44,53 +60,3 @@ jobs:
       - name: Build Project
         run: |
           npm run build
-
-      # # Dockerize project - unnecessary for now
-      # - name: Dockerize Build
-      #   run: |
-      #     docker build -f Dockerfile -t nextjs-app .
-      #     echo Docker Build ran
-
-      # # Run Unit Tests
-      # - name: Run tests
-      #   run: npm test
-
-  Prettier:
-    needs: Build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out code
-        uses: actions/checkout@v3
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: "20"
-
-      - name: Install dependencies
-        run: |
-          npm install
-
-      # Runs prettier
-      - name: Run code style check
-        run: npm run prettier
-
-  Unit-Tests:
-    needs: Prettier
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out code
-        uses: actions/checkout@v3
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: "20"
-
-      - name: Install dependencies
-        run: |
-          npm install
-
-      # Run Unit Tests
-      - name: Run tests
-        run: npm test
