@@ -14,11 +14,11 @@ const EventCalendar: React.FC = () => {
             scrolling="no"
           ></iframe>
         </main>
-        <aside className="w-1/3 h-full">
+        <aside className="w-1/3 h-full ml-4">
           <h2>Upcoming Events</h2>
           <iframe
             src="https://calendar.google.com/calendar/embed?src=c_2l290qgafiq2qa5a7kjq5t2evk@group.calendar.google.com&ctz=Pacific%2FAuckland&mode=AGENDA"
-            className="w-full h-4/5 ml-4"
+            className="w-full h-4/5"
             frameBorder={0}
             scrolling="no"
           ></iframe>
