@@ -7,7 +7,6 @@ import CardContainer from "@/components/CardContainer";
 import SplashHeader from "@/components/SplashHeader";
 import EventCalendar from "@/components/EventCalendar";
 
-
 import HomeBackground from "../../public/homeBackgroundGreen.png";
 import TestImage from "../../public/test_image.jpeg";
 
@@ -25,10 +24,9 @@ export default function Home() {
       // style={{ backgroundImage: `url(${HomeBackground.src})` }}
     >
       <div className="p-10">
-
         <EventCalendar />
       </div>
-      
+
       <Footer />
     </div>
   );
