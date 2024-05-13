@@ -45,9 +45,9 @@ const ContactForm: React.FC<FormProps> = (props) => {
             <div className="flex flex-col space-y-1">
               <label
                 htmlFor="email"
-                className="block text-m font-medium text-gray-700"
+                className="block text-m font-medium text-700"
               >
-                Email *
+                Email
               </label>
               <input
                 id="email"
@@ -63,9 +63,9 @@ const ContactForm: React.FC<FormProps> = (props) => {
             <div className="flex flex-col space-y-1">
               <label
                 htmlFor="message"
-                className="block text-m font-medium text-gray-700"
+                className="block text-m font-medium text-700"
               >
-                Message *
+                Message
               </label>
               <textarea
                 id="message"
