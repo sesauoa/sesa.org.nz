@@ -9,6 +9,7 @@ import ThreeScene from "@/components/ThreeScene";
 
 import HomeBackground from "../../public/homeBackgroundGreen.png";
 import TestImage from "../../public/test_image.jpeg";
+import Team from "./team/page";
 
 // below are possible ways to add the coloured overlay using css (which would make it easy to change themes)
 // currently the green background is part odf the image because text appears behind the coloured overlay otherwise.
@@ -19,17 +20,18 @@ const images: string[] = [HomeBackground.src, TestImage.src];
 
 export default function Home() {
   return (
-    <div
-      className="bg-cover bg-center"
-      style={{ backgroundImage: `url(${HomeBackground.src})` }}
-    >
-      <SplashHeader
-        images={images}
-        headerText="Software Engineering Students Association"
-        bodyText="SESA is the association for students and alumni of the 
-      Software Engineering programme at the University of Auckland."
-      />
-      <Footer />
-    </div>
+    // <div
+    //   className="bg-cover bg-center"
+    //   style={{ backgroundImage: `url(${HomeBackground.src})` }}
+    // >
+    //   <SplashHeader
+    //     images={images}
+    //     headerText="Software Engineering Students Association"
+    //     bodyText="SESA is the association for students and alumni of the 
+    //   Software Engineering programme at the University of Auckland."
+    //   />
+    //   <Footer />
+    // </div>
+    <Team />
   );
 }

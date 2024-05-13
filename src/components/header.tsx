@@ -58,6 +58,14 @@ function Header(): any {
                 about us
               </Link>
             </li>
+            <li>
+              <Link
+                href="/team"
+                className="btn btn-ghost text-accent text-lg font-sans"
+              >
+                our team
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
