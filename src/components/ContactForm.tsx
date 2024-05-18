@@ -1,39 +1,56 @@
 "use client";
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 // Information to describe the form
 interface FormProps {
-  id: string;
-  name: string;
+  id?: string;
+  name?: string;
 }
 
 // Data collected by the form depending on inputs
 export interface FormDataProps {
+  name: string;
   email: string;
   message: string;
 }
 
 const ContactForm: React.FC<FormProps> = (props) => {
-  const [formData, setFormData] = useState<FormDataProps>({} as FormDataProps);
+  const [formState, setFormState] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
-  // When the text in one of the inputs changes, updating the value of the appropriate form property
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
-    setFormData((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }));
+    setFormState((prevState) => ({ ...prevState, [name]: value }));
   };
 
   // Change this function for mailing or other functionalities
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Data currently just logged to show that it is working
-    console.log(formData);
-    alert("Form submitted successfully!");
-    setFormData({ email: "", message: "" });
+
+    // EmailJS authentication
+    const serviceId = "";
+    const templateId = "";
+    const userId = "";
+
+    emailjs.send(serviceId, templateId, formState, userId).then(
+      (result) => {
+        console.log("Email Sucessful:", result.text);
+        setFormState({
+          name: "",
+          email: "",
+          message: "",
+        });
+      },
+      (error): void => {
+        console.error("Error Sending Email", error.text);
+      }
+    );
   };
 
   return (
@@ -42,6 +59,24 @@ const ContactForm: React.FC<FormProps> = (props) => {
         <h2 className="text-2xl font-bold mb-4">Contact Form</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="flex flex-col space-y-4" style={{ width: "50%" }}>
+            <div className="flex flex-col space-y-1">
+              <label
+                htmlFor="name"
+                className="block text-m font-medium text-700"
+              >
+                Name
+              </label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                className="input input-bordered w-full"
+                placeholder="Enter your name"
+                value={formState.name}
+                required={true}
+                onChange={handleChange}
+              />
+            </div>
             <div className="flex flex-col space-y-1">
               <label
                 htmlFor="email"
@@ -55,7 +90,7 @@ const ContactForm: React.FC<FormProps> = (props) => {
                 type="email"
                 className="input input-bordered w-full"
                 placeholder="Enter your email"
-                value={formData.email}
+                value={formState.email}
                 required={true}
                 onChange={handleChange}
               />
@@ -72,7 +107,7 @@ const ContactForm: React.FC<FormProps> = (props) => {
                 name="message"
                 className="input input-bordered w-full h-40"
                 placeholder="Enter your message"
-                value={formData.message}
+                value={formState.message}
                 required={true}
                 onChange={handleChange}
               />
