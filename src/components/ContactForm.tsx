@@ -2,20 +2,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
-// Information to describe the form
-interface FormProps {
-  id?: string;
-  name?: string;
-}
-
-// Data collected by the form depending on inputs
-export interface FormDataProps {
-  name: string;
-  email: string;
-  message: string;
-}
-
-const ContactForm: React.FC<FormProps> = (props) => {
+const ContactForm: React.FC<{}> = () => {
   const [formState, setFormState] = useState({
     name: "",
     email: "",
