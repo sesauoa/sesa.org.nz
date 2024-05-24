@@ -20,18 +20,17 @@ const images: string[] = [HomeBackground.src, TestImage.src];
 
 export default function Home() {
   return (
-    // <div
-    //   className="bg-cover bg-center"
-    //   style={{ backgroundImage: `url(${HomeBackground.src})` }}
-    // >
-    //   <SplashHeader
-    //     images={images}
-    //     headerText="Software Engineering Students Association"
-    //     bodyText="SESA is the association for students and alumni of the 
-    //   Software Engineering programme at the University of Auckland."
-    //   />
-    //   <Footer />
-    // </div>
-    <Team />
+    <div
+      className="bg-cover bg-center"
+      style={{ backgroundImage: `url(${HomeBackground.src})` }}
+    >
+      <SplashHeader
+        images={images}
+        headerText="Software Engineering Students Association"
+        bodyText="SESA is the association for students and alumni of the 
+      Software Engineering programme at the University of Auckland."
+      />
+      <Footer />
+    </div>
   );
 }

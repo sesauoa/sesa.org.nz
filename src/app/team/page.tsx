@@ -20,10 +20,14 @@ export default function Team() {
       <h1 className="font-sans text-accent text-5xl text-center drop-shadow-lg">
         SESA 2024 Executive Team
       </h1>
-      {/* <div className="m-[max(15vw,20px)] flex-1 items-center justify-center border-2">
-        
-      </div> */}
-      <ExecDisplay />
+      <div className="flex justify-center items-center gap-2 flex-col mb-4">
+        <img
+          className="w-[90%]"
+          src={`/team-images/2024/team_photo.png`}
+          alt="SESA 2024 Team Photo"
+        />
+        <ExecDisplay />
+      </div>
       <Footer />
     </div>
   );
