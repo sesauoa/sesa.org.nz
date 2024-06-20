@@ -18,7 +18,7 @@ export default function About() {
       <Header />
       <div className="m-[max(15vw,20px)] flex-1 items-center justify-center">
         <h1 className="font-sans text-accent text-5xl text-center drop-shadow-lg">
-          Need a website? Leave it to us.
+          i love sesa
         </h1>
         <p className="font-sans text-base-content font-bold text-2xl text-center m-10 drop-shadow-lg">
           We’re a group of university students united on our common interest in
