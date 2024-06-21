@@ -47,12 +47,7 @@ const RotatableComponent: React.FC = () => {
     };
   }, []);
 
-  return (
-    <div
-      ref={mountRef}
-      style={{ width: "50vw", height: "100vh", background: "transparent" }}
-    />
-  );
+  return <div ref={mountRef} />;
 };
 
 export default RotatableComponent;

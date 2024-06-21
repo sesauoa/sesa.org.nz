@@ -2,14 +2,6 @@
 
 SESA Website
 
-# Dev set up information
-
-`npm i`
-
-`npm install daisyui`
-or
-`yarn install daisyui`
-
 # Stack
 
 Next.js
@@ -22,6 +14,21 @@ Vercel
 
 Eslint
 Prettier
+
+## Colours
+Defined in tailwind.config.ts
+
+`primary: "#00112b", // sesa navy`
+`secondary: "#49bfaa", // sesa teal dark`
+`accent: "#70c7b0", // sesa teal light`
+
+## Dev set up information
+
+`npm i`
+
+`npm install daisyui`
+or
+`yarn install daisyui`
 
 ## Getting Started
 

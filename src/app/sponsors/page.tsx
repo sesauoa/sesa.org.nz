@@ -1,10 +1,13 @@
-import Header from "@/components/SesaHeader";
-import Footer from "@/components/SesaFooter";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 export default function SponsorsPage() {
   return (
     <div>
-      <Header />
+      <div className="bg-primary">
+        <Navigation />
+      </div>
+      
       <Footer />
     </div>
   );
