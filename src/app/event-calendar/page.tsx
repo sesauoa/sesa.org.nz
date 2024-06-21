@@ -1,5 +1,5 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "@/components/SesaHeader";
+import Footer from "@/components/SesaFooter";
 import EventCalendar from "@/components/EventCalendar";
 
 export default function EventCalendarPage() {
