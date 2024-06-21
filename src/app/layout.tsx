@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Software Engineering Students Association",
-  description: "SESA is the association for students and alumni of the Software Engineering programme at the University of Auckland.",
+  description:
+    "SESA is the association for students and alumni of the Software Engineering programme at the University of Auckland.",
 };
 
 export default function RootLayout({

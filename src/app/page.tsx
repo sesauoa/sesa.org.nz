@@ -6,7 +6,6 @@ import SplashHeader from "@/components/SplashHeader";
 
 import HomeBackground from "../../public/homeBackgroundGreen.png";
 import TestImage from "../../public/test_image.jpeg";
-import SocialMediaButtons from "@/components/SocialMediaButtons";
 
 // below are possible ways to add the coloured overlay using css (which would make it easy to change themes)
 // currently the green background is part odf the image because text appears behind the coloured overlay otherwise.

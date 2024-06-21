@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 
 interface AutoSlideshowProps {
   images: string[];
@@ -18,7 +19,7 @@ const AutoSlideshow: React.FC<AutoSlideshowProps> = ({ images }) => {
   return (
     <div className="h-screen max-w-screen-xl mx-auto overflow-hidden">
       {images.map((image, index) => (
-        <img
+        <Image
           key={index}
           src={image}
           className={`absolute top-0 left-1/2 transform -translate-x-1/2 w-full h-full object-cover transition-opacity duration-1000 ${

@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import Animation from "./Animation";
 import { motion } from "framer-motion";
 
@@ -28,7 +29,7 @@ const Card: React.FC<CardProps> = ({
     >
       <Animation>
         <div className="card bg-base-100 shadow-xl relative overflow-hidden group">
-          <img
+          <Image
             src={imgSrc}
             alt={imgAlt}
             className="w-full h-60 object-cover transition-all duration-300 brightness-80 group-hover:brightness-50"

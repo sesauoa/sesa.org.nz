@@ -1,11 +1,12 @@
 import Link from "next/link";
 import SesaLogo from "../../public/sesaLogo.svg";
+import Image from "next/image";
 
 export default function Header() {
   return (
     <div className="bg-primary flex justify-between items-center p-[20px] px-[150px] mx-auto">
       <a href="#" className="min-w-40 border-solid text-center inline px-3">
-        <img src={SesaLogo.src} alt="SESA Logo" />
+        <Image src={SesaLogo.src} alt="SESA Logo" />
       </a>
 
       <ul className="flex justify-center items-center p-5">
