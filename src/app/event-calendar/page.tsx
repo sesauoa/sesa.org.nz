@@ -1,11 +1,13 @@
-import Header from "@/components/SesaHeader";
-import Footer from "@/components/SesaFooter";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import EventCalendar from "@/components/EventCalendar";
 
-export default function EventCalendarPage() {
+export default function JoinPage() {
   return (
     <div>
-      <Header />
+      <div className="bg-primary">
+        <Navigation />
+      </div>
       <EventCalendar />
       <Footer />
     </div>

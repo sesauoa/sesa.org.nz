@@ -1,11 +1,13 @@
-import Header from "@/components/SesaHeader";
-import Footer from "@/components/SesaFooter";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 
-export default function ContactPage() {
+export default function JoinPage() {
   return (
     <div>
-      <Header />
+      <div className="bg-primary">
+        <Navigation />
+      </div>
       <ContactForm />
       <Footer />
     </div>

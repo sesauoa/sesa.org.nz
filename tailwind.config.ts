@@ -22,16 +22,10 @@ const config: Config = {
     themes: [
       {
         sesaTheme: {
-          primary: "#00112b", // navy
-          "primary-content": "#FFFFFF", // white
-          secondary: "#e5e7eb",
-          accent: "#70c7b0", // light teal
-          neutral: "#1e8f8a",
-          "base-100": "#044C4C",
-          info: "#0e7490",
-          success: "#00FFFF",
-          warning: "#eab308",
-          error: "#881337",
+          primary: "#00112b", // sesa navy
+          "primary-content": "#ffffff", // white
+          secondary: "#49bfaa", // sesa teal dark
+          accent: "#70c7b0", // sesa teal light
         },
       },
     ],
