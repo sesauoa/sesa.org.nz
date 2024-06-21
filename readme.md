@@ -1,11 +1,10 @@
-# Read Me!
+# Software Engineering Students Association (SESA) Official Website
 
-SESA Website
+## Tech Stack
 
-# Stack
-
-Next.js
+React
 TypeScript
+Next.js
 TailwindCSS, DaisyUI
 
 Terraform

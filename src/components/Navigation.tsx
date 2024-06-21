@@ -18,25 +18,27 @@ export default function Header() {
           {routes.map((route) => {
             const { id, name, href } = route;
             return (
-              <motion.li
+              <li
                 key={id}
-                className="font-sans text-lg text-primary-content whitespace-nowrap inline px-6"
+                className="font-sans text-lg text-primary-content whitespace-nowrap inline px-6 group"
               >
                 <Link
                   href={href}
-                  className="flex items-center gap-1 transition-all"
+                  className="relative flex items-center gap-1 transition-all"
                 >
                   {name}
+                  <span className="absolute -bottom-0.5 -left-2 -right-2 h-[2px] origin-left scale-x-0 group-hover:scale-100 rounded-full bg-white transition-transform duration-300 ease-out" />
                 </Link>
-              </motion.li>
+              </li>
             );
           })}
-          <button
+          <a
             key="join-button"
+            href="/join"
             className="bg-accent rounded-full font-sans text-lg text-primary-content inline transition-transform duration-200 transform hover:scale-110 px-6 py-[6px] ml-6"
           >
             Join
-          </button>
+          </a>
         </ul>
 
         {/* <AnimatedHambuger /> */}
