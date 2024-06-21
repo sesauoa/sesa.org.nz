@@ -1,6 +1,5 @@
 import SocialMediaButtons from "./SocialMediaButtons";
 import SesaLogo from "../../public/sesaLogo.svg";
-import Image from "next/image";
 
 const currentYear = new Date().getFullYear();
 
@@ -11,7 +10,7 @@ export default function Footer() {
         <div className="h-full flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center md:flex-wrap md:gap-6">
           <div className="min-w-28 border-solid inline mx-16">
             <a href="#">
-              <Image src={SesaLogo.src} alt="SESA Logo" />
+              <img src={SesaLogo.src} alt="SESA Logo" />
             </a>
           </div>
           <div className="py-3 md:px-20">
