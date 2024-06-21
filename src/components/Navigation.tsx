@@ -39,7 +39,7 @@ export default function Header() {
           </button>
         </ul>
 
-        <AnimatedHambuger />
+        {/* <AnimatedHambuger /> */}
       </div>
     </div>
   );
