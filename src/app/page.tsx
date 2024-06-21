@@ -1,11 +1,8 @@
 "use client";
 
-import Heading from "@/components/Heading";
-import Header from "@/components/header";
-import Footer from "@/components/footer";
-import CardContainer from "@/components/CardContainer";
+import Header from "@/components/SesaHeader";
+import Footer from "@/components/SesaFooter";
 import SplashHeader from "@/components/SplashHeader";
-import EventCalendar from "@/components/EventCalendar";
 
 import HomeBackground from "../../public/homeBackgroundGreen.png";
 import TestImage from "../../public/test_image.jpeg";
@@ -19,14 +16,23 @@ const images: string[] = [HomeBackground.src, TestImage.src];
 
 export default function Home() {
   return (
-    <div
-      className="bg-cover bg-center"
-      // style={{ backgroundImage: `url(${HomeBackground.src})` }}
-    >
-      <div className="p-10">
-        <EventCalendar />
+    <div>
+      <Header />
+      <div
+        className="bg-cover bg-center"
+        style={{ backgroundImage: `url(${HomeBackground.src})` }}
+        // style={{ backgroundImage: `url(${HomeBackground.src})` }}
+      >
+        <SplashHeader
+          images={images}
+          headerText="Software Engineering Students Association"
+          bodyText="SESA is the association for students and alumni of the Software Engineering programme at the University of Auckland."
+        />
       </div>
-
+      {/* Sponsors component */}
+      <div>
+        <p>About us</p>
+      </div>
       <Footer />
     </div>
   );

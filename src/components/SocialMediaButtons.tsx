@@ -17,7 +17,12 @@ export default function SocialMediaButtons() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={facebook} height={iconSize} alt="facebook-icon" />
+        <Image
+          src={facebook}
+          width={iconSize}
+          height={iconSize}
+          alt="facebook-icon"
+        />
       </a>
       <a
         href="https://www.instagram.com/sesa.uoa"
@@ -25,7 +30,12 @@ export default function SocialMediaButtons() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={instagram} height={iconSize} alt="instagram-icon" />
+        <Image
+          src={instagram}
+          width={iconSize}
+          height={iconSize}
+          alt="instagram-icon"
+        />
       </a>
       <a
         href="https://www.linkedin.com/company/ausesa"
@@ -33,7 +43,12 @@ export default function SocialMediaButtons() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={linkedin} height={iconSize} alt="linkedin-icon" />
+        <Image
+          src={linkedin}
+          width={iconSize}
+          height={iconSize}
+          alt="linkedin-icon"
+        />
       </a>
       <a
         href="https://discord.gg/93AW5tMSBc"
@@ -41,7 +56,12 @@ export default function SocialMediaButtons() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={discord} height={iconSize} alt="tiktok-icon" />
+        <Image
+          src={discord}
+          width={iconSize}
+          height={iconSize}
+          alt="discord-icon"
+        />
       </a>
       <a
         href="https://www.tiktok.com/@sesauoa"
@@ -49,7 +69,12 @@ export default function SocialMediaButtons() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={tiktok} height={iconSize} alt="tiktok-icon" />
+        <Image
+          src={tiktok}
+          width={iconSize}
+          height={iconSize}
+          alt="tiktok-icon"
+        />
       </a>
     </div>
   );
