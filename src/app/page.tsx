@@ -1,11 +1,8 @@
 "use client";
 
-import Heading from "@/components/Heading";
-import Header from "@/components/header";
-import Footer from "@/components/footer";
-import CardContainer from "@/components/CardContainer";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import SplashHeader from "@/components/SplashHeader";
-import ThreeScene from "@/components/ThreeScene";
 
 import HomeBackground from "../../public/homeBackgroundGreen.png";
 import TestImage from "../../public/test_image.jpeg";
@@ -20,17 +17,27 @@ const images: string[] = [HomeBackground.src, TestImage.src];
 
 export default function Home() {
   return (
-    <div
-      className="bg-cover bg-center"
-      style={{ backgroundImage: `url(${HomeBackground.src})` }}
-    >
-      <SplashHeader
-        images={images}
-        headerText="Software Engineering Students Association"
-        bodyText="SESA is the association for students and alumni of the 
-      Software Engineering programme at the University of Auckland."
-      />
+    <main>
+      <div
+        className="bg-cover bg-center"
+        style={{ backgroundImage: `url(${HomeBackground.src})` }}
+        // style={{ backgroundImage: `url(${HomeBackground.src})` }}
+      >
+        <div className="h-screen flex flex-col min-h-inherit">
+          <div className="mx-auto max-w-screen-xl">
+            <Navigation />
+            <SplashHeader
+              headerText="Software Engineering Students Association"
+              bodyText="SESA is the association for students and alumni of the Software Engineering programme at the University of Auckland."
+            />
+          </div>
+        </div>
+      </div>
+      {/* Sponsors component */}
+      <div>
+        <p>About us</p>
+      </div>
       <Footer />
-    </div>
+    </main>
   );
 }

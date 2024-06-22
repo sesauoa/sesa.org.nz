@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-import Image from "../../public/test_image.jpeg";
+import Image from "../../public/test_image.jpg";
 
 const CardContainer = () => {
   return (

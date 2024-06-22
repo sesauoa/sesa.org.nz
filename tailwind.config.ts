@@ -21,34 +21,13 @@ const config: Config = {
   daisyui: {
     themes: [
       {
-        localhostTheme: {
-          primary: "#000000",
-          secondary: "#e5e7eb",
-          accent: "#3EFBCB",
-          neutral: "#1e8f8a",
-          "base-100": "#044C4C",
-          info: "#0e7490",
-          success: "#00FFFF",
-          warning: "#eab308",
-          error: "#881337",
-        },
-      },
-      {
         sesaTheme: {
-          primary: "#00112b", // navy
-          "primary-content": "#FFFFFF", // white
-          secondary: "#e5e7eb",
-          accent: "#70c7b0", // light teal
-          neutral: "#1e8f8a",
-          "base-100": "#044C4C",
-          info: "#0e7490",
-          success: "#00FFFF",
-          warning: "#eab308",
-          error: "#881337",
+          primary: "#00112b", // sesa navy
+          "primary-content": "#ffffff", // white
+          secondary: "#49bfaa", // sesa teal dark
+          accent: "#70c7b0", // sesa teal light
         },
       },
-      "dark",
-      "bumblebee",
     ],
   },
   plugins: [require("daisyui")],
