@@ -9,18 +9,18 @@ import { useState } from "react";
 export default function Header() {
   return (
     <div className="mx-auto max-w-screen-xl">
-      <div className="bg-transparent flex justify-between items-center py-5">
+      <div className="bg-transparent flex justify-between items-center p-5">
         <a href="/" className="min-w-36 border-solid text-center inline">
           <img src={SesaLogo.src} alt="SESA Logo" />
         </a>
 
-        <ul className="flex justify-center items-center p-5">
+        <ul className="hidden lg:flex justify-center items-center p-5">
           {routes.map((route) => {
             const { id, name, href } = route;
             return (
               <li
                 key={id}
-                className="font-sans text-lg text-primary-content whitespace-nowrap inline px-6 group"
+                className="font-sans text-lg text-primary-content whitespace-nowrap inline px-5 group"
               >
                 <Link
                   href={href}
@@ -41,7 +41,9 @@ export default function Header() {
           </a>
         </ul>
 
-        {/* <AnimatedHambuger /> */}
+        <div className="flex lg:hidden">
+          <AnimatedHambuger />
+        </div>
       </div>
     </div>
   );
