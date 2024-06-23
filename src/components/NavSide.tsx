@@ -49,7 +49,7 @@ export default function NavSide({
       exit="exit"
       className="h-screen bg-primary fixed lg:hidden right-0 top-0 text-white"
     >
-      <div className="box-border h-full p-24 flex flex-col justify-between">
+      <div className="box-border h-full px-24 pt-10 flex flex-col justify-between">
         <div className="flex flex-col text-xl gap-3 mt-20">
           {routes.map((data) => {
             return (
