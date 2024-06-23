@@ -1,8 +1,8 @@
 import ExecDisplay from "@/components/ExecDisplay";
 
 export const metadata = {
-  title: 'SESA - Our Team',
-}
+  title: "SESA - Our Team",
+};
 
 export default function OurTeamPage() {
   return (

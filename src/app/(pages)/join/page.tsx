@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'SESA - Join',
-}
+  title: "SESA - Join",
+};
 
 export default function JoinPage() {
   return <div></div>;

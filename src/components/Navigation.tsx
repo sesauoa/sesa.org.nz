@@ -47,7 +47,9 @@ export default function Navigation() {
           </a>
         </ul>
         <div
-          className={isActive ? "fixed right-5 top-[29.5px] z-20" : "flex lg:hidden"}
+          className={
+            isActive ? "fixed right-5 top-[29.5px] z-20" : "flex lg:hidden"
+          }
         >
           <AnimatedHambuger isActive={isActive} setActive={setActive} />
         </div>
