@@ -1,7 +1,6 @@
 # Software Engineering Students Association (SESA) Official Website
 
 ## Tech Stack
-
 React
 TypeScript
 Next.js
@@ -17,9 +16,9 @@ Prettier
 ## Colours
 Defined in tailwind.config.ts
 
-`primary: "#00112b", // sesa navy`
-`secondary: "#49bfaa", // sesa teal dark`
-`accent: "#70c7b0", // sesa teal light`
+- primary: "#00112b", // sesa navy
+- secondary: "#49bfaa", // sesa teal dark
+- accent: "#70c7b0", // sesa teal light
 
 ## Dev set up information
 
@@ -30,7 +29,6 @@ or
 `yarn install daisyui`
 
 ## Getting Started
-
 First, run the development server:
 
 ```bash
@@ -42,5 +40,10 @@ pnpm dev
 # or
 bun dev
 ```
+
+## Prettier
+To run Prettier for formatting:
+
+`npx prettier --write .`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
