@@ -3,10 +3,12 @@
 import Link from "next/link";
 import SesaLogo from "../../public/sesaLogo.svg";
 import { AnimatedHambuger } from "./AnimatedHamburger";
-import { routes } from "../constants/routes";
+import { routes } from "../constants/Routes";
 import { useState } from "react";
+import { AnimatePresence } from "framer-motion";
+import NavSide from "./NavSide";
 
-export default function Header() {
+export default function Navigation() {
   const [isActive, setActive] = useState(false);
 
   return (
@@ -44,12 +46,16 @@ export default function Header() {
             Join
           </a>
         </ul>
-
         <div
-          className={isActive ? "fixed right-5 top-[29.5px]" : "flex lg:hidden"}
+          className={
+            isActive ? "fixed right-5 top-[29.5px] z-20" : "flex lg:hidden"
+          }
         >
           <AnimatedHambuger isActive={isActive} setActive={setActive} />
         </div>
+        <AnimatePresence mode="wait">
+          {isActive && <NavSide setActive={setActive} />}
+        </AnimatePresence>
       </div>
     </div>
   );

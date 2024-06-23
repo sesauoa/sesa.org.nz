@@ -1,5 +1,4 @@
-import NavSide from "./NavSide";
-import { AnimatePresence, motion, MotionConfig } from "framer-motion";
+import { motion, MotionConfig } from "framer-motion";
 
 interface AnimatedHamburgerProps {
   isActive: boolean;
@@ -45,10 +44,6 @@ export const AnimatedHambuger: React.FC<AnimatedHamburgerProps> = ({
           />
         </motion.button>
       </MotionConfig>
-
-      <AnimatePresence mode="wait">
-        {isActive && <NavSide setActive={setActive} />}
-      </AnimatePresence>
     </>
   );
 };

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { routes } from "@/constants/routes";
+import { routes } from "@/constants/Routes";
 
 interface NavSideProps {
   setActive: React.Dispatch<React.SetStateAction<boolean>>;
@@ -47,7 +47,7 @@ export default function NavSide({
       initial="initial"
       animate="enter"
       exit="exit"
-      className="h-screen bg-primary fixed lg:hidden right-0 top-0 text-white"
+      className="h-screen bg-primary fixed lg:hidden right-0 top-0 text-white z-10"
     >
       <div className="box-border h-full px-24 pt-10 flex flex-col justify-between">
         <div className="flex flex-col text-xl gap-3 mt-20">

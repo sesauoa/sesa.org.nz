@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { socialMedia } from "../constants/socialMedia";
+import { socialMedia } from "../constants/SocialMedia";
 
 export default function SocialMediaButtons() {
   const iconSize = 40;
