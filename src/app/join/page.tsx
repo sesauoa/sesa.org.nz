@@ -7,7 +7,7 @@ export default function JoinPage() {
       <div className="bg-primary">
         <Navigation />
       </div>
-      
+
       <Footer />
     </div>
   );

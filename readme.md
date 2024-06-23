@@ -16,6 +16,7 @@ Eslint
 Prettier
 
 ## Colours
+
 Defined in tailwind.config.ts
 
 `primary: "#00112b", // sesa navy`

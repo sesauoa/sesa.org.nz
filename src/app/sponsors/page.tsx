@@ -7,7 +7,7 @@ export default function SponsorsPage() {
       <div className="bg-primary">
         <Navigation />
       </div>
-      
+
       <Footer />
     </div>
   );

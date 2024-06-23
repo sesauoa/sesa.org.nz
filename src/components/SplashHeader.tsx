@@ -19,7 +19,9 @@ const SplashHeader: React.FC<SplashHeaderProps> = ({
           <h1 className="text-accent text-4xl sm:text-5xl md:text-6xl xl:text-7xl text-shadow font-bold">
             {headerText}
           </h1>
-          <p className="text-white md:text-xl xl:text-2xl text-shadow pt-2">{bodyText}</p>
+          <p className="text-white md:text-xl xl:text-2xl text-shadow pt-2">
+            {bodyText}
+          </p>
           <div className="float-left pt-6">
             <SocialMediaButtons />
           </div>
