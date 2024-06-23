@@ -16,9 +16,10 @@ const RotatableComponent: React.FC = () => {
     );
     camera.position.z = 5;
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    const refCurrent = mountRef.current;
     renderer.setClearColor(0x000000, 0);
     renderer.setSize(window.innerWidth / 2, window.innerHeight);
-    mountRef.current?.appendChild(renderer.domElement);
+    refCurrent?.appendChild(renderer.domElement);
 
     // Create a 3D object (e.g., a cube)
     const geometry = new THREE.BoxGeometry();
@@ -43,7 +44,7 @@ const RotatableComponent: React.FC = () => {
 
     // Clean up on unmount
     return () => {
-      mountRef.current?.removeChild(renderer.domElement);
+      refCurrent?.removeChild(renderer.domElement);
     };
   }, []);
 

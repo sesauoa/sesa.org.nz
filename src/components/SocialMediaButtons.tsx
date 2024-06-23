@@ -12,7 +12,7 @@ export default function SocialMediaButtons() {
           <a
             key={id}
             href={href}
-            className="mr-4 transition-transform duration-200 transform hover:scale-110"
+            className="mr-4 transition-transform duration-200 hover:scale-110"
             target="_blank"
             rel="noopener noreferrer"
           >

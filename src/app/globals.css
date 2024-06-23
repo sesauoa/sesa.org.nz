@@ -14,7 +14,7 @@
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: theme('colors.accent')
+    background-color: theme("colors.accent");
   }
 }
 
