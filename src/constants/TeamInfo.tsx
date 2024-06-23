@@ -30,6 +30,11 @@ export const TeamInfo: TeamMember[] = [
     imageName: "alex_h",
   },
   {
+    name: "ANDY ZHANG",
+    role: "Marketing Lead",
+    imageName: "andy",
+  },
+  {
     name: "VICTOR QIU",
     role: "Sponsorship Manager",
     imageName: "victor",
@@ -40,48 +45,43 @@ export const TeamInfo: TeamMember[] = [
     imageName: "grace",
   },
   {
-    name: "ANDY ZHANG",
-    role: "Marketing Manager",
-    imageName: "andy",
-  },
-  {
     name: "BECKY NGAN",
-    role: "Marketing Co-ordinator",
+    role: "Marketing Coordinator",
     imageName: "becky",
   },
   {
     name: "CONNIE DING",
-    role: "Marketing Co-ordinator",
+    role: "Marketing Coordinator",
     imageName: "connie",
   },
   {
     name: "SUNNY SETIA",
-    role: "Industry Co-ordinator",
+    role: "Industry Coordinator",
     imageName: "sunny",
   },
   {
     name: "OORJA GANDHI",
-    role: "Industry Co-ordinator",
+    role: "Industry Coordinator",
     imageName: "oorja",
   },
   {
     name: "UDAY JAIN",
-    role: "Industry Co-ordinator",
+    role: "Industry Coordinator",
     imageName: "uday",
   },
   {
     name: "NADIA ASKARI",
-    role: "Social Co-ordinator",
+    role: "Social Coordinator",
     imageName: "nadia",
   },
   {
     name: "RICHMAN TAN",
-    role: "Social Co-ordinator",
+    role: "Social Coordinator",
     imageName: "richman",
   },
   {
     name: "MIGUEL BALINGIT",
-    role: "Social Co-ordinator",
+    role: "Social Coordinator",
     imageName: "miguel",
   },
 ];

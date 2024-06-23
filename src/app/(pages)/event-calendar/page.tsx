@@ -1,6 +1,10 @@
 import EventCalendar from "@/components/EventCalendar";
 
-export default function JoinPage() {
+export const metadata = {
+  title: 'SESA - Event Calendar',
+}
+
+export default function EventCalendarPage() {
   return (
     <div>
       <EventCalendar />

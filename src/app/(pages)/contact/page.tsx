@@ -1,6 +1,10 @@
 import ContactForm from "@/components/ContactForm";
 
-export default function JoinPage() {
+export const metadata = {
+  title: 'SESA - Contact Us',
+}
+
+export default function ContactPage() {
   return (
     <div>
       <ContactForm />

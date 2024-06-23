@@ -1,17 +1,19 @@
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-import ExecDisplay from "@/components/team/ExecDisplay";
+import ExecDisplay from "@/components/ExecDisplay";
+
+export const metadata = {
+  title: 'SESA - Our Team',
+}
 
 export default function OurTeamPage() {
   return (
     <div>
-      <div className="bg-primary">
-        <h1 className="font-sans text-accent text-5xl text-center drop-shadow-lg">
-          SESA 2024 Executive Team
+      <div className="px-6 lg:px-24 py-6">
+        <h1 className="text-3xl text-secondary font-bold text-center m-4">
+          SESA Executive Team 2024
         </h1>
-        <div className="bg-white p-5 flex justify-center items-center gap-2 flex-col mb-4">
+        <div className="flex justify-center items-center gap-2 flex-col p-5 pb-4">
           <img
-            className="w-[90%]"
+            className="w-[90%] lg:w-[80%] mb-4"
             src={`/team-images/2024/team_photo.png`}
             alt="SESA 2024 Team Photo"
           />
