@@ -42,7 +42,7 @@ const ContactForm: React.FC<{}> = () => {
 
   return (
     <div className="flex justify-center">
-      <div className="container mx-auto py-6">
+      <div className="container custom-border mx-auto p-6">
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="flex flex-col space-y-4" style={{ width: "50%" }}>
             <div className="flex flex-col space-y-1">

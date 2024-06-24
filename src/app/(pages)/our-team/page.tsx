@@ -10,7 +10,7 @@ export default function OurTeamPage() {
       <h1 className="page-title text-center">SESA Executive Team 2024</h1>
       <div className="flex justify-center items-center gap-2 flex-col p-5 pb-4">
         <img
-          className="w-[90%] lg:w-[80%] mb-4"
+          className="w-[90%] lg:w-[80%] mb-4 custom-border"
           src={`/team-images/2024/team_photo.png`}
           alt="SESA 2024 Team Photo"
         />

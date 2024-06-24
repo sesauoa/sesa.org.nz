@@ -1,6 +1,6 @@
 "use client";
 
-import Navigation from "@/components/Navigation";
+import Header from "@/components/Header";
 import SplashHeader from "@/components/SplashHeader";
 
 import HomeBackground from "../../../public/homeBackgroundGreen.png";
@@ -19,7 +19,7 @@ export default function Home() {
       >
         <div className="h-screen flex flex-col min-h-inherit">
           <div className="mx-auto max-w-screen-xl">
-            <Navigation />
+            <Header />
             <SplashHeader
               headerText="Software Engineering Students Association"
               bodyText="SESA is the association for students and alumni of the Software Engineering programme at the University of Auckland."

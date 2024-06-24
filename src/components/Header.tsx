@@ -8,7 +8,7 @@ import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import NavSide from "./NavSide";
 
-export default function Navigation() {
+export default function Header() {
   const [isActive, setActive] = useState(false);
 
   return (
