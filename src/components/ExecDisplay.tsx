@@ -1,4 +1,4 @@
-import { TeamInfo } from "@/constants/TeamInfo";
+import { TeamInfo } from "@/constants/teamInfo";
 
 const ExecDisplay = () => {
   const YEAR = "2024";
@@ -11,11 +11,11 @@ const ExecDisplay = () => {
           key={index}
         >
           <img
-            className="w-full h-full object-cover transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110"
+            className="w-full h-full object-cover transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 custom-border"
             src={`/team-images/${YEAR}/${executive.imageName}.jpg`}
             alt={executive.name}
           />
-          <div className="absolute inset-0 bg-black bg-opacity-50 cursor-default opacity-0 hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+          <div className="absolute inset-0 bg-black bg-opacity-50 cursor-default opacity-0 hover:opacity-100 transition-opacity duration-500 flex items-center justify-center custom-border">
             <div className="text-white text-center">
               <p>{executive.name}</p>
               <p>{executive.role}</p>

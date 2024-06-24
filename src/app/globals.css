@@ -47,3 +47,16 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Custom reusable TailwindCSS styles */
+@layer components {
+  .page-padding {
+    @apply w-full flex flex-col font-sans p-6 lg:px-24;
+  }
+  .page-title {
+    @apply text-3xl text-secondary font-bold m-6;
+  }
+  .custom-border {
+    @apply rounded-lg shadow-md;
+  }
+}

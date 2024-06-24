@@ -6,7 +6,8 @@ export const metadata = {
 
 export default function EventCalendarPage() {
   return (
-    <div>
+    <div className="page-padding">
+      <h1 className="page-title">Event Calendar</h1>
       <EventCalendar />
     </div>
   );
