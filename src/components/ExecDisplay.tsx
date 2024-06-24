@@ -1,4 +1,4 @@
-import { TeamInfo } from "@/constants/TeamInfo";
+import { TeamInfo } from "@/constants/teamInfo";
 
 const ExecDisplay = () => {
   const YEAR = "2024";

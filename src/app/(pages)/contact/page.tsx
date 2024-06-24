@@ -6,7 +6,8 @@ export const metadata = {
 
 export default function ContactPage() {
   return (
-    <div>
+    <div className="page-padding">
+      <h2 className="page-title">Contact Form</h2>
       <ContactForm />
     </div>
   );

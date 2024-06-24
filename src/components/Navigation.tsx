@@ -3,7 +3,7 @@
 import Link from "next/link";
 import SesaLogo from "../../public/sesaLogo.svg";
 import { AnimatedHambuger } from "./AnimatedHamburger";
-import { routes } from "../constants/Routes";
+import { routes } from "../constants/routes";
 import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import NavSide from "./NavSide";

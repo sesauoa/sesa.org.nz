@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { routes } from "@/constants/Routes";
+import { routes } from "@/constants/routes";
 
 interface NavSideProps {
   setActive: React.Dispatch<React.SetStateAction<boolean>>;
