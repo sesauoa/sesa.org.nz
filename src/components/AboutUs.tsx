@@ -57,7 +57,10 @@ function ContentSections() {
         <div className="flex flex-wrap justify-center gap-2">
           <div className="flex flex-wrap justify-center px-4 w-full max-w-6xl gap-8">
             {/* Industry Events */}
-            <div className="p-8 mx-auto bg-gray-900 rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none" style={{ width: "330px", margin: "0.5rem" }}>
+            <div
+              className="p-8 mx-auto bg-gray-900 rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
+              style={{ width: "330px", margin: "0.5rem" }}
+            >
               <img
                 src={IndustryImage.src}
                 alt="Industry Events"
@@ -78,7 +81,10 @@ function ContentSections() {
               </p>
             </div>
             {/* Workshops */}
-            <div className="p-8 mx-auto bg-gray-900 rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none" style={{ width: "330px", margin: "0.5rem" }}>
+            <div
+              className="p-8 mx-auto bg-gray-900 rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
+              style={{ width: "330px", margin: "0.5rem" }}
+            >
               <img
                 src={WorkshopImage.src}
                 alt="Workshops"
@@ -99,7 +105,10 @@ function ContentSections() {
               </p>
             </div>
             {/* Social Events */}
-            <div className="p-8 mx-auto bg-gray-900 rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none" style={{ width: "330px", margin: "0.5rem" }}>
+            <div
+              className="p-8 mx-auto bg-gray-900 rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
+              style={{ width: "330px", margin: "0.5rem" }}
+            >
               <img
                 src={SocialImage.src}
                 alt="Social Events"
