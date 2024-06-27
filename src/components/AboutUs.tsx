@@ -33,7 +33,7 @@ function ContentSections() {
       </div>
 
       {/* What We Do Section */}
-      <div className="bg-primary text-white w-full py-20">
+      <div className="bg-primary text-white w-full pb-28">
         <div className="text-center py-4 px-4 md:px-10 lg:px-14">
           <h2 className="text-2xl md:text-3xl font-bold py-4">
             What do we do?
