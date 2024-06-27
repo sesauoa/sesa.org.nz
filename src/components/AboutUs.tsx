@@ -7,19 +7,13 @@ function ContentSections() {
   return (
     <>
       {/* About Us Section */}
-      <div
-        className="text-white w-full py-28"
-        style={{ backgroundColor: "rgb(0,18,43)" }}
-      >
+      <div className="text-white w-full py-20 bg-primary">
         <div className="flex justify-center">
-          <div className="w-[500px] md:w-[600px] lg:w-[800px] text-center px-10 md:px-10 lg:px-14">
+          <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
             <h2 className="text-2xl md:text-3xl font-bold py-4">
               What is SESA?
             </h2>
-            <div
-              className="mx-auto w-20 bg-blue-500 my-2"
-              style={{ height: "2px", backgroundColor: "#70c7b0" }}
-            ></div>
+            <div className="mx-auto w-20 my-2 bg-accent h-[2px]"></div>
             <p className="mt-4 text-gray-300">
               SESA is the Software Engineering Students Association for students
               and alumni of the Software Engineering programme at the{" "}
@@ -30,29 +24,21 @@ function ContentSections() {
               >
                 University of Auckland
               </a>
-              . We organize and run social and career-focused events for the
-              350+ software engineering students at UoA, connecting them with
-              each other as well as industry professionals.
-              <br />
-              <br />
-              Where necessary we also act as a liaison between the department
-              and SOFTENG students, raising any relevant issues (course content,
-              difficulties in learning).
+              . We organise and run social and career-focused events for our
+              450+ members, connecting them with each other as well as industry
+              professionals.
             </p>
           </div>
         </div>
       </div>
 
       {/* What We Do Section */}
-      <div className="bg-gray-900 text-white w-full py-28">
+      <div className="bg-gray-900 text-white w-full py-20">
         <div className="text-center py-4 px-4 md:px-10 lg:px-14">
           <h2 className="text-2xl md:text-3xl font-bold py-4">
             What do we do?
           </h2>
-          <div
-            className="mx-auto w-20 my-2"
-            style={{ height: "2px", backgroundColor: "#70c7b0" }}
-          ></div>
+          <div className="mx-auto w-20 my-2 bg-accent h-[2px]"></div>
         </div>
         <div className="flex flex-wrap justify-center gap-2">
           <div className="flex flex-wrap justify-center px-4 w-full max-w-6xl gap-8">
@@ -133,26 +119,19 @@ function ContentSections() {
       </div>
 
       {/* Membership Section */}
-      <div
-        className="text-white w-full bg-gray-900 py-28"
-        style={{ backgroundColor: "rgb(0,18,43)" }}
-      >
+      <div className="text-white w-full bg-gray-900 pb-28 bg-gray-900">
         <div className="flex justify-center">
-          <div className="w-[500px] md:w-[600px] lg:w-[800px] text-center px-10 md:px-10 lg:px-14">
+          <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
             <h2 className="text-2xl md:text-3xl font-bold py-4">
               Become a member
             </h2>
-            <div
-              className="mx-auto w-20 bg-blue-500 my-2"
-              style={{ height: "2px", backgroundColor: "#70c7b0" }}
-            ></div>
+            <div className="mx-auto w-20 my-2 bg-accent h-[2px]"></div>
             <p className="mt-4 text-gray-300">
               <strong>Joining is 100% free!</strong>
             </p>
             <p className="mt-2 text-gray-300 py-2">
-              Follow the instructions on the form linked below to become a
-              member, even if you did last year. Membership doesn&apos;t roll
-              over, so you need to fill out this form every year!
+              Membership doesn&apos;t roll over, so you need to fill out this
+              form every year!
             </p>
             <p className="mt-2 text-gray-300">
               Once you have filled out the form, don&apos;t forget to connect
@@ -182,7 +161,7 @@ function ContentSections() {
                 {" "}
                 LinkedIn
               </a>
-              , and{" "}
+              ,{" "}
               <a
                 href="https://discord.gg/93AW5tMSBc"
                 target="_blank"
@@ -191,11 +170,26 @@ function ContentSections() {
                 {" "}
                 Discord
               </a>
+              , and{" "}
+              <a
+                href="https://www.tiktok.com/@sesauoa"
+                target="_blank"
+                className="text-accent hover:underline"
+              >
+                {" "}
+                TikTok
+              </a>
               , where most of our discussions and announcements take place!
             </p>
-            <button className="bg-accent rounded-full font-bold text-lg text-primary-content inline px-6 py-2 mt-6 hover:bg-accent-hover">
-              Join Now!
-            </button>
+            <div className="flex justify-center mt-5">
+              <a
+                key="join-button"
+                href="/join"
+                className="bg-accent cursor-pointer rounded-full font-sans text-lg text-primary-content inline transition-transform duration-200 hover:scale-110 px-6 py-[6px]"
+              >
+                Join
+              </a>
+            </div>
           </div>
         </div>
       </div>
