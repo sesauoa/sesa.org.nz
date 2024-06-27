@@ -4,9 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: theme("colors.accent");
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 243, 244, 246;
   --background-end-rgb: 255, 255, 255;
 }
 
@@ -31,5 +45,18 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+/* Custom reusable TailwindCSS styles */
+@layer components {
+  .page-padding {
+    @apply w-full flex flex-col font-sans p-6 lg:px-24;
+  }
+  .page-title {
+    @apply text-3xl text-secondary font-bold m-6;
+  }
+  .custom-border {
+    @apply rounded-lg shadow-md;
   }
 }
