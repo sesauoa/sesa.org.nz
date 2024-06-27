@@ -151,12 +151,12 @@ function ContentSections() {
             </p>
             <p className="mt-2 text-gray-300 py-2">
               Follow the instructions on the form linked below to become a
-              member, even if you did last year. Membership doesn&apos;t roll over,
-              so you need to fill out this form every year!
+              member, even if you did last year. Membership doesn&apos;t roll
+              over, so you need to fill out this form every year!
             </p>
             <p className="mt-2 text-gray-300">
-              Once you have filled out the form, don&apos;t forget to connect with us
-              on{" "}
+              Once you have filled out the form, don&apos;t forget to connect
+              with us on{" "}
               <a
                 href="https://facebook.com/sesauoa"
                 target="_blank"
