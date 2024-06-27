@@ -33,7 +33,7 @@ function ContentSections() {
       </div>
 
       {/* What We Do Section */}
-      <div className="bg-gray-900 text-white w-full py-20">
+      <div className="bg-primary text-white w-full py-20">
         <div className="text-center py-4 px-4 md:px-10 lg:px-14">
           <h2 className="text-2xl md:text-3xl font-bold py-4">
             What do we do?
@@ -44,7 +44,7 @@ function ContentSections() {
           <div className="flex flex-wrap justify-center px-4 w-full max-w-6xl gap-8">
             {/* Industry Events */}
             <div
-              className="p-8 mx-auto bg-gray-900 rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
+              className="p-8 mx-auto  bg-primary rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
             >
               <img
@@ -68,7 +68,7 @@ function ContentSections() {
             </div>
             {/* Workshops */}
             <div
-              className="p-8 mx-auto bg-gray-900 rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
+              className="p-8 mx-auto  bg-primary rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
             >
               <img
@@ -92,7 +92,7 @@ function ContentSections() {
             </div>
             {/* Social Events */}
             <div
-              className="p-8 mx-auto bg-gray-900 rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
+              className="p-8 mx-auto bg-primary rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
             >
               <img
@@ -119,7 +119,7 @@ function ContentSections() {
       </div>
 
       {/* Membership Section */}
-      <div className="text-white w-full bg-gray-900 pb-28 bg-gray-900">
+      <div className="text-white w-full bg-primary pb-28">
         <div className="flex justify-center">
           <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
             <h2 className="text-2xl md:text-3xl font-bold py-4">
