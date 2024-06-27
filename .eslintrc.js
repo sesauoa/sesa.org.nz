@@ -5,5 +5,11 @@ module.exports = {
   ],
   rules: {
     // Add any additional rules specific to your project
+    "prettier/prettier": [
+      "error",
+      {
+        endOfLine: "auto",
+      },
+    ],
   },
 };

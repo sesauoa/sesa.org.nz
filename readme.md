@@ -20,7 +20,6 @@ Terraform
 Github Actions
 Vercel
 
-Jest
 Eslint
 Prettier
 
