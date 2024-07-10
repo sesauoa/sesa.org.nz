@@ -21,7 +21,9 @@ const OurSponsors: React.FC<SponsorSectionProps> = ({
 }) => {
   return (
     <div className="mt-8">
-      <h2 className="text-2xl text-accent font-bold text-center mb-4">{title}</h2>
+      <h2 className="text-2xl text-accent font-bold text-center mb-4">
+        {title}
+      </h2>
       <div className="flex flex-wrap justify-center gap-4 max-w-6xl mx-auto">
         {sponsors.map((sponsor, index) => (
           <div key={index} className="px-12 py-2">

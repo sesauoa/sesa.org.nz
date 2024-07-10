@@ -52,7 +52,10 @@ const silverSponsors = [
 const SponsorsPage: React.FC = () => {
   return (
     <div className="page-padding bg-gray-900">
-      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center"> Sponsor Us</h1>
+      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center">
+        {" "}
+        Sponsor Us
+      </h1>
       <div className="mx-auto w-20 my-2 bg-accent h-[2px]"></div>
       <StatisticsSection />
       <SponsorUsCards />
@@ -65,7 +68,9 @@ const SponsorsPage: React.FC = () => {
           Become a sponsor!
         </a>
       </div>
-      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center">Our 2024 Sponsors</h1>
+      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center">
+        Our 2024 Sponsors
+      </h1>
       <div className="mx-auto w-20 mt-2 mb-8 bg-accent h-[2px]"></div>
       <OurSponsors title="Gold Sponsors" sponsors={goldSponsors} type="gold" />
       <OurSponsors
