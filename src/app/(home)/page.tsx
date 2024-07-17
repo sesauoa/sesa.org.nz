@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import SplashHeader from "@/components/SplashHeader";
 
 import HomeBackground from "../../../public/homeBackgroundGreen.png";
+import AboutUs from "@/components/AboutUs";
 
 // below are possible ways to add the coloured overlay using css (which would make it easy to change themes)
 // currently the green background is part odf the image because text appears behind the coloured overlay otherwise.
@@ -44,8 +45,9 @@ export default function Home() {
           </a>
         </div>
       </div>
+      {/* About us component */}
       <div>
-        <p>About us</p>
+        <AboutUs />
       </div>
     </main>
   );
