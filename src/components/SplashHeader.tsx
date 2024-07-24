@@ -27,7 +27,6 @@ const SplashHeader: React.FC<SplashHeaderProps> = ({
         </div>
       </div>
       <div className="hidden lg:flex absolute top-0 right-0 h-2/5 w-1/2 p-0 my-40 items-center overflow-hidden">
-        <ThreeScene />
       </div>
     </div>
   );

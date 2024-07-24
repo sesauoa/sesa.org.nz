@@ -7,16 +7,16 @@ function ContentSections() {
   return (
     <>
       {/* About Us Section */}
-      <div className="text-white w-full py-20 bg-primary">
+      <div className="w-full py-20">
         <div className="flex justify-center">
           <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
             <h2 className="text-2xl md:text-3xl font-bold py-4">
               What is SESA?
             </h2>
             <div className="mx-auto w-20 my-2 bg-accent h-[2px]"></div>
-            <p className="mt-4 text-gray-300">
+            <p className="mt-4">
               SESA is the Software Engineering Students Association for students
-              and alumni of the Software Engineering programme at the{" "}
+              and alumni of the Software Engineering programme at the {" "}
               <a
                 href="https://www.auckland.ac.nz/en.html"
                 target="_blank"
@@ -33,7 +33,7 @@ function ContentSections() {
       </div>
 
       {/* What We Do Section */}
-      <div className="bg-primary text-white w-full pb-28">
+      <div className="w-full pb-28">
         <div className="text-center py-4 px-4 md:px-10 lg:px-14">
           <h2 className="text-2xl md:text-3xl font-bold py-4">
             What do we do?
@@ -119,21 +119,21 @@ function ContentSections() {
       </div>
 
       {/* Membership Section */}
-      <div className="text-white w-full bg-primary pb-28">
+      <div className="w-full pb-28">
         <div className="flex justify-center">
           <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
             <h2 className="text-2xl md:text-3xl font-bold py-4">
               Become a member
             </h2>
             <div className="mx-auto w-20 my-2 bg-accent h-[2px]"></div>
-            <p className="mt-4 text-gray-300">
+            <p className="mt-4">
               <strong>Joining is 100% free!</strong>
             </p>
-            <p className="mt-2 text-gray-300 py-2">
+            <p className="mt-2 py-2">
               Membership doesn&apos;t roll over, so you need to fill out this
               form every year!
             </p>
-            <p className="mt-2 text-gray-300">
+            <p className="mt-2">
               Once you have filled out the form, don&apos;t forget to connect
               with us on{" "}
               <a
