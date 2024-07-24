@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-        <AboutUs />
+      <AboutUs />
     </main>
   );
 }

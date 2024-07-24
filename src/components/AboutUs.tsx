@@ -16,7 +16,7 @@ function ContentSections() {
             <div className="mx-auto w-20 my-2 bg-accent h-[2px]"></div>
             <p className="mt-4">
               SESA is the Software Engineering Students Association for students
-              and alumni of the Software Engineering programme at the {" "}
+              and alumni of the Software Engineering programme at the{" "}
               <a
                 href="https://www.auckland.ac.nz/en.html"
                 target="_blank"
