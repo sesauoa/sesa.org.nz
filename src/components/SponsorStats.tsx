@@ -6,19 +6,19 @@ const StatisticsSection: React.FC = () => {
       <div className="text-center my-8">
         <div className="flex justify-center space-x-8">
           <div className="w-[130px]">
-            <h2 className="text-white text-2xl">450+</h2>
-            <p className="text-white">Registered members</p>
+            <h2 className="text-2xl">450+</h2>
+            <p className="">Registered members</p>
           </div>
           <div className="w-[130px]">
-            <h2 className="text-white text-2xl">150+</h2>
-            <p className="text-white">
+            <h2 className="text-2xl">150+</h2>
+            <p className="">
               <span className="block">Attendees to our</span>
               <span className="block">flagship events</span>
             </p>
           </div>
           <div className="w-[130px]">
-            <h2 className="text-white text-2xl">16+</h2>
-            <p className="text-white">Events run per year</p>
+            <h2 className="text-2xl">16+</h2>
+            <p className="">Events run per year</p>
           </div>
         </div>
       </div>

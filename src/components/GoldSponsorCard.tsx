@@ -16,7 +16,7 @@ const SponsorCard: React.FC<SponsorCardProps> = ({ name, logo, link }) => {
       className="w-32 h-32"
     >
       <div
-        className="bg-gray-900 w-64 h-32 flex items-center justify-center
+        className="w-64 h-32 flex items-center justify-center
                       transform hover:scale-105 hover:shadow-2xl transition-transform transition-shadow duration-300"
       >
         <img

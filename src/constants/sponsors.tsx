@@ -39,7 +39,7 @@ export const goldSponsors = [
     },
     {
       name: "Emergency Q",
-      logo: "sponsors-images/EmergencyQ.svg",
+      logo: "sponsors-images/EmergencyQ.png",
       link: "https://www.emergencyq.com/",
     },
   ];

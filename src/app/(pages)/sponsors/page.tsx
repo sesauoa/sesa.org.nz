@@ -7,8 +7,8 @@ import { goldSponsors, silverSponsors } from "@/constants/sponsors";
 
 const SponsorsPage: React.FC = () => {
   return (
-    <div className="page-padding bg-gray-900">
-      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center">
+    <div className="page-padding">
+      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-accent">
         {" "}
         Sponsor Us
       </h1>
@@ -24,7 +24,7 @@ const SponsorsPage: React.FC = () => {
           Become a sponsor!
         </a>
       </div>
-      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center">
+      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-accent">
         Our 2024 Sponsors
       </h1>
       <div className="mx-auto w-20 mt-2 mb-8 bg-accent h-[2px]"></div>

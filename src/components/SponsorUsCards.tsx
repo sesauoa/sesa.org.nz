@@ -28,7 +28,7 @@ const SponsorUsCards: React.FC = () => {
       ].map((card, index) => (
         <div
           key={index}
-          className="max-w-xs bg-gray-800 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+          className="max-w-xs bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden"
         >
           <img
             className="w-full h-48 object-cover"
@@ -36,8 +36,8 @@ const SponsorUsCards: React.FC = () => {
             alt={card.alt}
           />
           <div className="px-4 py-8">
-            <h2 className="text-xl font-bold text-white mb-2">{card.title}</h2>
-            <p className="text-gray-300">{card.description}</p>
+            <h2 className="text-xl font-bold mb-2">{card.title}</h2>
+            <p className="text-gray-600">{card.description}</p>
           </div>
         </div>
       ))}
