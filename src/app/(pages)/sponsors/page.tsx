@@ -4,7 +4,6 @@ import StatisticsSection from "@/components/SponsorStats";
 import SponsorUsCards from "@/components/SponsorUsCards";
 import { goldSponsors, silverSponsors } from "@/constants/sponsors";
 
-
 const SponsorsPage: React.FC = () => {
   return (
     <div className="page-padding">
