@@ -44,7 +44,7 @@ function ContentSections() {
           <div className="flex flex-wrap justify-center px-4 w-full max-w-6xl gap-8">
             {/* Industry Events */}
             <div
-              className="p-8 mx-auto  bg-primary rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
+              className="p-8 mx-auto rounded-3xl shadow-xl border-4 border-primary text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
             >
               <img
@@ -58,17 +58,17 @@ function ContentSections() {
                 }}
                 className="mb-3"
               />
-              <h3 className="text-2xl font-bold mb-4 text-gray-300">
+              <h3 className="text-2xl font-bold mb-4 text-primary">
                 Industry Events
               </h3>
-              <p className="text-gray-400">
+              <p className="text-gray-500">
                 Come along to our industry events to expand your network and
                 gain insights into the industry.
               </p>
             </div>
             {/* Workshops */}
             <div
-              className="p-8 mx-auto  bg-primary rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
+              className="p-8 mx-auto rounded-3xl shadow-xl border-4 border-primary text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
             >
               <img
@@ -82,17 +82,17 @@ function ContentSections() {
                 }}
                 className="mb-3"
               />
-              <h3 className="text-2xl font-bold mb-4 text-gray-300">
+              <h3 className="text-2xl font-bold mb-4 text-primary">
                 Workshops
               </h3>
-              <p className="text-gray-400">
+              <p className="text-gray-500">
                 Engage in workshops to boost your job prospects with CV checks
                 and internship events led by experts.
               </p>
             </div>
             {/* Social Events */}
             <div
-              className="p-8 mx-auto bg-primary rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
+              className="p-8 mx-auto rounded-3xl shadow-xl border-4 border-primary text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
             >
               <img
@@ -106,10 +106,10 @@ function ContentSections() {
                 }}
                 className="mb-3"
               />
-              <h3 className="text-2xl font-bold mb-4 text-gray-300">
+              <h3 className="text-2xl font-bold mb-4 text-primary">
                 Social Events
               </h3>
-              <p className="text-gray-400">
+              <p className="text-gray-500">
                 Attend our social events to connect and have fun with your
                 fellow software engineering students.
               </p>

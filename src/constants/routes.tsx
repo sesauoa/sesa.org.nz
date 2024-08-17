@@ -6,27 +6,33 @@ export const routes = [
   },
   {
     id: 2,
+    name: "About",
+    href: "/about",
+  },
+  {
+    id: 3,
     name: "Our Team",
     href: "/our-team",
   },
   {
-    id: 3,
+    id: 4,
     name: "Sponsors",
     href: "/sponsors",
   },
   {
-    id: 4,
+    id: 5,
     name: "Linktree",
     href: "https://linktr.ee/sesa.uoa",
   },
   {
-    id: 5,
+    id: 6,
     name: "Event Calendar",
     href: "/event-calendar",
   },
   {
-    id: 6,
+    id: 7,
     name: "Contact",
     href: "/contact",
   },
 ];
+
