@@ -35,4 +35,3 @@ export const routes = [
     href: "/contact",
   },
 ];
-
