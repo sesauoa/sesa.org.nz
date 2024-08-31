@@ -10,22 +10,22 @@ function ContentSections() {
       <div className="w-full py-20">
         <div className="flex justify-center">
           <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
-            <h2 className="text-2xl md:text-3xl font-bold py-4 text-accent">
+            <h2 className="text-2xl md:text-3xl font-bold py-4 text-secondary">
               What is SESA?
             </h2>
-            <div className="mx-auto w-20 my-2 bg-accent h-[2px]"></div>
+            <div className="mx-auto w-20 my-2 bg-secondary h-[2px]"></div>
             <p className="mt-4">
               SESA is the Software Engineering Students Association for students
               and alumni of the Software Engineering programme at the{" "}
               <a
                 href="https://www.auckland.ac.nz/en.html"
                 target="_blank"
-                className="text-accent hover:underline"
+                className="text-secondary hover:underline"
               >
                 University of Auckland
               </a>
               . We organise and run social and career-focused events for our
-              450+ members, connecting them with each other as well as industry
+              500+ members, connecting them with each other as well as industry
               professionals.
             </p>
           </div>
@@ -35,10 +35,10 @@ function ContentSections() {
       {/* What We Do Section */}
       <div className="w-full pb-28">
         <div className="text-center py-4 px-4 md:px-10 lg:px-14">
-          <h2 className="text-2xl md:text-3xl font-bold py-4 text-accent">
+          <h2 className="text-2xl md:text-3xl font-bold py-4 text-secondary">
             What do we do?
           </h2>
-          <div className="mx-auto w-20 my-2 bg-accent h-[2px]"></div>
+          <div className="mx-auto w-20 my-2 bg-secondary h-[2px]"></div>
         </div>
         <div className="flex flex-wrap justify-center gap-2">
           <div className="flex flex-wrap justify-center px-4 w-full max-w-6xl gap-8">
@@ -122,10 +122,10 @@ function ContentSections() {
       <div className="w-full pb-28">
         <div className="flex justify-center">
           <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
-            <h2 className="text-2xl md:text-3xl font-bold py-4 text-accent">
+            <h2 className="text-2xl md:text-3xl font-bold py-4 text-secondary">
               Become a member
             </h2>
-            <div className="mx-auto w-20 my-2 bg-accent h-[2px]"></div>
+            <div className="mx-auto w-20 my-2 bg-secondary h-[2px]"></div>
             <p className="mt-4">
               <strong>Joining is 100% free!</strong>
             </p>
@@ -139,7 +139,7 @@ function ContentSections() {
               <a
                 href="https://facebook.com/sesauoa"
                 target="_blank"
-                className="text-accent hover:underline"
+                className="text-secondary hover:underline"
               >
                 Facebook
               </a>
@@ -147,7 +147,7 @@ function ContentSections() {
               <a
                 href="https://instagram.com/sesa.uoa"
                 target="_blank"
-                className="text-accent hover:underline"
+                className="text-secondary hover:underline"
               >
                 {" "}
                 Instagram
@@ -156,7 +156,7 @@ function ContentSections() {
               <a
                 href="https://www.linkedin.com/company/ausesa/"
                 target="_blank"
-                className="text-accent hover:underline"
+                className="text-secondary hover:underline"
               >
                 {" "}
                 LinkedIn
@@ -165,7 +165,7 @@ function ContentSections() {
               <a
                 href="https://discord.gg/93AW5tMSBc"
                 target="_blank"
-                className="text-accent hover:underline"
+                className="text-secondary hover:underline"
               >
                 {" "}
                 Discord
@@ -174,7 +174,7 @@ function ContentSections() {
               <a
                 href="https://www.tiktok.com/@sesauoa"
                 target="_blank"
-                className="text-accent hover:underline"
+                className="text-secondary hover:underline"
               >
                 {" "}
                 TikTok
@@ -185,7 +185,7 @@ function ContentSections() {
               <a
                 key="join-button"
                 href="/join"
-                className="bg-accent cursor-pointer rounded-full font-sans text-lg text-primary-content inline transition-transform duration-200 hover:scale-110 px-6 py-[6px]"
+                className="bg-secondary cursor-pointer rounded-full font-sans text-lg text-primary-content inline transition-transform duration-200 hover:scale-110 px-6 py-[6px]"
               >
                 Join
               </a>
