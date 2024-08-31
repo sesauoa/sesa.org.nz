@@ -12,10 +12,9 @@ import AboutUs from "@/components/AboutUs";
 // , boxShadow: "inset 0 0 0 1000px rgba(0,55,0,.2)"
 // <div className="fixed top-0 left-0 w-48 h-full z-0 bg-base-100 z-0 opacity-80"></div>
 
-
 export default function Home() {
   useEffect(() => {
-    const script = document.createElement('script');
+    const script = document.createElement("script");
     script.src = "https://embedsocial.com/cdn/ht.js";
     script.id = "EmbedSocialHashtagScript";
     document.head.appendChild(script);
@@ -39,9 +38,21 @@ export default function Home() {
       </div>
       {/* Social Media Feed Widget */}
       <div className="w-full flex justify-center">
-        <div className="embedsocial-hashtag w-3/4 md:w-1/2 lg:w-1/2" data-ref="0d2bef034ff2dfc9fe101fa15784f4eb464e8c45">
-          <a className="feed-powered-by-es feed-powered-by-es-feed-img" href="https://embedsocial.com/social-media-aggregator/" target="_blank" title="Instagram widget">
-            <img src="https://embedsocial.com/cdn/images/embedsocial-icon.png" alt="EmbedSocial" /> Instagram widget
+        <div
+          className="embedsocial-hashtag w-3/4 md:w-1/2 lg:w-1/2"
+          data-ref="0d2bef034ff2dfc9fe101fa15784f4eb464e8c45"
+        >
+          <a
+            className="feed-powered-by-es feed-powered-by-es-feed-img"
+            href="https://embedsocial.com/social-media-aggregator/"
+            target="_blank"
+            title="Instagram widget"
+          >
+            <img
+              src="https://embedsocial.com/cdn/images/embedsocial-icon.png"
+              alt="EmbedSocial"
+            />{" "}
+            Instagram widget
           </a>
         </div>
       </div>
