@@ -5,7 +5,7 @@
 React
 TypeScript
 Next.js
-TailwindCSS, DaisyUI
+TailwindCSS
 
 Terraform
 Github Actions
@@ -25,10 +25,6 @@ Defined in tailwind.config.ts
 ## Dev set up information
 
 `npm i`
-
-`npm install daisyui`
-or
-`yarn install daisyui`
 
 ## Getting Started
 
