@@ -17,7 +17,7 @@ const StatisticsSection: React.FC = () => {
             </p>
           </div>
           <div className="w-[130px]">
-            <h2 className="text-2xl">16+</h2>
+            <h2 className="text-2xl">20+</h2>
             <p className="">Events run per year</p>
           </div>
         </div>
