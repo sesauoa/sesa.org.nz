@@ -38,7 +38,7 @@ jobs:
       # Runs prettier
       - name: Run code style check
         run: npm run prettier
-        
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
