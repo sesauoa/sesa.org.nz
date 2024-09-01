@@ -39,7 +39,7 @@ export default function Home() {
       {/* Social Media Feed Widget */}
       <div className="w-full flex justify-center">
         <div
-          className="embedsocial-hashtag w-3/4 md:w-1/2 lg:w-1/2"
+          className="embedsocial-hashtag w-3/4 md:w-2/3 lg:w-3/5"
           data-ref="0d2bef034ff2dfc9fe101fa15784f4eb464e8c45"
         >
           <a
