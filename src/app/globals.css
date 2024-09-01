@@ -40,7 +40,7 @@ body {
   }
 }
 
-/* Custom reusable TailwindCSS styles */
+/*Custom reusable TailwindCSS styles */
 @layer components {
   .page-padding {
     @apply w-full flex flex-col font-sans p-6 lg:px-24;
