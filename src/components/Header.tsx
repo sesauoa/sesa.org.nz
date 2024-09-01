@@ -20,7 +20,7 @@ export default function Header() {
 
         <ul className="hidden lg:flex justify-center items-center p-5">
           {routes.map((route) => {
-            const { id, name, href } = route;
+            const { id, name, href, target } = route;
             return (
               <li
                 key={id}
@@ -29,6 +29,10 @@ export default function Header() {
                 <div className="relative inline-block">
                   <Link
                     href={href}
+                    target={target}
+                    rel={
+                      target === "_blank" ? "noopener noreferrer" : undefined
+                    }
                     className="relative flex items-center gap-1 transition-all"
                   >
                     {name}
