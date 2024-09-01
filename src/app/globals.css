@@ -41,29 +41,16 @@ body {
 }
 
 /* Custom reusable TailwindCSS styles */
-/* Page padding styling */
-.page-padding {
-  width: 100%; /* w-full */
-  display: flex; /* flex */
-  flex-direction: column; /* flex-col */
-  font-family: sans-serif; /* font-sans */
-  padding: 1.5rem; /* p-6 */
-  padding-left: 6rem; /* lg:px-24 */
-  padding-right: 6rem; /* lg:px-24 */
-}
-
-/* Page title styling */
-.page-title {
-  font-size: 1.875rem; /* text-3xl */
-  color: #49bfaa; /* text-secondary */
-  font-weight: bold; /* font-bold */
-  margin: 1.5rem; /* m-6 */
-}
-
-/* Custom border styling */
-.custom-border {
-  border-radius: 0.5rem; /* rounded-lg */
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+@layer components {
+  .page-padding {
+    @apply w-full flex flex-col font-sans p-6 lg:px-24;
+  }
+  .page-title {
+    @apply text-3xl text-secondary font-bold m-6;
+  }
+  .custom-border {
+    @apply rounded-lg shadow-md;
+  }
 }
 
 .button {
