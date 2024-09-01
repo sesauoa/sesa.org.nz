@@ -5,40 +5,36 @@ import SocialImage from "../../public/home-icons/social_icon.png";
 
 function ContentSections() {
   return (
-    <>
-      {/* About Us Section */}
-      <div className="w-full py-20">
-        <div className="flex justify-center">
-          <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
-            <h2 className="text-2xl md:text-3xl font-bold py-4 text-secondary">
-              What is SESA?
-            </h2>
-            <div className="mx-auto w-20 my-2 bg-sesa-tealLight h-[2px]"></div>
-            <p className="mt-4">
-              SESA is the Software Engineering Students Association for students
-              and alumni of the Software Engineering programme at the{" "}
-              <a
-                href="https://www.auckland.ac.nz/en.html"
-                target="_blank"
-                className="text-sesa-tealLight hover:underline"
-              >
-                University of Auckland
-              </a>
-              . We organise and run social and career-focused events for our
-              500+ members, connecting them with each other as well as industry
-              professionals.
-            </p>
-          </div>
+    <div className="page-padding">
+      <div className="flex justify-center py-16">
+        <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
+          <h2 className="text-2xl md:text-3xl font-bold py-4 text-sesa-teal-dark">
+            What is SESA?
+          </h2>
+          <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-[2px]"></div>
+          <p className="mt-4">
+            SESA is the Software Engineering Students Association for students
+            and alumni of the Software Engineering programme at the{" "}
+            <a
+              href="https://www.auckland.ac.nz/en.html"
+              target="_blank"
+              className="text-sesa-teal-dark hover:underline"
+            >
+              University of Auckland
+            </a>
+            . We organise and run social and career-focused events for our
+            500+ members, connecting them with each other as well as industry
+            professionals.
+          </p>
         </div>
       </div>
 
-      {/* What We Do Section */}
-      <div className="w-full pb-28">
+      <div className="w-full pb-10">
         <div className="text-center py-4 px-4 md:px-10 lg:px-14">
-          <h2 className="text-2xl md:text-3xl font-bold py-4 text-secondary">
+          <h2 className="text-2xl md:text-3xl font-bold py-4 text-sesa-teal-dark">
             What do we do?
           </h2>
-          <div className="mx-auto w-20 my-2 bg-sesa-tealLight h-[2px]"></div>
+          <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-[2px]"></div>
         </div>
         <div className="flex flex-wrap justify-center gap-2">
           <div className="flex flex-wrap justify-center px-4 w-full max-w-6xl gap-8">
@@ -58,10 +54,10 @@ function ContentSections() {
                 }}
                 className="mb-3"
               />
-              <h3 className="text-2xl font-bold mb-4 text-primary">
+              <h3 className="text-2xl font-bold mb-4 text-sesa-navy">
                 Industry Events
               </h3>
-              <p className="text-gray-500">
+              <p className="text-sesa-navy">
                 Come along to our industry events to expand your network and
                 gain insights into the industry.
               </p>
@@ -82,10 +78,10 @@ function ContentSections() {
                 }}
                 className="mb-3"
               />
-              <h3 className="text-2xl font-bold mb-4 text-primary">
+              <h3 className="text-2xl font-bold mb-4 text-sesa-navy">
                 Workshops
               </h3>
-              <p className="text-gray-500">
+              <p className="text-sesa-navy">
                 Engage in workshops to boost your job prospects with CV checks
                 and internship events led by experts.
               </p>
@@ -106,10 +102,10 @@ function ContentSections() {
                 }}
                 className="mb-3"
               />
-              <h3 className="text-2xl font-bold mb-4 text-primary">
+              <h3 className="text-2xl font-bold mb-4 text-sesa-navy">
                 Social Events
               </h3>
-              <p className="text-gray-500">
+              <p className="text-sesa-navy">
                 Attend our social events to connect and have fun with your
                 fellow software engineering students.
               </p>
@@ -122,10 +118,10 @@ function ContentSections() {
       <div className="w-full pb-28">
         <div className="flex justify-center">
           <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
-            <h2 className="text-2xl md:text-3xl font-bold py-4 text-secondary">
+            <h2 className="text-2xl md:text-3xl font-bold py-4 text-sesa-teal-dark">
               Become a member
             </h2>
-            <div className="mx-auto w-20 my-2 bg-sesa-tealLight h-[2px]"></div>
+            <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-[2px]"></div>
             <p className="mt-4">
               <strong>Joining is 100% free!</strong>
             </p>
@@ -139,7 +135,7 @@ function ContentSections() {
               <a
                 href="https://facebook.com/sesauoa"
                 target="_blank"
-                className="text-sesa-tealLight hover:underline"
+                className="text-sesa-teal-dark hover:underline"
               >
                 Facebook
               </a>
@@ -147,7 +143,7 @@ function ContentSections() {
               <a
                 href="https://instagram.com/sesa.uoa"
                 target="_blank"
-                className="text-sesa-tealLight hover:underline"
+                className="text-sesa-teal-dark hover:underline"
               >
                 {" "}
                 Instagram
@@ -156,7 +152,7 @@ function ContentSections() {
               <a
                 href="https://www.linkedin.com/company/ausesa/"
                 target="_blank"
-                className="text-sesa-tealLight hover:underline"
+                className="text-sesa-teal-dark hover:underline"
               >
                 {" "}
                 LinkedIn
@@ -165,7 +161,7 @@ function ContentSections() {
               <a
                 href="https://discord.gg/93AW5tMSBc"
                 target="_blank"
-                className="text-sesa-tealLight hover:underline"
+                className="text-sesa-teal-dark hover:underline"
               >
                 {" "}
                 Discord
@@ -174,7 +170,7 @@ function ContentSections() {
               <a
                 href="https://www.tiktok.com/@sesauoa"
                 target="_blank"
-                className="text-sesa-tealLight hover:underline"
+                className="text-sesa-teal-dark hover:underline"
               >
                 {" "}
                 TikTok
@@ -185,7 +181,7 @@ function ContentSections() {
               <a
                 key="join-button"
                 href="/join"
-                className="bg-sesa-tealLight cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 px-6 py-1"
+                className="bg-sesa-teal-dark cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 px-6 py-1"
               >
                 Join
               </a>
@@ -193,7 +189,7 @@ function ContentSections() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

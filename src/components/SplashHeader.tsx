@@ -15,7 +15,7 @@ const SplashHeader: React.FC<SplashHeaderProps> = ({
     <div className=" mx-auto py-32">
       <div className="flex items-center px-5">
         <div className="w-4/5 lg:w-2/3">
-          <h1 className="text-sesa-tealLight text-5xl md:text-6xl xl:text-7xl text-shadow font-bold">
+          <h1 className="text-sesa-teal-light text-5xl md:text-6xl xl:text-7xl text-shadow font-bold">
             {headerText}
           </h1>
           <p className="text-white md:text-xl xl:text-2xl text-shadow pt-2">

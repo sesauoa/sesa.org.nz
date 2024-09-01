@@ -77,7 +77,7 @@ export default function NavSide({
           <a
             key="join-button"
             onClick={(e) => handleClick(e, "/join")}
-            className="bg-sesa-tealLight cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 p-6 py-1 w-[85px]"
+            className="bg-sesa-teal-light cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 p-6 py-1 w-[85px]"
           >
             Join
           </a>

@@ -19,8 +19,10 @@ const config: Config = {
       colors: {
         sesa: {
           navy: "#00112b",
-          tealDark: "#49bfaa",
-          tealLight: "#70c7b0",
+          teal: {
+            dark: "#49bfaa",
+            light: "#70c7b0",
+          },
         },
       },
       boxShadow: {
