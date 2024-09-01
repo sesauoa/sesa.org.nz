@@ -41,7 +41,7 @@ export default function Header() {
           <a
             key="join-button"
             href="/join"
-            className="bg-accent cursor-pointer rounded-full font-sans text-lg text-primary-content inline transition-transform duration-200 hover:scale-110 px-6 py-[6px] ml-6"
+            className="button"
           >
             Join
           </a>

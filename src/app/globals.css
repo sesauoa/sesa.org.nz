@@ -52,3 +52,23 @@ body {
     @apply rounded-lg shadow-md;
   }
 }
+
+.button {
+  background-color: #70c7b0; /* bg-accent */
+  cursor: pointer; /* cursor-pointer */
+  border-radius: 9999px; /* rounded-full */
+  font-family: sans-serif; /* font-sans */
+  font-size: 1.125rem; /* text-lg */
+  color: #fff; /* text-primary-content */
+  display: inline; /* inline */
+  padding-left: 1.5rem; /* px-6 */
+  padding-right: 1.5rem; /* px-6 */
+  padding-top: 6px; /* py-[6px] */
+  padding-bottom: 6px; /* py-[6px] */
+  margin-left: 1.5rem; /* ml-6 */
+  transition: transform 200ms; /* transition-transform duration-200 */
+}
+
+.button:hover {
+  transform: scale(1.1); /* hover:scale-110 */
+}

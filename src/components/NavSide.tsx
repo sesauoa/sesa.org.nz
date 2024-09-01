@@ -77,7 +77,7 @@ export default function NavSide({
           <a
             key="join-button"
             onClick={(e) => handleClick(e, "/join")}
-            className="bg-accent cursor-pointer rounded-full font-sans text-lg text-primary-content inline transition-transform duration-200 hover:scale-110 p-6 py-[6px] w-[85px]"
+            className="button"
           >
             Join
           </a>
