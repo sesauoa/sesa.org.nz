@@ -29,7 +29,7 @@ export default function Header() {
                 <div className="relative inline-block">
                   <Link
                     href={href}
-                    target={"_blank"}
+                    target={target}
                     rel={
                       target === "_blank" ? "noopener noreferrer" : undefined
                     }
