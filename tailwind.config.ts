@@ -16,20 +16,16 @@ const config: Config = {
       fontFamily: {
         sans: ["Overpass", "sans-serif"],
       },
+      colors: {
+        primary: "#00112b", // sesa navy
+        "primary-content": "#ffffff", // white
+        secondary: "#49bfaa", // sesa teal dark
+        accent: "#70c7b0", // sesa teal light
+      },
+      boxShadow: {
+        'outline': '0 0 0 3px rgba(66, 153, 225, 0.5)', // Example custom shadow
+      },
     },
   },
-  daisyui: {
-    themes: [
-      {
-        sesaTheme: {
-          primary: "#00112b", // sesa navy
-          "primary-content": "#ffffff", // white
-          secondary: "#49bfaa", // sesa teal dark
-          accent: "#70c7b0", // sesa teal light
-        },
-      },
-    ],
-  },
-  plugins: [require("daisyui")],
 };
 export default config;
