@@ -5,7 +5,7 @@ import SocialImage from "../../public/home-icons/social_icon.png";
 
 function ContentSections() {
   return (
-    <div className="page-padding">
+    <div>
       <div className="flex justify-center py-16">
         <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
           <h2 className="text-2xl md:text-3xl font-bold py-4 text-sesa-teal-dark">
@@ -34,7 +34,7 @@ function ContentSections() {
           <h2 className="text-2xl md:text-3xl font-bold py-4 text-sesa-teal-dark">
             What do we do?
           </h2>
-          <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-[2px]"></div>
+          <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-[1px]"></div>
         </div>
         <div className="flex flex-wrap justify-center gap-2">
           <div className="flex flex-wrap justify-center px-4 w-full max-w-6xl gap-8">
