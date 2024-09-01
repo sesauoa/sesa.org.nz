@@ -6,6 +6,7 @@ import SocialImage from "../../public/home-icons/social_icon.png";
 function ContentSections() {
   return (
     <div>
+      {/* What We Do Section */}
       <div className="flex justify-center py-16">
         <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
           <h2 className="text-2xl md:text-3xl font-bold py-4 text-sesa-teal-dark">
@@ -181,7 +182,7 @@ function ContentSections() {
               <a
                 key="join-button"
                 href="/join"
-                className="bg-sesa-teal-dark cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 px-6 py-1"
+                className="bg-sesa-teal-light cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 px-6 py-1"
               >
                 Join
               </a>
