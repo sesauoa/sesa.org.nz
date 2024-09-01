@@ -55,10 +55,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-      {/* About us component */}
-      <div>
-        <AboutUs />
-      </div>
     </main>
   );
 }
