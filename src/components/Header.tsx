@@ -29,10 +29,8 @@ export default function Header() {
                 <div className="relative inline-block">
                   <Link
                     href={href}
-                    target={target} // Add target attribute
-                    rel={
-                      target === "_blank" ? "noopener noreferrer" : undefined
-                    } // Add rel attribute if opening in new tab
+                    target="_blank"
+                    rel = "noopener noreferrer"
                     className="relative flex items-center gap-1 transition-all"
                   >
                     {name}
