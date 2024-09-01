@@ -47,7 +47,7 @@ export default function NavSide({
       initial="initial"
       animate="enter"
       exit="exit"
-      className="h-screen bg-primary fixed lg:hidden right-0 top-0 text-white z-10"
+      className="h-screen bg-sesa-navy fixed lg:hidden right-0 top-0 text-white z-10"
     >
       <div className="box-border h-full px-24 pt-10 flex flex-col justify-between">
         <div className="flex flex-col text-xl gap-3 mt-20">
@@ -77,7 +77,7 @@ export default function NavSide({
           <a
             key="join-button"
             onClick={(e) => handleClick(e, "/join")}
-            className="bg-accent cursor-pointer rounded-full font-sans text-lg text-primary-content inline transition-transform duration-200 hover:scale-110 p-6 py-[6px] w-[85px]"
+            className="bg-sesa-tealLight cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 p-6 py-1 w-[85px]"
           >
             Join
           </a>

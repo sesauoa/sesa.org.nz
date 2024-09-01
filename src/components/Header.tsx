@@ -24,7 +24,7 @@ export default function Header() {
             return (
               <li
                 key={id}
-                className="font-sans text-lg text-primary-content whitespace-nowrap inline px-5 group"
+                className="font-sans text-lg text-white whitespace-nowrap inline px-5 group"
               >
                 <div className="relative inline-block">
                   <Link
@@ -45,7 +45,7 @@ export default function Header() {
           <a
             key="join-button"
             href="/join"
-            className="bg-accent cursor-pointer rounded-full font-sans text-lg text-primary-content inline transition-transform duration-200 hover:scale-110 px-6 py-[6px] ml-6"
+            className="bg-sesa-tealLight cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 px-6 py-1 ml-6"
           >
             Join
           </a>
