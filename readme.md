@@ -17,9 +17,11 @@ Eslint
 
 Defined in tailwind.config.ts
 
+```
 sesa-navy: "#00112b",
 sesa-tealDark: "#49bfaa",
 sesa-tealLight: "#70c7b0",
+```
 
 ## Dev set up information
 
