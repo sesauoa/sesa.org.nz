@@ -10,7 +10,7 @@ function ContentSections() {
       <div className="w-full py-20">
         <div className="flex justify-center">
           <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
-            <h2 className="text-2xl md:text-3xl font-bold py-4">
+            <h2 className="text-2xl md:text-3xl font-bold py-4 text-secondary">
               What is SESA?
             </h2>
             <div className="mx-auto w-20 my-2 bg-sesa-tealLight h-[2px]"></div>
@@ -25,7 +25,7 @@ function ContentSections() {
                 University of Auckland
               </a>
               . We organise and run social and career-focused events for our
-              450+ members, connecting them with each other as well as industry
+              500+ members, connecting them with each other as well as industry
               professionals.
             </p>
           </div>
@@ -35,7 +35,7 @@ function ContentSections() {
       {/* What We Do Section */}
       <div className="w-full pb-28">
         <div className="text-center py-4 px-4 md:px-10 lg:px-14">
-          <h2 className="text-2xl md:text-3xl font-bold py-4">
+          <h2 className="text-2xl md:text-3xl font-bold py-4 text-secondary">
             What do we do?
           </h2>
           <div className="mx-auto w-20 my-2 bg-sesa-tealLight h-[2px]"></div>
@@ -58,10 +58,10 @@ function ContentSections() {
                 }}
                 className="mb-3"
               />
-              <h3 className="text-2xl font-bold mb-4 text-gray-300">
+              <h3 className="text-2xl font-bold mb-4 text-primary">
                 Industry Events
               </h3>
-              <p className="text-gray-400">
+              <p className="text-gray-500">
                 Come along to our industry events to expand your network and
                 gain insights into the industry.
               </p>
@@ -82,10 +82,10 @@ function ContentSections() {
                 }}
                 className="mb-3"
               />
-              <h3 className="text-2xl font-bold mb-4 text-gray-300">
+              <h3 className="text-2xl font-bold mb-4 text-primary">
                 Workshops
               </h3>
-              <p className="text-gray-400">
+              <p className="text-gray-500">
                 Engage in workshops to boost your job prospects with CV checks
                 and internship events led by experts.
               </p>
@@ -106,10 +106,10 @@ function ContentSections() {
                 }}
                 className="mb-3"
               />
-              <h3 className="text-2xl font-bold mb-4 text-gray-300">
+              <h3 className="text-2xl font-bold mb-4 text-primary">
                 Social Events
               </h3>
-              <p className="text-gray-400">
+              <p className="text-gray-500">
                 Attend our social events to connect and have fun with your
                 fellow software engineering students.
               </p>
@@ -122,7 +122,7 @@ function ContentSections() {
       <div className="w-full pb-28">
         <div className="flex justify-center">
           <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
-            <h2 className="text-2xl md:text-3xl font-bold py-4">
+            <h2 className="text-2xl md:text-3xl font-bold py-4 text-secondary">
               Become a member
             </h2>
             <div className="mx-auto w-20 my-2 bg-sesa-tealLight h-[2px]"></div>
