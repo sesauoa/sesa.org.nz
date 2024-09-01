@@ -19,8 +19,8 @@ Defined in tailwind.config.ts
 
 ```
 sesa-navy: "#00112b",
-sesa-tealDark: "#49bfaa",
-sesa-tealLight: "#70c7b0",
+sesa-teal-dark: "#49bfaa",
+sesa-teal-light: "#70c7b0",
 ```
 
 ## Dev set up information

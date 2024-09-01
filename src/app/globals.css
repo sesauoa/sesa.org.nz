@@ -14,7 +14,7 @@
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: theme("colors.sesa.tealLight");
+    background-color: theme("colors.sesa.teal.light");
   }
 }
 
@@ -46,7 +46,7 @@ body {
     @apply w-full flex flex-col font-sans p-6 lg:px-24;
   }
   .page-title {
-    @apply text-3xl text-sesa-tealDark font-bold m-6;
+    @apply text-3xl text-sesa-teal-dark font-bold m-6;
   }
   .custom-border {
     @apply rounded-lg shadow-md;
