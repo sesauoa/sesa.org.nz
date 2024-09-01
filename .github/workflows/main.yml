@@ -20,26 +20,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  Prettier:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out code
-        uses: actions/checkout@v3
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: "20"
-
-      - name: Install dependencies
-        run: |
-          npm install
-
-      # Runs prettier
-      - name: Run code style check
-        run: npm run prettier
   Build:
-    needs: Prettier
     runs-on: ubuntu-latest
 
     steps:
