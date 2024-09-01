@@ -22,6 +22,9 @@ const config: Config = {
         secondary: "#49bfaa", // sesa teal dark
         accent: "#70c7b0", // sesa teal light
       },
+      boxShadow: {
+        'outline': '0 0 0 3px rgba(66, 153, 225, 0.5)', // Example custom shadow
+      },
     },
   },
 };
