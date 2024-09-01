@@ -44,7 +44,7 @@ function ContentSections() {
           <div className="flex flex-wrap justify-center px-4 w-full max-w-6xl gap-8">
             {/* Industry Events */}
             <div
-              className="p-8 mx-auto rounded-3xl shadow-xl border-4 border-primary text-center flex flex-col items-center flex-none"
+              className="p-8 mx-auto rounded-3xl shadow-xl border-4 text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
             >
               <img
@@ -68,7 +68,7 @@ function ContentSections() {
             </div>
             {/* Workshops */}
             <div
-              className="p-8 mx-auto rounded-3xl shadow-xl border-4 border-primary text-center flex flex-col items-center flex-none"
+              className="p-8 mx-auto rounded-3xl shadow-xl border-4 text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
             >
               <img
@@ -92,7 +92,7 @@ function ContentSections() {
             </div>
             {/* Social Events */}
             <div
-              className="p-8 mx-auto rounded-3xl shadow-xl border-4 border-primary text-center flex flex-col items-center flex-none"
+              className="p-8 mx-auto rounded-3xl shadow-xl border-4 text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
             >
               <img
