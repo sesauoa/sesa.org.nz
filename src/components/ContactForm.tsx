@@ -100,9 +100,12 @@ const ContactForm: React.FC<{}> = () => {
             </div>
           </div>
           <div className="flex justify-left">
-            <button type="submit" className="btn btn-outline font-sans">
-              Submit
-            </button>
+          <a
+            key="submit-button"
+            className="button"
+          >
+            Submit
+          </a>
           </div>
         </form>
       </div>
