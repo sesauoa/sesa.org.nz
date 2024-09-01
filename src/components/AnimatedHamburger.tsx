@@ -14,12 +14,12 @@ export const AnimatedHambuger: React.FC<AnimatedHamburgerProps> = ({
       <MotionConfig transition={{ duration: 0.5 }}>
         <motion.button
           initial={false}
-          className="relative h-16 w-16 rounded-full lg:hidden bg-primary/0 transition-colors hover:bg-primary-content/20 z-20"
+          className="relative h-16 w-16 rounded-full lg:hidden bg-sesa-navy/0 transition-colors hover:bg-white/20 z-20"
           onClick={() => setActive(!isActive)}
           animate={isActive ? "open" : "closed"}
         >
           <motion.span
-            className="absolute h-1 w-8 bg-primary-content"
+            className="absolute h-1 w-8 bg-white"
             style={{ left: "50%", top: "35%", x: "-50%", y: "-50%" }}
             variants={{
               open: { rotate: [0, 0, 45], top: ["35%", "50%", "50%"] },
@@ -27,7 +27,7 @@ export const AnimatedHambuger: React.FC<AnimatedHamburgerProps> = ({
             }}
           />
           <motion.span
-            className="absolute h-1 w-8 bg-primary-content"
+            className="absolute h-1 w-8 bg-white"
             style={{ left: "50%", top: "50%", x: "-50%", y: "-50%" }}
             variants={{
               open: { rotate: [0, 0, -45] },
@@ -35,7 +35,7 @@ export const AnimatedHambuger: React.FC<AnimatedHamburgerProps> = ({
             }}
           />
           <motion.span
-            className="absolute h-1 w-8 bg-primary-content"
+            className="absolute h-1 w-8 bg-white"
             style={{ left: "50%", bottom: "35%", x: "-50%", y: "50%" }}
             variants={{
               open: { rotate: [0, 0, 45], bottom: ["35%", "50%", "50%"] },

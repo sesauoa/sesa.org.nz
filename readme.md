@@ -12,15 +12,14 @@ Github Actions
 Vercel
 
 Eslint
-Prettier
 
 ## Colours
 
 Defined in tailwind.config.ts
 
-- primary: "#00112b", // sesa navy
-- secondary: "#49bfaa", // sesa teal dark
-- accent: "#70c7b0", // sesa teal light
+sesa-navy: "#00112b",
+sesa-tealDark: "#49bfaa",
+sesa-tealLight: "#70c7b0",
 
 ## Dev set up information
 

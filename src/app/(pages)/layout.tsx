@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="sesaTheme">
       <body className={inter.className}>
-        <div className="bg-primary">
+        <div className="bg-sesa-navy">
           <Header />
         </div>
         {children}

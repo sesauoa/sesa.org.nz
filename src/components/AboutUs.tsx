@@ -13,14 +13,14 @@ function ContentSections() {
             <h2 className="text-2xl md:text-3xl font-bold py-4">
               What is SESA?
             </h2>
-            <div className="mx-auto w-20 my-2 bg-accent h-[2px]"></div>
+            <div className="mx-auto w-20 my-2 bg-sesa-tealLight h-[2px]"></div>
             <p className="mt-4">
               SESA is the Software Engineering Students Association for students
               and alumni of the Software Engineering programme at the{" "}
               <a
                 href="https://www.auckland.ac.nz/en.html"
                 target="_blank"
-                className="text-accent hover:underline"
+                className="text-sesa-tealLight hover:underline"
               >
                 University of Auckland
               </a>
@@ -38,13 +38,13 @@ function ContentSections() {
           <h2 className="text-2xl md:text-3xl font-bold py-4">
             What do we do?
           </h2>
-          <div className="mx-auto w-20 my-2 bg-accent h-[2px]"></div>
+          <div className="mx-auto w-20 my-2 bg-sesa-tealLight h-[2px]"></div>
         </div>
         <div className="flex flex-wrap justify-center gap-2">
           <div className="flex flex-wrap justify-center px-4 w-full max-w-6xl gap-8">
             {/* Industry Events */}
             <div
-              className="p-8 mx-auto  bg-primary rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
+              className="p-8 mx-auto  bg-sesa-navy rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
             >
               <img
@@ -68,7 +68,7 @@ function ContentSections() {
             </div>
             {/* Workshops */}
             <div
-              className="p-8 mx-auto  bg-primary rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
+              className="p-8 mx-auto  bg-sesa-navy rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
             >
               <img
@@ -92,7 +92,7 @@ function ContentSections() {
             </div>
             {/* Social Events */}
             <div
-              className="p-8 mx-auto bg-primary rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
+              className="p-8 mx-auto bg-sesa-navy rounded-3xl shadow-xl border-4 border-gray-400 text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
             >
               <img
@@ -125,7 +125,7 @@ function ContentSections() {
             <h2 className="text-2xl md:text-3xl font-bold py-4">
               Become a member
             </h2>
-            <div className="mx-auto w-20 my-2 bg-accent h-[2px]"></div>
+            <div className="mx-auto w-20 my-2 bg-sesa-tealLight h-[2px]"></div>
             <p className="mt-4">
               <strong>Joining is 100% free!</strong>
             </p>
@@ -139,7 +139,7 @@ function ContentSections() {
               <a
                 href="https://facebook.com/sesauoa"
                 target="_blank"
-                className="text-accent hover:underline"
+                className="text-sesa-tealLight hover:underline"
               >
                 Facebook
               </a>
@@ -147,7 +147,7 @@ function ContentSections() {
               <a
                 href="https://instagram.com/sesa.uoa"
                 target="_blank"
-                className="text-accent hover:underline"
+                className="text-sesa-tealLight hover:underline"
               >
                 {" "}
                 Instagram
@@ -156,7 +156,7 @@ function ContentSections() {
               <a
                 href="https://www.linkedin.com/company/ausesa/"
                 target="_blank"
-                className="text-accent hover:underline"
+                className="text-sesa-tealLight hover:underline"
               >
                 {" "}
                 LinkedIn
@@ -165,7 +165,7 @@ function ContentSections() {
               <a
                 href="https://discord.gg/93AW5tMSBc"
                 target="_blank"
-                className="text-accent hover:underline"
+                className="text-sesa-tealLight hover:underline"
               >
                 {" "}
                 Discord
@@ -174,7 +174,7 @@ function ContentSections() {
               <a
                 href="https://www.tiktok.com/@sesauoa"
                 target="_blank"
-                className="text-accent hover:underline"
+                className="text-sesa-tealLight hover:underline"
               >
                 {" "}
                 TikTok
@@ -185,7 +185,7 @@ function ContentSections() {
               <a
                 key="join-button"
                 href="/join"
-                className="bg-accent cursor-pointer rounded-full font-sans text-lg text-primary-content inline transition-transform duration-200 hover:scale-110 px-6 py-[6px]"
+                className="bg-sesa-tealLight cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 px-6 py-1"
               >
                 Join
               </a>

@@ -17,13 +17,14 @@ const config: Config = {
         sans: ["Overpass", "sans-serif"],
       },
       colors: {
-        primary: "#00112b", // sesa navy
-        "primary-content": "#ffffff", // white
-        secondary: "#49bfaa", // sesa teal dark
-        accent: "#70c7b0", // sesa teal light
+        sesa: {
+          navy: "#00112b",
+          tealDark: "#49bfaa",
+          tealLight: "#70c7b0",
+        },
       },
       boxShadow: {
-        'outline': '0 0 0 3px rgba(66, 153, 225, 0.5)', // Example custom shadow
+        outline: "0 0 0 3px rgba(66, 153, 225, 0.5)", // Example custom shadow
       },
     },
   },
