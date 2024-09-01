@@ -7,22 +7,22 @@ import { goldSponsors, silverSponsors } from "@/constants/sponsors";
 const SponsorsPage: React.FC = () => {
   return (
     <div className="page-padding">
-      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-light">
+      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-dark">
         {" "}
         Sponsor Us
       </h1>
-      <div className="mx-auto w-20 my-2 bg-sesa-teal-light h-[2px]"></div>
+      <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-[2px]"></div>
       <StatisticsSection />
-      <SponsorUsCards />
-      <div className="flex justify-center mt-5 mb-28">
+      <div className="flex justify-center my-5">
         <a
           key="join-button"
           href="mailto:exec@sesa.org.nz?subject=Sponsorship Inquiry"
-          className="bg-sesa-teal-light cursor-pointer rounded-full font-sans text-lg text-sesa-navy-content inline transition-transform duration-200 hover:scale-110 m-4 px-6 py-[6px]"
+          className="bg-sesa-teal-light cursor-pointer rounded-full font-sans text-2xl text-white inline transition-transform duration-200 hover:scale-110 mb-4 px-6 py-[6px]"
         >
           Become a sponsor!
         </a>
       </div>
+      <SponsorUsCards />
       <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-light">
         Our 2024 Sponsors
       </h1>
