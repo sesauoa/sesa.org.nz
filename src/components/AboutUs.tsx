@@ -7,7 +7,7 @@ function ContentSections() {
   return (
     <div>
       {/* What We Do Section */}
-      <div className="flex justify-center py-16">
+      <div className="flex justify-center pb-16">
         <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
           <h2 className="text-2xl md:text-3xl font-bold py-4 text-sesa-teal-dark">
             What is SESA?
@@ -116,7 +116,7 @@ function ContentSections() {
       </div>
 
       {/* Membership Section */}
-      <div className="w-full pb-28">
+      <div className="w-full pb-10">
         <div className="flex justify-center">
           <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
             <h2 className="text-2xl md:text-3xl font-bold py-4 text-sesa-teal-dark">
