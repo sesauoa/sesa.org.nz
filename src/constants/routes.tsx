@@ -18,6 +18,7 @@ export const routes = [
     id: 4,
     name: "Linktree",
     href: "https://linktr.ee/sesa.uoa",
+    target: "_blank",
   },
   {
     id: 5,
