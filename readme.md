@@ -5,7 +5,7 @@
 React
 TypeScript
 Next.js
-TailwindCSS, DaisyUI
+TailwindCSS
 
 Terraform
 Github Actions
@@ -68,3 +68,9 @@ The executive team members are represented in the code by an array of objects wi
 2. To update the details of an existing team member, find their corresponding object in the TeamInfo array.
 3. If there are new members to add, insert a new object into the TeamInfo array following the same structure as the existing entries. Add the new team member photos in the `public/team-images` folder.
 4. Update the `team_photo.png` every year with a new full team photo.
+
+### Updating the images header slideshow:
+
+While this isn't necessary to change every year, if you would like to update the images in the header:
+
+1. To update the images, add the new files in the `public/header-images` folder.
