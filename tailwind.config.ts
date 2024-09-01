@@ -16,6 +16,9 @@ const config: Config = {
       fontFamily: {
         sans: ["Overpass", "sans-serif"],
       },
+      boxShadow: {
+        'outline': '0 0 0 3px rgba(66, 153, 225, 0.5)', // Example custom shadow
+      }
     },
   },
   daisyui: {
