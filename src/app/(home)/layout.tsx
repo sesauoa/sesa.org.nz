@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../globals.css";
 import Footer from "@/components/Footer";
+import favicon from "../../../public/favicon.ico";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="sesaTheme">
+    <html lang="en">
+      <link rel="icon" href={favicon.src} />
       <body className={inter.className}>
         {children}
         <Footer />
