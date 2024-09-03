@@ -3,10 +3,10 @@ import IndustryImage from "../../public/home-icons/industry_icon.png";
 import WorkshopImage from "../../public/home-icons/workshop_icon.png";
 import SocialImage from "../../public/home-icons/social_icon.png";
 import { Statistics } from "@/update-annually/statistics";
-import Card from "@/components/AboutCard";
+import Card from "@/components/Card";
 
 function ContentSections() {
-  const cardsData = [
+  const aboutCards = [
     {
       imgSrc: IndustryImage.src,
       alt: "Industry Events",
@@ -61,15 +61,7 @@ function ContentSections() {
         </div>
         <div className="flex flex-wrap justify-center gap-2">
           <div className="flex flex-wrap justify-center px-4 w-full max-w-6xl gap-8">
-            {cardsData.map((card, index) => (
-              <Card
-                key={index}
-                imgSrc={card.imgSrc}
-                alt={card.alt}
-                title={card.title}
-                description={card.description}
-              />
-            ))}
+            <Card cards={aboutCards} />
           </div>
         </div>
       </div>

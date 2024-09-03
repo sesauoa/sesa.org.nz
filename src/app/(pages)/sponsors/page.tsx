@@ -1,11 +1,35 @@
 import React from "react";
 import OurSponsors from "@/components/OurSponsors";
 import StatisticsSection from "@/components/SponsorStats";
-import SponsorUsCards from "@/components/SponsorUsCards";
+import SponsorUsCards from "@/components/Card";
 import { goldSponsors, silverSponsors } from "@/update-annually/sponsors";
 import { Statistics } from "@/update-annually/statistics";
 
 export default function SponsorPage() {
+  const sponsorCardsData = [
+    {
+      imgSrc: "sponsors-images/showcase-opportunities.jpg",
+      alt: "Showcase Opportunities",
+      title: "Showcase Opportunities",
+      description:
+        "Showcase your opportunities for prospective interns and graduates to our large network",
+    },
+    {
+      imgSrc: "sponsors-images/engage.jpg",
+      alt: "Engage with Emerging Talent",
+      title: "Engage with Emerging Talent",
+      description:
+        "Connect with driven students through our various events, workshops and hackathons.",
+    },
+    {
+      imgSrc: "sponsors-images/industry-presence.jpg",
+      alt: "Enhance Industry Presence",
+      title: "Enhance Industry Presence",
+      description:
+        "Boost your brand recognition and reputation among students and the wider tech community.",
+    },
+  ];
+
   return (
     <div className="w-full flex flex-col font-sans p-6 lg:px-24">
       <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-dark">
@@ -32,7 +56,7 @@ export default function SponsorPage() {
       </h1>
       <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-0.5"></div>
       <StatisticsSection />
-      <SponsorUsCards />
+      <SponsorUsCards cards={sponsorCardsData} />
     </div>
   );
 }
