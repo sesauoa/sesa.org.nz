@@ -13,7 +13,11 @@ export default function SponsorPage() {
       </h1>
       <div className="mx-auto w-20 mt-2 mb-8 bg-sesa-teal-dark h-[2px]"></div>
       <OurSponsors title="Gold Sponsor" sponsors={goldSponsors} type="gold" />
-      <OurSponsors title="Silver Sponsors" sponsors={silverSponsors} type="silver" />
+      <OurSponsors
+        title="Silver Sponsors"
+        sponsors={silverSponsors}
+        type="silver"
+      />
       <div className="flex justify-center mt-16">
         <a
           key="join-button"

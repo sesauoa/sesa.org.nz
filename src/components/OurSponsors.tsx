@@ -21,9 +21,13 @@ const OurSponsors: React.FC<SponsorSectionProps> = ({
   return (
     <div className="mt-8">
       {type === "gold" ? (
-        <h2 className="text-yellow-500 text-2xl font-bold text-center mb-4">{title}</h2>
+        <h2 className="text-yellow-500 text-2xl font-bold text-center mb-4">
+          {title}
+        </h2>
       ) : (
-        <h2 className="text-gray-500 text-2xl font-bold text-center mb-4">{title}</h2>
+        <h2 className="text-gray-500 text-2xl font-bold text-center mb-4">
+          {title}
+        </h2>
       )}
       <div className="flex flex-wrap items-center justify-center gap-4 max-w-6xl mx-auto">
         {sponsors.map((sponsor, index) => (

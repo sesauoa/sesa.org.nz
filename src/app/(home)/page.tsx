@@ -34,7 +34,11 @@ export default function Home() {
       </h1>
       <div className="mx-auto w-20 mt-2 mb-8 bg-sesa-teal-dark h-[2px]"></div>
       <OurSponsors title="Gold Sponsor" sponsors={goldSponsors} type="gold" />
-      <OurSponsors title="Silver Sponsors" sponsors={silverSponsors} type="silver" />
+      <OurSponsors
+        title="Silver Sponsors"
+        sponsors={silverSponsors}
+        type="silver"
+      />
 
       <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-dark mt-10">
         Connect with us
@@ -62,6 +66,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-    </main >
+    </main>
   );
 }

@@ -16,7 +16,7 @@ export default function SocialMediaButtons() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={src} width={iconSize} height={iconSize} alt={alt}  />
+            <Image src={src} width={iconSize} height={iconSize} alt={alt} />
           </a>
         );
       })}

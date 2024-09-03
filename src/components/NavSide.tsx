@@ -76,7 +76,7 @@ export default function NavSide({
             );
           })}
           <div className="w-[85px] mt-2">
-          < JoinButton />
+            <JoinButton />
           </div>
         </div>
       </div>
