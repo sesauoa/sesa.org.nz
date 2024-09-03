@@ -1,5 +1,6 @@
 import React from "react";
 import SocialMediaButtons from "./SocialMediaButtons";
+import Slideshow from "./Slideshow";
 
 interface SplashHeaderProps {
   headerText: string;
