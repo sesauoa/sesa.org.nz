@@ -7,6 +7,7 @@ import { routes } from "../constants/routes";
 import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import NavSide from "./NavSide";
+import JoinButton from "./JoinButton";
 
 export default function Navigation() {
   const [isActive, setActive] = useState(false);
@@ -42,13 +43,9 @@ export default function Navigation() {
               </li>
             );
           })}
-          <a
-            key="join-button"
-            href="/join"
-            className="bg-sesa-teal-light cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 px-6 py-1 ml-6"
-          >
-            Join
-          </a>
+          <div className="ml-6">
+            <JoinButton />
+          </div>
         </ul>
         <div
           className={

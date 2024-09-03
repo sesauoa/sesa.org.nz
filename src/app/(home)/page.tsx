@@ -7,7 +7,7 @@ import SplashHeader from "@/components/SplashHeader";
 import OurSponsors from "@/components/OurSponsors";
 import { goldSponsors, silverSponsors } from "@/update-annually/sponsors";
 import { Statistics } from "@/update-annually/statistics";
-import SocialMediaButtons from "@/components/SocialMediaButtons";
+import JoinButton from "@/components/JoinButton";
 
 export default function Home() {
   useEffect(() => {
@@ -40,16 +40,8 @@ export default function Home() {
         Connect with us
       </h1>
       <div className="mx-auto w-20 mt-2 mb-8 bg-sesa-teal-dark h-[2px]"></div>
-      <div className="text-center px-10 md:px-10 lg:px-14 my-4">
-        <div className="flex justify-center mb-4">
-          <a
-            key="join-button"
-            href="/join"
-            className="bg-sesa-teal-light cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 px-6 py-1"
-          >
-            Join
-          </a>
-        </div>
+      <div className="my-4">
+        <JoinButton />
       </div>
       <div className="w-full flex justify-center">
         <div
