@@ -1,16 +1,18 @@
 # Software Engineering Students Association (SESA) Official Website
 
 ## Tech Stack
+
 React, TypeScript, Next.js, TailwindCSS
 
 ## Annual Website Update Instructions
 
 Each year, please update:
-* Sponsors
-* Executive team
-* Sign up form
-* Statistics
-* Photos
+
+- Sponsors
+- Executive team
+- Sign up form
+- Statistics
+- Photos
 
 ### Updating sponsors:
 
@@ -31,6 +33,7 @@ Each year, please update:
 2. Replace the `iframe src` with the new link to the Google Form sign up form.
 
 ### Updating the statistics:
+
 1. Go to `src/update-annually/statistics.tsx`
 2. Update the statistics with the new numbers for the year.
 
@@ -39,6 +42,7 @@ Each year, please update:
 1. To update the images, add the new files in the `public/header-images` folder.
 
 ## SESA Colours
+
 Defined in `tailwind.config.ts`
 
 ```

@@ -23,9 +23,9 @@ function ContentSections() {
             >
               University of Auckland
             </a>
-            . We organise and run social and career-focused events for our {" "}
-            {Statistics.MEMBERS}+ members, connecting them with each other as well as industry
-            professionals.
+            . We organise and run social and career-focused events for our{" "}
+            {Statistics.MEMBERS}+ members, connecting them with each other as
+            well as industry professionals.
           </p>
         </div>
       </div>
