@@ -60,6 +60,7 @@ Sponsors are categorized into Gold and Silver levels. These are represented in t
 1. To locate the sponsors.tsx file go to `public/src/constants/sponsors.tsx`
 2. To modify existing sponsors, update the name, logo, and link fields accordingly.
 3. If there are new sponsors, add them to the array following the same structure as the existing entries under the corresponding gold/silver level. Add the new sponsor logos in the `public/sponsors-images` folder.
+4. Change the year in the title
 
 ### Updating the executive team:
 
