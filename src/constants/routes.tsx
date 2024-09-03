@@ -25,11 +25,12 @@ export const routes = [
     href: "https://linktr.ee/sesa.uoa",
     target: "_blank",
   },
-  {
-    id: 6,
-    name: "Event Calendar",
-    href: "/event-calendar",
-  },
+  // Depricated
+  // {
+  //   id: 6,
+  //   name: "Event Calendar",
+  //   href: "/event-calendar",
+  // },
   {
     id: 7,
     name: "Contact",
