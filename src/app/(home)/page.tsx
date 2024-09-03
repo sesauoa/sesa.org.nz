@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <main>
-      <div className="bg-black bg-opacity-60 bg-cover bg-center bg-no-repeat bg-blend-overlay min-h-[600px] w-full h-screen">
+      <div className="bg-black bg-opacity-60 bg-cover bg-center bg-no-repeat bg-blend-overlay min-h-[650px] w-full h-screen">
         <Slideshow />
         <div className="mx-auto max-w-screen-xl">
           <Navigation />
