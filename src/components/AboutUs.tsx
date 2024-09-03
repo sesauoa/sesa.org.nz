@@ -2,6 +2,7 @@ import React from "react";
 import IndustryImage from "../../public/home-icons/industry_icon.png";
 import WorkshopImage from "../../public/home-icons/workshop_icon.png";
 import SocialImage from "../../public/home-icons/social_icon.png";
+import { Statistics } from "@/app/updateAnnually/statistics";
 
 function ContentSections() {
   return (
@@ -22,8 +23,8 @@ function ContentSections() {
             >
               University of Auckland
             </a>
-            . We organise and run social and career-focused events for our
-            500+ members, connecting them with each other as well as industry
+            . We organise and run social and career-focused events for our {" "}
+            {Statistics.MEMBERS}+ members, connecting them with each other as well as industry
             professionals.
           </p>
         </div>

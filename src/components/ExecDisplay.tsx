@@ -1,8 +1,7 @@
-import { TeamInfo } from "@/constants/teamInfo";
+import { TeamInfo } from "@/app/updateAnnually/teamInfo";
+import { Statistics } from "@/app/updateAnnually/statistics";
 
 const ExecDisplay = () => {
-  const YEAR = "2024";
-
   return (
     <div className="flex flex-row gap-2 flex-wrap items-center justify-center">
       {TeamInfo.map((executive, index) => (
@@ -12,7 +11,7 @@ const ExecDisplay = () => {
         >
           <img
             className="w-full h-full object-cover transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 rounded-lg shadow-md"
-            src={`/team-images/${YEAR}/${executive.imageName}.jpg`}
+            src={`/team-images/${Statistics.YEAR}/${executive.imageName}.jpg`}
             alt={executive.name}
             loading="lazy"
           />
