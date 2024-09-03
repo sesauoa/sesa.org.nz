@@ -2,7 +2,7 @@ import React from "react";
 import OurSponsors from "@/components/OurSponsors";
 import StatisticsSection from "@/components/SponsorStats";
 import SponsorUsCards from "@/components/SponsorUsCards";
-import { goldSponsors, silverSponsors } from "@/app/updateAnnually/sponsors";
+import { goldSponsors, silverSponsors } from "@/updateAnnually/sponsors";
 import { Statistics } from "@/app/updateAnnually/statistics";
 
 export default function SponsorPage() {

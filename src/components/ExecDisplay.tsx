@@ -1,4 +1,4 @@
-import { TeamInfo } from "@/app/updateAnnually/teamInfo";
+import { TeamInfo } from "@/updateAnnually/teamInfo";
 import { Statistics } from "@/app/updateAnnually/statistics";
 
 const ExecDisplay = () => {
