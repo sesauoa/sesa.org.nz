@@ -30,6 +30,7 @@ export default function Slideshow() {
           animate={index === i ? { opacity: 1 } : { opacity: 0 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 1.5, ease: "easeInOut" }}
+          alt={`Slide ${i}`}
         />
       ))}
     </div>

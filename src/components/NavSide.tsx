@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { routes } from "@/constants/routes";
+import JoinButton from "./JoinButton";
 
 interface NavSideProps {
   setActive: React.Dispatch<React.SetStateAction<boolean>>;
@@ -74,13 +75,9 @@ export default function NavSide({
               </motion.div>
             );
           })}
-          <a
-            key="join-button"
-            onClick={(e) => handleClick(e, "/join")}
-            className="bg-sesa-teal-light cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 p-6 py-1 w-[85px]"
-          >
-            Join
-          </a>
+          <div className="w-[85px] mt-2">
+            <JoinButton />
+          </div>
         </div>
       </div>
     </motion.div>

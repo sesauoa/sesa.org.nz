@@ -4,6 +4,10 @@ import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Slideshow from "@/components/Slideshow";
 import SplashHeader from "@/components/SplashHeader";
+import OurSponsors from "@/components/OurSponsors";
+import { goldSponsors, silverSponsors } from "@/update-annually/sponsors";
+import { Statistics } from "@/update-annually/statistics";
+import JoinButton from "@/components/JoinButton";
 
 export default function Home() {
   useEffect(() => {
@@ -24,6 +28,24 @@ export default function Home() {
             bodyText="SESA is the association for students and alumni of the Software Engineering programme at the University of Auckland."
           />
         </div>
+      </div>
+      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-dark mt-10">
+        Our {Statistics.YEAR} Sponsors
+      </h1>
+      <div className="mx-auto w-20 mt-2 mb-8 bg-sesa-teal-dark h-[2px]"></div>
+      <OurSponsors title="Gold Sponsor" sponsors={goldSponsors} type="gold" />
+      <OurSponsors
+        title="Silver Sponsors"
+        sponsors={silverSponsors}
+        type="silver"
+      />
+
+      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-dark mt-10">
+        Connect with us
+      </h1>
+      <div className="mx-auto w-20 mt-2 mb-8 bg-sesa-teal-dark h-[2px]"></div>
+      <div className="my-4">
+        <JoinButton />
       </div>
       <div className="w-full flex justify-center">
         <div

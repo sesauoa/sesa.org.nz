@@ -8,10 +8,10 @@ import { Statistics } from "@/update-annually/statistics";
 export default function SponsorPage() {
   return (
     <div className="w-full flex flex-col font-sans p-6 lg:px-24">
-      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-light">
+      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-dark">
         Our {Statistics.YEAR} Sponsors
       </h1>
-      <div className="mx-auto w-20 mt-2 mb-8 bg-sesa-teal-light h-[2px]"></div>
+      <div className="mx-auto w-20 mt-2 mb-8 bg-sesa-teal-dark h-[2px]"></div>
       <OurSponsors title="Gold Sponsor" sponsors={goldSponsors} type="gold" />
       <OurSponsors
         title="Silver Sponsors"

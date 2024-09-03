@@ -120,7 +120,7 @@ function ContentSections() {
             </h2>
             <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-0.5"></div>
             <p className="mt-4">
-              <strong>Joining is 100% free!</strong>
+              <strong>Membership is 100% free!</strong>
             </p>
             <p className="mt-2 py-2">
               Membership doesn&apos;t roll over, so you need to fill out this
