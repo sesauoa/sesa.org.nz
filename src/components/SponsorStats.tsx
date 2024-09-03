@@ -10,7 +10,9 @@ const StatisticsSection: React.FC = () => {
             <p className="">Registered members</p>
           </div>
           <div className="w-[130px]">
-            <strong className="text-2xl">{Statistics.ATTENDEES_TO_FLAGSHIP_EVENTS}+</strong>
+            <strong className="text-2xl">
+              {Statistics.ATTENDEES_TO_FLAGSHIP_EVENTS}+
+            </strong>
             <p className="">
               <span className="block">Attendees to our</span>
               <span className="block">flagship events</span>

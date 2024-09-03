@@ -100,7 +100,10 @@ const ContactForm: React.FC<{}> = () => {
             </div>
           </div>
           <div className="flex float-left">
-            <button type="submit" className="bg-sesa-teal-light cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 px-6 py-1">
+            <button
+              type="submit"
+              className="bg-sesa-teal-light cursor-pointer rounded-full font-sans text-lg text-white inline transition-transform duration-200 hover:scale-110 px-6 py-1"
+            >
               Submit
             </button>
           </div>
