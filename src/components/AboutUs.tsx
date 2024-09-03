@@ -1,7 +1,7 @@
 import React from "react";
-import IndustryImage from "../../public/home-icons/industry_icon.png";
-import WorkshopImage from "../../public/home-icons/workshop_icon.png";
-import SocialImage from "../../public/home-icons/social_icon.png";
+import IndustryImage from "../../public/about-images/industry.jpg";
+import WorkshopImage from "../../public/about-images/workshop.jpg";
+import SocialImage from "../../public/about-images/social.jpg";
 import { Statistics } from "@/update-annually/statistics";
 import Card from "@/components/Card";
 
