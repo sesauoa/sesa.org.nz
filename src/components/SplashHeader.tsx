@@ -1,5 +1,4 @@
 import React from "react";
-import ThreeScene from "./ThreeScene";
 import SocialMediaButtons from "./SocialMediaButtons";
 
 interface SplashHeaderProps {

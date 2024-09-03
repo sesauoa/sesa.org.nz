@@ -6,13 +6,12 @@ import SocialImage from "../../public/home-icons/social_icon.png";
 function ContentSections() {
   return (
     <div>
-      {/* What We Do Section */}
       <div className="flex justify-center pb-16">
-        <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
-          <h2 className="text-2xl md:text-3xl font-bold py-4 text-sesa-teal-dark">
+        <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 lg:px-14">
+          <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold mt-6 mb-8 text-center">
             What is SESA?
-          </h2>
-          <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-[2px]"></div>
+          </h1>
+          <div className="mx-auto w-20 bg-sesa-teal-dark h-0.5"></div>
           <p className="mt-4">
             SESA is the Software Engineering Students Association for students
             and alumni of the Software Engineering programme at the{" "}
@@ -30,16 +29,15 @@ function ContentSections() {
         </div>
       </div>
 
-      <div className="w-full pb-10">
+      <div className="w-full pb-16">
         <div className="text-center py-4 px-4 md:px-10 lg:px-14">
-          <h2 className="text-2xl md:text-3xl font-bold py-4 text-sesa-teal-dark">
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-sesa-teal-dark">
             What do we do?
           </h2>
-          <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-[1px]"></div>
+          <div className="mx-auto w-20 bg-sesa-teal-dark h-0.5"></div>
         </div>
         <div className="flex flex-wrap justify-center gap-2">
           <div className="flex flex-wrap justify-center px-4 w-full max-w-6xl gap-8">
-            {/* Industry Events */}
             <div
               className="p-8 mx-auto rounded-3xl shadow-xl border-4 text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
@@ -63,7 +61,6 @@ function ContentSections() {
                 gain insights into the industry.
               </p>
             </div>
-            {/* Workshops */}
             <div
               className="p-8 mx-auto rounded-3xl shadow-xl border-4 text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
@@ -87,7 +84,6 @@ function ContentSections() {
                 and internship events led by experts.
               </p>
             </div>
-            {/* Social Events */}
             <div
               className="p-8 mx-auto rounded-3xl shadow-xl border-4 text-center flex flex-col items-center flex-none"
               style={{ width: "330px", margin: "0.5rem" }}
@@ -115,14 +111,13 @@ function ContentSections() {
         </div>
       </div>
 
-      {/* Membership Section */}
-      <div className="w-full pb-10">
+      <div className="w-full pb-16">
         <div className="flex justify-center">
           <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
-            <h2 className="text-2xl md:text-3xl font-bold py-4 text-sesa-teal-dark">
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-sesa-teal-dark">
               Become a member
             </h2>
-            <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-[2px]"></div>
+            <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-0.5"></div>
             <p className="mt-4">
               <strong>Joining is 100% free!</strong>
             </p>

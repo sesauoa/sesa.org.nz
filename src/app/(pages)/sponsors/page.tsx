@@ -4,13 +4,13 @@ import StatisticsSection from "@/components/SponsorStats";
 import SponsorUsCards from "@/components/SponsorUsCards";
 import { goldSponsors, silverSponsors } from "@/constants/sponsors";
 
-const SponsorsPage: React.FC = () => {
+export default function SponsorPage() {
   return (
-    <div className="page-padding">
-      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-dark">
+    <div className="w-full flex flex-col font-sans p-6 lg:px-24">
+      <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6 text-center">
         Sponsor Us
       </h1>
-      <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-[2px]"></div>
+      <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-0.5"></div>
       <StatisticsSection />
       <div className="flex justify-center my-5">
         <a
@@ -34,6 +34,4 @@ const SponsorsPage: React.FC = () => {
       />
     </div>
   );
-};
-
-export default SponsorsPage;
+}
