@@ -1,7 +1,7 @@
 import React from "react";
-import IndustryImage from "../../public/home-icons/industry_icon.svg";
-import WorkshopImage from "../../public/home-icons/workshop_icon.svg";
-import SocialImage from "../../public/home-icons/social_icon.svg";
+import IndustryImage from "../../public/home-icons/industry_icon.png";
+import WorkshopImage from "../../public/home-icons/workshop_icon.png";
+import SocialImage from "../../public/home-icons/social_icon.png";
 import { Statistics } from "@/update-annually/statistics";
 
 function ContentSections() {
