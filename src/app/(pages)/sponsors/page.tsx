@@ -7,21 +7,6 @@ import { goldSponsors, silverSponsors } from "@/constants/sponsors";
 export default function SponsorPage() {
   return (
     <div className="w-full flex flex-col font-sans p-6 lg:px-24">
-      <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6 text-center">
-        Sponsor Us
-      </h1>
-      <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-0.5"></div>
-      <StatisticsSection />
-      <div className="flex justify-center my-5">
-        <a
-          key="join-button"
-          href="mailto:exec@sesa.org.nz?subject=Sponsorship Inquiry"
-          className="bg-sesa-teal-light cursor-pointer rounded-full font-sans text-2xl text-white inline transition-transform duration-200 hover:scale-110 mb-4 px-6 py-[6px]"
-        >
-          Become a sponsor!
-        </a>
-      </div>
-      <SponsorUsCards />
       <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-light">
         Our 2024 Sponsors
       </h1>
@@ -32,6 +17,21 @@ export default function SponsorPage() {
         sponsors={silverSponsors}
         type="silver"
       />
+      <div className="flex justify-center mt-16">
+        <a
+          key="join-button"
+          href="mailto:exec@sesa.org.nz?subject=Sponsorship Inquiry"
+          className="bg-sesa-teal-light cursor-pointer rounded-full font-sans text-2xl text-white inline transition-transform duration-200 hover:scale-110 mb-4 px-6 py-[6px]"
+        >
+          Become a sponsor!
+        </a>
+      </div>
+      <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6 text-center">
+        Sponsor us
+      </h1>
+      <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-0.5"></div>
+      <StatisticsSection />
+      <SponsorUsCards />
     </div>
   );
 }
