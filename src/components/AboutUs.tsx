@@ -3,13 +3,35 @@ import IndustryImage from "../../public/home-icons/industry_icon.png";
 import WorkshopImage from "../../public/home-icons/workshop_icon.png";
 import SocialImage from "../../public/home-icons/social_icon.png";
 import { Statistics } from "@/update-annually/statistics";
+import Card from "@/components/AboutCards";
 
 function ContentSections() {
+  const cardsData = [
+    {
+      imgSrc: IndustryImage.src,
+      alt: "Industry Events",
+      title: "Industry Events",
+      description: "Come along to our industry events to expand your network and gain insights into the industry.",
+    },
+    {
+      imgSrc: WorkshopImage.src,
+      alt: "Workshops",
+      title: "Workshops",
+      description: "Engage in workshops to boost your job prospects with CV checks and internship events led by experts.",
+    },
+    {
+      imgSrc: SocialImage.src,
+      alt: "Social Events",
+      title: "Social Events",
+      description: "Attend our social events to connect and have fun with your fellow software engineering students.",
+    },
+  ];
+
   return (
     <div>
       <div className="flex justify-center pb-16">
         <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 lg:px-14">
-          <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold mt-6 mb-8 text-center">
+          <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold mt-6 mb-4 text-center">
             What is SESA?
           </h1>
           <div className="mx-auto w-20 bg-sesa-teal-dark h-0.5"></div>
@@ -23,91 +45,31 @@ function ContentSections() {
             >
               University of Auckland
             </a>
-            . We organise and run social and career-focused events for our{" "}
-            {Statistics.MEMBERS}+ members, connecting them with each other as
-            well as industry professionals.
+            . We organise and run social and career-focused events for our {" "}
+            {Statistics.MEMBERS}+ members, connecting them with each other as well as industry
+            professionals.
           </p>
         </div>
       </div>
 
       <div className="w-full pb-16">
         <div className="text-center py-4 px-4 md:px-10 lg:px-14">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-sesa-teal-dark">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-sesa-teal-dark">
             What do we do?
           </h2>
           <div className="mx-auto w-20 bg-sesa-teal-dark h-0.5"></div>
         </div>
         <div className="flex flex-wrap justify-center gap-2">
           <div className="flex flex-wrap justify-center px-4 w-full max-w-6xl gap-8">
-            <div
-              className="p-8 mx-auto rounded-3xl shadow-xl border-4 text-center flex flex-col items-center flex-none"
-              style={{ width: "330px", margin: "0.5rem" }}
-            >
-              <img
-                src={IndustryImage.src}
-                alt="Industry Events"
-                style={{
-                  width: "150px",
-                  height: "auto",
-                  userSelect: "none",
-                  pointerEvents: "none",
-                }}
-                className="mb-3"
+            {cardsData.map((card, index) => (
+              <Card
+                key={index}
+                imgSrc={card.imgSrc}
+                alt={card.alt}
+                title={card.title}
+                description={card.description}
               />
-              <h3 className="text-2xl font-bold mb-4 text-sesa-navy">
-                Industry Events
-              </h3>
-              <p className="text-sesa-navy">
-                Come along to our industry events to expand your network and
-                gain insights into the industry.
-              </p>
-            </div>
-            <div
-              className="p-8 mx-auto rounded-3xl shadow-xl border-4 text-center flex flex-col items-center flex-none"
-              style={{ width: "330px", margin: "0.5rem" }}
-            >
-              <img
-                src={WorkshopImage.src}
-                alt="Workshops"
-                style={{
-                  width: "150px",
-                  height: "auto",
-                  userSelect: "none",
-                  pointerEvents: "none",
-                }}
-                className="mb-3"
-              />
-              <h3 className="text-2xl font-bold mb-4 text-sesa-navy">
-                Workshops
-              </h3>
-              <p className="text-sesa-navy">
-                Engage in workshops to boost your job prospects with CV checks
-                and internship events led by experts.
-              </p>
-            </div>
-            <div
-              className="p-8 mx-auto rounded-3xl shadow-xl border-4 text-center flex flex-col items-center flex-none"
-              style={{ width: "330px", margin: "0.5rem" }}
-            >
-              <img
-                src={SocialImage.src}
-                alt="Social Events"
-                style={{
-                  width: "150px",
-                  height: "auto",
-                  userSelect: "none",
-                  pointerEvents: "none",
-                }}
-                className="mb-3"
-              />
-              <h3 className="text-2xl font-bold mb-4 text-sesa-navy">
-                Social Events
-              </h3>
-              <p className="text-sesa-navy">
-                Attend our social events to connect and have fun with your
-                fellow software engineering students.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </div>
@@ -191,3 +153,4 @@ function ContentSections() {
 }
 
 export default ContentSections;
+
