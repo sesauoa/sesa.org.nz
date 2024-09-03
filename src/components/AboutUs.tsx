@@ -31,7 +31,7 @@ function ContentSections() {
     <div>
       <div className="flex justify-center pb-16">
         <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 lg:px-14">
-          <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold mt-6 mb-8 text-center">
+          <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold mt-6 mb-4 text-center">
             What is SESA?
           </h1>
           <div className="mx-auto w-20 bg-sesa-teal-dark h-0.5"></div>

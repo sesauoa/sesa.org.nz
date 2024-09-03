@@ -23,6 +23,7 @@ const Card: React.FC<CardProps> = ({ cards }) => {
             className="w-full h-48 object-cover"
             src={card.imgSrc}
             alt={card.alt}
+            draggable="false"
           />
           <div className="px-4 py-8 gap-8">
             <h2 className="text-xl font-bold mb-2">{card.title}</h2>
