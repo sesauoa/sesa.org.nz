@@ -3,8 +3,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../globals.css";
-import Header from "@/components/Header";
+import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import favicon from "../../../public/favicon.ico";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,10 +21,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="sesaTheme">
+    <html lang="en">
       <body className={inter.className}>
-        <div className="bg-primary">
-          <Header />
+        <link rel="icon" href={favicon.src} />
+        <div className="bg-sesa-navy">
+          <Navigation />
         </div>
         {children}
         <Footer />

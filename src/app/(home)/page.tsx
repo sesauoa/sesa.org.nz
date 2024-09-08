@@ -1,16 +1,13 @@
 "use client";
 
 import { useEffect } from "react";
-import Header from "@/components/Header";
+import Navigation from "@/components/Navigation";
+import Slideshow from "@/components/Slideshow";
 import SplashHeader from "@/components/SplashHeader";
-
-import HomeBackground from "../../../public/homeBackgroundGreen.png";
-import AboutUs from "@/components/AboutUs";
-
-// below are possible ways to add the coloured overlay using css (which would make it easy to change themes)
-// currently the green background is part odf the image because text appears behind the coloured overlay otherwise.
-// , boxShadow: "inset 0 0 0 1000px rgba(0,55,0,.2)"
-// <div className="fixed top-0 left-0 w-48 h-full z-0 bg-base-100 z-0 opacity-80"></div>
+import OurSponsors from "@/components/OurSponsors";
+import { goldSponsors, silverSponsors } from "@/update-annually/sponsors";
+import { Statistics } from "@/update-annually/statistics";
+import JoinButton from "@/components/JoinButton";
 
 export default function Home() {
   useEffect(() => {
@@ -22,21 +19,34 @@ export default function Home() {
 
   return (
     <main>
-      <div
-        className="bg-cover bg-center"
-        style={{ backgroundImage: `url(${HomeBackground.src})` }}
-      >
-        <div className="h-screen flex flex-col min-h-inherit">
-          <div className="mx-auto max-w-screen-xl">
-            <Header />
-            <SplashHeader
-              headerText="Software Engineering Students Association"
-              bodyText="SESA is the association for students and alumni of the Software Engineering programme at the University of Auckland."
-            />
-          </div>
+      <div className="bg-black bg-opacity-60 bg-cover bg-center bg-no-repeat bg-blend-overlay min-h-[650px] w-full h-screen">
+        <Slideshow />
+        <div className="mx-auto max-w-screen-xl">
+          <Navigation />
+          <SplashHeader
+            headerText="Software Engineering Students Association"
+            bodyText="SESA is the association for students and alumni of the Software Engineering programme at the University of Auckland."
+          />
         </div>
       </div>
-      {/* Social Media Feed Widget */}
+      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-dark mt-10">
+        Our {Statistics.YEAR} Sponsors
+      </h1>
+      <div className="mx-auto w-20 mt-2 mb-8 bg-sesa-teal-dark h-[2px]"></div>
+      <OurSponsors title="Gold Sponsor" sponsors={goldSponsors} type="gold" />
+      <OurSponsors
+        title="Silver Sponsors"
+        sponsors={silverSponsors}
+        type="silver"
+      />
+
+      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-dark mt-10">
+        Connect with us
+      </h1>
+      <div className="mx-auto w-20 mt-2 mb-8 bg-sesa-teal-dark h-[2px]"></div>
+      <div className="my-4">
+        <JoinButton />
+      </div>
       <div className="w-full flex justify-center">
         <div
           className="embedsocial-hashtag w-3/4 md:w-2/3 lg:w-3/5"
@@ -55,10 +65,6 @@ export default function Home() {
             Instagram widget
           </a>
         </div>
-      </div>
-      {/* About us component */}
-      <div>
-        <AboutUs />
       </div>
     </main>
   );

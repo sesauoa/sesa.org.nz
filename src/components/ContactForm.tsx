@@ -42,13 +42,13 @@ const ContactForm: React.FC<{}> = () => {
 
   return (
     <div className="flex justify-center">
-      <div className="container custom-border mx-auto p-6">
+      <div className="container rounded-lg shadow-md mx-auto p-6 md:w-1/2">
         <form onSubmit={handleSubmit} className="space-y-4">
-          <div className="flex flex-col space-y-4" style={{ width: "50%" }}>
+          <div className="flex flex-col space-y-4 ">
             <div className="flex flex-col space-y-1">
               <label
                 htmlFor="name"
-                className="block text-m font-medium text-700"
+                className="block font-medium text-sesa-navy"
               >
                 Name
               </label>
@@ -56,7 +56,7 @@ const ContactForm: React.FC<{}> = () => {
                 id="name"
                 name="name"
                 type="text"
-                className="input input-bordered w-full"
+                className="input input-bordered w-full p-2 rounded-md"
                 placeholder="Enter your name"
                 value={formState.name}
                 required={true}
@@ -66,7 +66,7 @@ const ContactForm: React.FC<{}> = () => {
             <div className="flex flex-col space-y-1">
               <label
                 htmlFor="email"
-                className="block text-m font-medium text-700"
+                className="block font-medium text-sesa-navy"
               >
                 Email
               </label>
@@ -74,7 +74,7 @@ const ContactForm: React.FC<{}> = () => {
                 id="email"
                 name="email"
                 type="email"
-                className="input input-bordered w-full"
+                className="input input-bordered w-full p-2 rounded-md"
                 placeholder="Enter your email"
                 value={formState.email}
                 required={true}
@@ -84,14 +84,14 @@ const ContactForm: React.FC<{}> = () => {
             <div className="flex flex-col space-y-1">
               <label
                 htmlFor="message"
-                className="block text-m font-medium text-700"
+                className="block font-medium text-sesa-navy"
               >
                 Message
               </label>
               <textarea
                 id="message"
                 name="message"
-                className="input input-bordered w-full h-40"
+                className="input input-bordered w-full h-40 p-2 rounded-md"
                 placeholder="Enter your message"
                 value={formState.message}
                 required={true}

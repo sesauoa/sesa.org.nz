@@ -8,22 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       fontFamily: {
         sans: ["Overpass", "sans-serif"],
       },
       colors: {
-        primary: "#00112b", // sesa navy
-        "primary-content": "#ffffff", // white
-        secondary: "#49bfaa", // sesa teal dark
-        accent: "#70c7b0", // sesa teal light
+        sesa: {
+          navy: "#00112b",
+          teal: {
+            dark: "#49bfaa",
+            light: "#70c7b0",
+          },
+        },
       },
       boxShadow: {
-        'outline': '0 0 0 3px rgba(66, 153, 225, 0.5)', // Example custom shadow
+        outline: "0 0 0 3px rgba(66, 153, 225, 0.5)", // Example custom shadow
       },
     },
   },

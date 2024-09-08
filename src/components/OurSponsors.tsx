@@ -1,6 +1,5 @@
 import React from "react";
-import SilverSponsorCard from "./SilverSponsorCard";
-import GoldSponsorCard from "./GoldSponsorCard";
+import SponsorCard from "./SponsorCard";
 
 interface Sponsor {
   name: string;
@@ -21,23 +20,33 @@ const OurSponsors: React.FC<SponsorSectionProps> = ({
 }) => {
   return (
     <div className="mt-8">
-      <h2 className="text-2xl font-bold text-center mb-4">{title}</h2>
-      <div className="flex flex-wrap justify-center gap-4 max-w-6xl mx-auto">
+      {type === "gold" ? (
+        <h2 className="text-yellow-500 text-2xl font-bold text-center mb-4">
+          {title}
+        </h2>
+      ) : (
+        <h2 className="text-gray-500 text-2xl font-bold text-center mb-4">
+          {title}
+        </h2>
+      )}
+      <div className="flex flex-wrap items-center justify-center gap-4 max-w-6xl mx-auto">
         {sponsors.map((sponsor, index) => (
-          <div key={index} className="px-12 py-2">
+          <div key={index} className="px-6 md:px-12 py-6">
             {type === "gold" ? (
-              <GoldSponsorCard
+              <SponsorCard
                 key={index}
                 name={sponsor.name}
                 logo={sponsor.logo}
                 link={sponsor.link}
+                type="gold"
               />
             ) : (
-              <SilverSponsorCard
+              <SponsorCard
                 key={index}
                 name={sponsor.name}
                 logo={sponsor.logo}
                 link={sponsor.link}
+                type="silver"
               />
             )}
           </div>

@@ -7,8 +7,9 @@ import { routes } from "../constants/routes";
 import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import NavSide from "./NavSide";
+import JoinButton from "./JoinButton";
 
-export default function Header() {
+export default function Navigation() {
   const [isActive, setActive] = useState(false);
 
   return (
@@ -24,7 +25,7 @@ export default function Header() {
             return (
               <li
                 key={id}
-                className="font-sans text-lg text-primary-content whitespace-nowrap inline px-5 group"
+                className="font-sans text-lg text-white whitespace-nowrap inline px-5 group"
               >
                 <div className="relative inline-block">
                   <Link
@@ -42,13 +43,9 @@ export default function Header() {
               </li>
             );
           })}
-          <a
-            key="join-button"
-            href="/join"
-            className="button"
-          >
-            Join
-          </a>
+          <div className="ml-6">
+            <JoinButton />
+          </div>
         </ul>
         <div
           className={
