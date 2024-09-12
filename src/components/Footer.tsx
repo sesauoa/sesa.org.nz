@@ -15,9 +15,22 @@ export default function Footer() {
           </div>
           <div className="py-3 md:px-20">
             <SocialMediaButtons />
+            <div className="flex justify-center">
+              <div className="relative group">
+                <a
+                  href="/SESAConstitution.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative flex justify-center mt-3 items-center gap-1 transition-all"
+                >
+                  Constitution
+                </a>
+                <span className="absolute -bottom-0.5 -left-2 -right-2 h-[1.5px] origin-left scale-x-0 group-hover:scale-100 rounded-full bg-white transition-transform duration-300 ease-out" />
+              </div>
+            </div>
           </div>
         </div>
-        <div className="py-3 text-center md:flex md:items-center md:justify-center">
+        <div className="py-2 text-center md:flex md:items-center md:justify-center">
           Powered by SESA using React + TypeScript <br />
           &copy; {currentYear} Software Engineering Students Association. All
           rights reserved.
