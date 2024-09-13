@@ -1,43 +1,38 @@
 import React from "react";
-import Link from "next/link";
-import Animation from "./Animation";
 
-interface CardProps {
+interface CardData {
+  imgSrc: string;
+  alt: string;
   title: string;
   description: string;
-  imgSrc: string;
-  imgAlt: string;
-  linkUrl: string;
 }
 
-const Card: React.FC<CardProps> = ({
-  title,
-  description,
-  imgSrc,
-  imgAlt,
-  linkUrl,
-}) => {
+interface CardProps {
+  cards: CardData[];
+}
+
+const Card: React.FC<CardProps> = ({ cards }) => {
   return (
-    <Link
-      href={linkUrl}
-      target="_blank"
-      rel="noopener noreferrer"
-      passHref
-      className="card-container"
-    >
-      <Animation>
-        <div className="card">
-          <img src={imgSrc} alt={imgAlt} className="card-img" />
-          <div className="card-body">
-            <h2 className="card-title">{title}</h2>
-            <p className="card-description">{description}</p>
-            <div className="card-actions"></div>
+    <div className="text-center flex flex-wrap justify-center gap-4 w-full">
+      {cards.map((card, index) => (
+        <div
+          key={index}
+          className="max-w-xs w-full bg-white rounded-2xl shadow-md overflow-hidden"
+        >
+          <img
+            className="w-full h-48 object-cover"
+            src={card.imgSrc}
+            alt={card.alt}
+            draggable="false"
+          />
+          <div className="px-4 py-8 gap-8">
+            <h2 className="text-xl font-bold mb-2">{card.title}</h2>
+            <p className="text-sesa-navy">{card.description}</p>
           </div>
         </div>
-      </Animation>
-    </Link>
+      ))}
+    </div>
   );
 };
 
 export default Card;
-
