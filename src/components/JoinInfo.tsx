@@ -48,7 +48,7 @@ export default function JoinInfo() {
           {" "}
           Discord
         </a>
-        , and{" "}
+        {" "}and{" "}
         <a
           href="https://www.tiktok.com/@sesauoa"
           target="_blank"

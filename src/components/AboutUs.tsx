@@ -58,7 +58,7 @@ function ContentSections() {
           <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6">
             What do we do?
           </h1>
-          <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[1.5px]"></div>
+          <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[1px]"></div>
         </div>
         <div className="flex flex-wrap justify-center gap-2">
           <div className="flex flex-wrap justify-center px-4 w-full max-w-6xl gap-8">
