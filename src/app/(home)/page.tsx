@@ -8,6 +8,7 @@ import OurSponsors from "@/components/OurSponsors";
 import { goldSponsors, silverSponsors } from "@/update-annually/sponsors";
 import { Statistics } from "@/update-annually/statistics";
 import JoinButton from "@/components/JoinButton";
+import JoinInfo from "@/components/JoinInfo";
 
 export default function Home() {
   useEffect(() => {
@@ -29,10 +30,10 @@ export default function Home() {
           />
         </div>
       </div>
-      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-dark mt-10">
+      <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6 text-center pt-4">
         Our {Statistics.YEAR} Sponsors
       </h1>
-      <div className="mx-auto w-20 mt-2 mb-8 bg-sesa-teal-dark h-[2px]"></div>
+      <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[1.5px]"></div>
       <OurSponsors title="Gold Sponsor" sponsors={goldSponsors} type="gold" />
       <OurSponsors
         title="Silver Sponsors"
@@ -40,12 +41,16 @@ export default function Home() {
         type="silver"
       />
 
-      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-dark mt-10">
+      <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6 text-center">
         Connect with us
       </h1>
-      <div className="mx-auto w-20 mt-2 mb-8 bg-sesa-teal-dark h-[2px]"></div>
-      <div className="my-4">
-        <JoinButton />
+      <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[1.5px]"></div>
+      <div className="w-full">
+        <div className="flex justify-center">
+          <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
+            <JoinInfo />
+          </div>
+        </div>
       </div>
       <div className="w-full flex justify-center">
         <div

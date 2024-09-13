@@ -13,7 +13,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ cards }) => {
   return (
-    <div className="text-center my-8 flex flex-wrap justify-center gap-4 w-full">
+    <div className="text-center flex flex-wrap justify-center gap-4 w-full">
       {cards.map((card, index) => (
         <div
           key={index}

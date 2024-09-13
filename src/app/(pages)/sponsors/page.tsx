@@ -32,10 +32,10 @@ export default function SponsorPage() {
 
   return (
     <div className="w-full flex flex-col font-sans p-6 lg:px-24">
-      <h1 className="text-2xl md:text-3xl font-bold py-4 text-center text-sesa-teal-dark">
+      <h1 className="text-2xl md:text-3xl font-bold m-6 text-center text-sesa-teal-dark">
         Our {Statistics.YEAR} Sponsors
       </h1>
-      <div className="mx-auto w-20 mt-2 mb-8 bg-sesa-teal-dark h-[2px]"></div>
+      <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[2px]"></div>
       <OurSponsors title="Gold Sponsor" sponsors={goldSponsors} type="gold" />
       <OurSponsors
         title="Silver Sponsors"
@@ -54,7 +54,7 @@ export default function SponsorPage() {
       <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6 text-center">
         Sponsor us
       </h1>
-      <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-0.5"></div>
+      <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[1.5px]"></div>
       <StatisticsSection />
       <SponsorUsCards cards={sponsorCardsData} />
     </div>

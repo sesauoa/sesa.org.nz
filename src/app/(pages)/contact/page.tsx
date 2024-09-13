@@ -10,7 +10,7 @@ export default function ContactPage() {
       <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6 text-center">
         Contact Form
       </h1>
-      <div className="mx-auto w-20 my-2 bg-sesa-teal-dark h-0.5"></div>
+      <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[2px]"></div>
       <ContactForm />
     </div>
   );
