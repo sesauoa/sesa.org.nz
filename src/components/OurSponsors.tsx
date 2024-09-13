@@ -31,7 +31,7 @@ const OurSponsors: React.FC<SponsorSectionProps> = ({
       )}
       <div className="flex flex-wrap items-center justify-center gap-4 max-w-6xl mx-auto">
         {sponsors.map((sponsor, index) => (
-          <div key={index} className="px-6 md:px-12 py-6">
+          <div key={index} className="px-3 md:px-12 py-6">
             {type === "gold" ? (
               <SponsorCard
                 key={index}
