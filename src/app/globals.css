@@ -33,3 +33,92 @@ body {
     text-wrap: balance;
   }
 }
+
+/*Custom reusable TailwindCSS styles */
+@layer components {
+  .page-padding {
+    @apply w-full flex flex-col font-sans p-6 lg:px-24;
+  }
+  .page-title {
+    @apply text-3xl text-secondary font-bold m-6;
+  }
+  .custom-border {
+    @apply rounded-lg shadow-md;
+  }
+}
+
+.button {
+  background-color: #70c7b0; /* bg-accent */
+  cursor: pointer; /* cursor-pointer */
+  border-radius: 9999px; /* rounded-full */
+  font-family: sans-serif; /* font-sans */
+  font-size: 1.125rem; /* text-lg */
+  color: #fff; /* text-primary-content */
+  display: inline; /* inline */
+  padding-left: 1.5rem; /* px-6 */
+  padding-right: 1.5rem; /* px-6 */
+  padding-top: 6px; /* py-[6px] */
+  padding-bottom: 6px; /* py-[6px] */
+  margin-left: 1.5rem; /* ml-6 */
+  transition: transform 200ms; /* transition-transform duration-200 */
+}
+
+.button:hover {
+  transform: scale(1.1); /* hover:scale-110 */
+}
+
+/* Card Styles */
+.card-container {
+  transform: transition-transform 0.3s ease-in-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  background-color: var(--color-base-100); /* bg-base-100 */
+  box-shadow: var(--shadow-xl); /* shadow-xl */
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  filter: brightness(80%);
+}
+
+.card-img:hover {
+  filter: brightness(50%);
+}
+
+.card-body {
+  padding: 1rem; /* p-4 */
+  background-color: rgba(0, 0, 0, 0.5); /* bg-opacity-50 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.card-body:hover {
+  opacity: 1;
+}
+
+.card-title {
+  color: #ffffff; /* text-white */
+}
+
+.card-description {
+  color: #ffffff; /* text-white */
+}
+
+.card-actions {
+  justify-content: flex-end;
+}
