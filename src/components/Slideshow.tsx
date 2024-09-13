@@ -6,9 +6,10 @@ import slideshow2 from "../../public/slideshow/SESA-2.jpg";
 import slideshow3 from "../../public/slideshow/SESA-3.jpg";
 import slideshow4 from "../../public/slideshow/SESA-4.jpg";
 import slideshow5 from "../../public/slideshow/SESA-5.jpg";
+import slideshow6 from "../../public/slideshow/SESA-6.jpg";
 
 export default function Slideshow() {
-  const images = [slideshow1, slideshow2, slideshow3, slideshow4, slideshow5];
+  const images = [slideshow1, slideshow2, slideshow3, slideshow4, slideshow5, slideshow6];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -31,6 +32,7 @@ export default function Slideshow() {
           exit={{ opacity: 0 }}
           transition={{ duration: 1.5, ease: "easeInOut" }}
           alt={`Slide ${i}`}
+          loading="lazy"
         />
       ))}
     </div>

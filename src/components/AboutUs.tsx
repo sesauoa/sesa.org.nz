@@ -30,7 +30,7 @@ function ContentSections() {
 
   return (
     <div>
-      <div className="flex justify-center pb-16">
+      <div className="flex justify-center pb-10">
         <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 lg:px-14">
           <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6">
             What is SESA?
@@ -53,7 +53,7 @@ function ContentSections() {
         </div>
       </div>
 
-      <div className="w-full pb-16">
+      <div className="w-full pb-10">
         <div className="text-center py-4 px-4 md:px-10 lg:px-14">
           <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6">
             What do we do?
@@ -67,7 +67,7 @@ function ContentSections() {
         </div>
       </div>
 
-      <div className="w-full pb-16">
+      <div className="w-full pb-10">
         <div className="flex justify-center">
           <div className="w-[500px] md:w-[600px] lg:w-[850px] text-center px-10 md:px-10 lg:px-14">
             <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6">
