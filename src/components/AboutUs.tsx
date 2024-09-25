@@ -2,7 +2,7 @@ import React from "react";
 import IndustryImage from "../../public/about-images/industry.jpg";
 import WorkshopImage from "../../public/about-images/workshop.jpg";
 import SocialImage from "../../public/about-images/social.jpg";
-import { Statistics } from "@/update-annually/statistics";
+import { clubStatistics } from "@/update-annually/clubStatistics";
 import Card from "@/components/Card";
 import JoinInfo from "@/components/JoinInfo";
 
@@ -47,7 +47,7 @@ function ContentSections() {
               University of Auckland
             </a>
             . We organise and run social and career-focused events for our{" "}
-            {Statistics.MEMBERS}+ members, connecting them with each other as
+            {clubStatistics.MEMBERS}+ members, connecting them with each other as
             well as industry professionals.
           </p>
         </div>

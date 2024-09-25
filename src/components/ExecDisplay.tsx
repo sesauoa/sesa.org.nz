@@ -1,5 +1,6 @@
 import { TeamInfo } from "@/update-annually/teamInfo";
-import { Statistics } from "@/update-annually/statistics";
+import { clubStatistics } from "@/update-annually/clubStatistics";
+import React from "react";
 
 const ExecDisplay = () => {
   return (
@@ -11,7 +12,7 @@ const ExecDisplay = () => {
         >
           <img
             className="w-full h-full object-cover transition duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 rounded-lg shadow-md"
-            src={`/team-images/${Statistics.YEAR}/${executive.imageName}.jpg`}
+            src={`/team-images/${clubStatistics.YEAR}/${executive.imageName}.jpg`}
             alt={executive.name}
             loading="lazy"
           />

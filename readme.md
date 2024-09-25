@@ -32,10 +32,10 @@ Each year, please update:
 1. Go to `src/constants/form.tsx`
 2. Replace the `iframe src` with the new link to the Google Form sign up form.
 
-### Updating the statistics:
+### Updating the club statistics:
 
-1. Go to `src/update-annually/statistics.tsx`
-2. Update the statistics with the new numbers for the year.
+1. Go to `src/update-annually/clubStatistics.tsx`
+2. Update the club statistics with the new numbers for the year.
 
 ### Updating the images header slideshow:
 

@@ -6,8 +6,7 @@ import Slideshow from "@/components/Slideshow";
 import SplashHeader from "@/components/SplashHeader";
 import OurSponsors from "@/components/OurSponsors";
 import { goldSponsors, silverSponsors } from "@/update-annually/sponsors";
-import { Statistics } from "@/update-annually/statistics";
-import JoinButton from "@/components/JoinButton";
+import { clubStatistics } from "@/update-annually/clubStatistics";
 import JoinInfo from "@/components/JoinInfo";
 
 export default function Home() {
@@ -31,7 +30,7 @@ export default function Home() {
         </div>
       </div>
       <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6 text-center pt-4">
-        Our {Statistics.YEAR} Sponsors
+        Our {clubStatistics.YEAR} Sponsors
       </h1>
       <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[1.5px]"></div>
       <OurSponsors title="Gold Sponsor" sponsors={goldSponsors} type="gold" />

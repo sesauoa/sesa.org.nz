@@ -1,9 +1,18 @@
 import React from "react";
 import OurSponsors from "@/components/OurSponsors";
-import StatisticsSection from "@/components/SponsorStats";
+import Statistics from "@/components/Statistics";
 import SponsorUsCards from "@/components/Card";
 import { goldSponsors, silverSponsors } from "@/update-annually/sponsors";
-import { Statistics } from "@/update-annually/statistics";
+import { clubStatistics } from "@/update-annually/clubStatistics";
+
+const stats = {
+  stat1: clubStatistics.MEMBERS,
+  title1: 'Registered members',
+  stat2: clubStatistics.ATTENDEES_TO_FLAGSHIP_EVENTS,
+  title2: 'Attendees to our flagship events',
+  stat3: clubStatistics.EVENTS,
+  title3: 'Events run per year',
+};
 
 export default function SponsorPage() {
   const sponsorCardsData = [
@@ -33,7 +42,7 @@ export default function SponsorPage() {
   return (
     <div className="w-full flex flex-col font-sans p-6 lg:px-24">
       <h1 className="text-2xl md:text-3xl font-bold m-6 text-center text-sesa-teal-dark">
-        Our {Statistics.YEAR} Sponsors
+        Our {clubStatistics.YEAR} Sponsors
       </h1>
       <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[2px]"></div>
       <OurSponsors title="Gold Sponsor" sponsors={goldSponsors} type="gold" />
@@ -55,7 +64,11 @@ export default function SponsorPage() {
         Sponsor us
       </h1>
       <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[1.5px]"></div>
-      <StatisticsSection />
+      <Statistics 
+        title1={stats.title1} stat1={stats.stat1}
+        title2={stats.title2} stat2={stats.stat2}
+        title3={stats.title3} stat3={stats.stat3}
+      />
       <SponsorUsCards cards={sponsorCardsData} />
     </div>
   );
