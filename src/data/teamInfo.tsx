@@ -56,32 +56,32 @@ export const TeamInfo: TeamMember[] = [
   },
   {
     name: "SUNNY SETIA",
-    role: "Industry Coordinator",
+    role: "Industry Event Coordinator",
     imageName: "sunny",
   },
   {
     name: "OORJA GANDHI",
-    role: "Industry Coordinator",
+    role: "Industry Event Coordinator",
     imageName: "oorja",
   },
   {
     name: "UDAY JAIN",
-    role: "Industry Coordinator",
+    role: "Industry Event Coordinator",
     imageName: "uday",
   },
   {
     name: "NADIA ASKARI",
-    role: "Social Coordinator",
+    role: "Social Event Coordinator",
     imageName: "nadia",
   },
   {
     name: "RICHMAN TAN",
-    role: "Social Coordinator",
+    role: "Social Event Coordinator",
     imageName: "richman",
   },
   {
     name: "MIGUEL BALINGIT",
-    role: "Social Coordinator",
+    role: "Social Event Coordinator",
     imageName: "miguel",
   },
 ];
