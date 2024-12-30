@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { routes } from "@/constants/routes";
+import { routes } from "@/data/routes";
 import JoinButton from "./JoinButton";
 
 interface NavSideProps {

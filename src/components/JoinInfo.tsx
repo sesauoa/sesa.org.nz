@@ -8,12 +8,12 @@ export default function JoinInfo() {
         <strong>Membership is 100% free!</strong>
       </p>
       <p className="mt-2 py-2">
-        Membership doesn&apos;t roll over, so you need to fill out this
-        form every year!
+        Membership doesn&apos;t roll over, so you need to fill out this form
+        every year!
       </p>
       <p className="mt-2">
-        Once you have filled out the form, don&apos;t forget to connect
-        with us on{" "}
+        Once you have filled out the form, don&apos;t forget to connect with us
+        on{" "}
         <a
           href="https://facebook.com/sesauoa"
           target="_blank"
@@ -47,8 +47,8 @@ export default function JoinInfo() {
         >
           {" "}
           Discord
-        </a>
-        {" "}and{" "}
+        </a>{" "}
+        and{" "}
         <a
           href="https://www.tiktok.com/@sesauoa"
           target="_blank"
@@ -63,5 +63,5 @@ export default function JoinInfo() {
         <JoinButton />
       </div>
     </div>
-  )
+  );
 }

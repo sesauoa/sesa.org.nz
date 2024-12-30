@@ -1,4 +1,4 @@
-import { Statistics } from "@/update-annually/statistics";
+import { Statistics } from "@/data/statistics";
 
 const StatisticsSection: React.FC = () => {
   return (

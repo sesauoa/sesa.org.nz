@@ -16,25 +16,25 @@ Each year, please update:
 
 ### Updating sponsors:
 
-1. Go to `src/update-annually/sponsors.tsx`
+1. Go to `src/data/sponsors.tsx`
 2. Update the name, logo, and link fields accordingly.
 3. If there are new sponsors, add them to the array following the same structure as the existing entries under the corresponding gold/silver level. Add the new sponsor logos in the `public/sponsors-images` folder.
 
 ### Updating the executive team:
 
-1. Go to `src/update-annually/teamInfo.tsx`
+1. Go to `src/data/teamInfo.tsx`
 2. To update the details of an existing team member, find their corresponding object in the TeamInfo array.
 3. If there are new members to add, insert a new object into the TeamInfo array following the same structure as the existing entries. Add the new team member photos in the `public/team-images` folder.
 4. Update the `team_photo.png` every year with a new full team photo.
 
 ### Updating the sign up form:
 
-1. Go to `src/constants/form.tsx`
+1. Go to `src/data/form.tsx`
 2. Replace the `iframe src` with the new link to the Google Form sign up form.
 
 ### Updating the statistics:
 
-1. Go to `src/update-annually/statistics.tsx`
+1. Go to `src/data/statistics.tsx`
 2. Update the statistics with the new numbers for the year.
 
 ### Updating the images header slideshow:

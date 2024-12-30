@@ -2,8 +2,8 @@ import React from "react";
 import OurSponsors from "@/components/OurSponsors";
 import StatisticsSection from "@/components/SponsorStats";
 import SponsorUsCards from "@/components/Card";
-import { goldSponsors, silverSponsors } from "@/update-annually/sponsors";
-import { Statistics } from "@/update-annually/statistics";
+import { goldSponsors, silverSponsors } from "@/data/sponsors";
+import { Statistics } from "@/data/statistics";
 
 export default function SponsorPage() {
   const sponsorCardsData = [

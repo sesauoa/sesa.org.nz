@@ -2,7 +2,7 @@ import React from "react";
 import IndustryImage from "../../public/about-images/industry.jpg";
 import WorkshopImage from "../../public/about-images/workshop.jpg";
 import SocialImage from "../../public/about-images/social.jpg";
-import { Statistics } from "@/update-annually/statistics";
+import { Statistics } from "@/data/statistics";
 import Card from "@/components/Card";
 import JoinInfo from "@/components/JoinInfo";
 
@@ -12,19 +12,22 @@ function ContentSections() {
       imgSrc: IndustryImage.src,
       alt: "Industry Events",
       title: "Industry Events",
-      description: "Come along to our industry events to expand your network and gain insights into the industry.",
+      description:
+        "Come along to our industry events to expand your network and gain insights into the industry.",
     },
     {
       imgSrc: WorkshopImage.src,
       alt: "Workshops",
       title: "Workshops",
-      description: "Engage in workshops to boost your job prospects with CV checks and internship events led by experts.",
+      description:
+        "Engage in workshops to boost your job prospects with CV checks and internship events led by experts.",
     },
     {
       imgSrc: SocialImage.src,
       alt: "Social Events",
       title: "Social Events",
-      description: "Attend our social events to connect and have fun with your fellow software engineering students.",
+      description:
+        "Attend our social events to connect and have fun with your fellow software engineering students.",
     },
   ];
 

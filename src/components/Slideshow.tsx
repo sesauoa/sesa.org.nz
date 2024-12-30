@@ -9,7 +9,14 @@ import slideshow5 from "../../public/slideshow/SESA-5.jpg";
 import slideshow6 from "../../public/slideshow/SESA-6.jpg";
 
 export default function Slideshow() {
-  const images = [slideshow1, slideshow2, slideshow3, slideshow4, slideshow5, slideshow6];
+  const images = [
+    slideshow1,
+    slideshow2,
+    slideshow3,
+    slideshow4,
+    slideshow5,
+    slideshow6,
+  ];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
