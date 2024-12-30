@@ -1,8 +1,8 @@
-import facebook from "../../public/social-media-icons/facebook.svg";
-import instagram from "../../public/social-media-icons/instagram.svg";
-import linkedin from "../../public/social-media-icons/linkedin.svg";
-import discord from "../../public/social-media-icons/discord.svg";
-import tiktok from "../../public/social-media-icons/tiktok.svg";
+import facebook from "@/public/social-media-icons/facebook.svg";
+import instagram from "@/public/social-media-icons/instagram.svg";
+import linkedin from "@/public/social-media-icons/linkedin.svg";
+import discord from "@/public/social-media-icons/discord.svg";
+import tiktok from "@/public/social-media-icons/tiktok.svg";
 
 export const socialMedia = [
   {
