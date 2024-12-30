@@ -5,8 +5,8 @@ import Navigation from "@/components/Navigation";
 import Slideshow from "@/components/Slideshow";
 import SplashHeader from "@/components/SplashHeader";
 import OurSponsors from "@/components/OurSponsors";
-import { goldSponsors, silverSponsors } from "@/update-annually/sponsors";
-import { Statistics } from "@/update-annually/statistics";
+import { goldSponsors, silverSponsors } from "@/data/sponsors";
+import { Statistics } from "@/data/statistics";
 import JoinButton from "@/components/JoinButton";
 import JoinInfo from "@/components/JoinInfo";
 

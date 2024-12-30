@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { socialMediaCards } from "../constants/socialMediaCards";
+import { socialMediaCards } from "../data/socialMediaCards";
 
 export default function SocialMediaCards() {
   return (

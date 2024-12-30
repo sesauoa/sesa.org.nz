@@ -1,5 +1,5 @@
-import { TeamInfo } from "@/update-annually/teamInfo";
-import { Statistics } from "@/update-annually/statistics";
+import { TeamInfo } from "@/data/teamInfo";
+import { Statistics } from "@/data/statistics";
 
 const ExecDisplay = () => {
   return (
