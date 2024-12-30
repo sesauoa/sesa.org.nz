@@ -14,7 +14,7 @@ export default function SocialMediaCards() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image src={src} alt={alt} className="h-48 lg:h-30"/>
+            <Image src={src} alt={alt} className="h-48 lg:h-30" />
           </a>
         );
       })}
