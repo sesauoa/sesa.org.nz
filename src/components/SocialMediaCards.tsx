@@ -10,7 +10,7 @@ export default function SocialMediaCards() {
           <a
             key={id}
             href={href}
-            className="transition-transform duration-200 hover:scale-110"
+            className="transition-transform duration-200 hover:scale-105"
             target="_blank"
             rel="noopener noreferrer"
           >
