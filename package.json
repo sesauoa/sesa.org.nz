@@ -1,5 +1,5 @@
 {
-  "name": "localhost",
+  "name": "sesa",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,15 +12,11 @@
   "dependencies": {
     "@types/three": "^0.164.0",
     "dotenv": "^16.4.5",
-    "emailjs-com": "^3.2.0",
     "framer-motion": "^10.0.0",
     "mongoose": "^8.2.3",
     "next": "^14.2.4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "sharp": "^0.33.4",
-    "three": "^0.164.1",
-    "three-orbitcontrols": "^2.110.3"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@testing-library/react": "^14.2.2",
