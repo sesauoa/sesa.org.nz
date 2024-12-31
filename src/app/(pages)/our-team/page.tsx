@@ -13,11 +13,11 @@ export default function OurTeamPage() {
       </h1>
       <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[2px]"></div>
       <ExecDisplay />
-      <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6">
+      {/* <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6">
         Past SESA Executives
       </h1>
       <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[2px]"></div>
-      {/* <PastExecutives /> */}
+      <PastExecutives /> */}
     </div>
   );
 }

@@ -5,8 +5,10 @@ const ExecDisplay = () => {
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-8 items-center justify-center pb-16">
       {TeamInfo.map((executive, index) => (
-        <div
+        <a
           className="bg-white rounded-lg shadow-lg w-[200px] h-[255px] md:w-[220px] md:h-[280px] flex justify-center p-4 transition-transform duration-200 hover:scale-105"
+          href={executive.linkedIn}
+          target="_blank"
           key={index}>
           <div
             className="relative w-[150px] h-[150px] md:w-[170px] md:h-[170px]"
@@ -22,7 +24,7 @@ const ExecDisplay = () => {
               <p className="text-sm md:text-base">{executive.role}</p>
             </div>
           </div>
-        </div>
+        </a>
       ))}
     </div>
   );
