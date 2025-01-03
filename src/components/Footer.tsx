@@ -1,8 +1,6 @@
 import SocialMediaButtons from "./SocialMediaButtons";
 import SesaLogo from "../../public/sesaLogo.svg";
 
-const currentYear = new Date().getFullYear();
-
 export default function Footer() {
   return (
     <footer>
@@ -32,7 +30,7 @@ export default function Footer() {
         </div>
         <div className="py-2 text-center md:flex md:items-center md:justify-center">
           Powered by SESA using React + TypeScript <br />
-          &copy; {currentYear} Software Engineering Students Association. All
+          &copy; {new Date().getFullYear()} Software Engineering Students Association. All
           rights reserved.
         </div>
       </div>
