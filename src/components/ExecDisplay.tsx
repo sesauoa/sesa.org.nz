@@ -6,15 +6,13 @@ const ExecDisplay = () => {
     <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-8 items-center justify-center pb-16">
       {TeamInfo.map((executive, index) => (
         <a
-          className="bg-white rounded-lg shadow-lg w-[200px] h-[255px] md:w-[220px] md:h-[280px] flex justify-center p-4 transition-transform duration-200 hover:scale-105"
+          className="rounded-lg shadow-lg w-[200px] h-[270px] md:w-[200px] md:h-[275px] flex justify-center transition-transform duration-200 hover:scale-105"
           href={executive.linkedIn}
           target="_blank"
           key={index}>
-          <div
-            className="relative w-[150px] h-[150px] md:w-[170px] md:h-[170px]"
-          >
+          <div>
             <img
-              className="w-full h-full object-cover rounded-full"
+              className="w-full h-[75%] object-cover rounded-t-lg"
               src={`/team-images/${Statistics.YEAR}/${executive.imageName}.jpg`}
               alt={executive.name}
               loading="lazy"
