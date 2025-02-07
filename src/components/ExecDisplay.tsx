@@ -13,7 +13,7 @@ const ExecDisplay = () => {
           <div>
             <img
               className="w-full h-[75%] object-cover rounded-t-lg"
-              src={`/team-images/${Statistics.YEAR}/exec/${executive.imageName}.jpg`}
+              src={`/team-images/exec/${executive.imageName}.jpg`}
               alt={executive.name}
               loading="lazy"
             />
