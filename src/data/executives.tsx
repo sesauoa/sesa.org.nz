@@ -13,16 +13,16 @@ export const executives: TeamMember = {
       linkedIn: "https://www.linkedin.com/in/adwaitm/",
     },
     {
-      name: "Varshil Patel",
-      role: "Treasurer",
-      imageName: "varsh",
-      linkedIn: "https://www.linkedin.com/in/varshil-patel-8007b5223/",
-    },
-    {
       name: "Jamie Lee",
       role: "Secretary",
       imageName: "jamie",
       linkedIn: "https://www.linkedin.com/in/jamieleenz/",
+    },
+    {
+      name: "Varshil Patel",
+      role: "Treasurer",
+      imageName: "varsh",
+      linkedIn: "https://www.linkedin.com/in/varshil-patel-8007b5223/",
     },
     {
       name: "Alex Liang",
