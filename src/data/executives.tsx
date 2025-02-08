@@ -1047,17 +1047,9 @@ export const executives: TeamMember = {
       imageName: "meghavi",
     },
     {
-      name: "N/A",
-      role: "Vice President",
-    },
-    {
       name: "Simon Carpenter",
       role: "Secretary",
       imageName: "simon",
-    },
-    {
-      name: "N/A",
-      role: "Treasurer",
     },
     {
       name: "Shipra Mahindra",

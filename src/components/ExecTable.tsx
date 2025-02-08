@@ -17,8 +17,8 @@ export default function ExecTable({ selectedYear }: { selectedYear: number }) {
                {executives[selectedYear] ? (
                   executives[selectedYear].map((exec, index) => (
                       <tr key={index} className="odd:bg-white even:bg-gray-100">
-                        <td className="border border-gray-300 px-4 py-2 text-left text-sm md:text-base">{exec.role}</td>
-                        <td className="border border-gray-300 px-4 py-2 text-left text-sm md:text-base">{exec.name}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-left w-[50%] text-sm md:text-base">{exec.role}</td>
+                        <td className="border border-gray-300 px-4 py-2 text-left w-[50%] text-sm md:text-base">{exec.name}</td>
                       </tr>
                   ))
                ) : (
