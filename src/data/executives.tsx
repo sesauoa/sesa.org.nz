@@ -26,13 +26,13 @@ export const executives: TeamMember = {
     },
     {
       name: "Alex Liang",
-      role: "Industry Lead",
+      role: "Industry Event Lead",
       imageName: "alex_l",
       linkedIn: "https://www.linkedin.com/in/alexliang1/",
     },
     {
       name: "Alex Hope",
-      role: "Social Lead",
+      role: "Social Event Lead",
       imageName: "alex_h",
       linkedIn: "https://www.linkedin.com/in/alexhope02/",
     },
