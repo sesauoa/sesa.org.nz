@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <link rel="icon" href={favicon.src} />
-        <div className="bg-sesa-navy">
+        <div className="bg-sesa-navy-dark">
           <Navigation />
         </div>
         {children}

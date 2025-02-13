@@ -13,7 +13,10 @@ const config: Config = {
       },
       colors: {
         sesa: {
-          navy: "#00112b",
+          navy: {
+            dark: "#00112b",
+            light: "#2f455c",
+          },
           teal: {
             dark: "#49bfaa",
             light: "#70c7b0",

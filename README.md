@@ -46,7 +46,8 @@ Each year, please update:
 Defined in `tailwind.config.ts`
 
 ```
-sesa-navy: "#00112b",
+sesa-navy-dark: "#00112b",
+sesa-navy-light: "#002b4a",
 sesa-teal-dark: "#49bfaa",
 sesa-teal-light: "#70c7b0",
 ```

@@ -14,7 +14,7 @@ export const AnimatedHambuger: React.FC<AnimatedHamburgerProps> = ({
       <MotionConfig transition={{ duration: 0.5 }}>
         <motion.button
           initial={false}
-          className="relative h-16 w-16 rounded-full lg:hidden bg-sesa-navy/0 transition-colors hover:bg-white/20 z-20"
+          className="relative h-16 w-16 rounded-full lg:hidden bg-sesa-navy-dark/0 transition-colors hover:bg-white/20 z-20"
           onClick={() => setActive(!isActive)}
           animate={isActive ? "open" : "closed"}
         >
