@@ -1,4 +1,96 @@
 export const executives: TeamMember = {
+  2025: [
+    {
+      name: "Oorja Gandhi",
+      role: "President",
+      imageName: "oorja",
+      linkedIn: "https://www.linkedin.com/in/oorja-gandhi/",
+    },
+    {
+      name: "Varshil Patel",
+      role: "Vice President",
+      imageName: "varsh",
+      linkedIn: "https://www.linkedin.com/in/varshil-patel-8007b5223/",
+    },
+    {
+      name: "Connie Ding",
+      role: "Secretary",
+      imageName: "connie",
+      linkedIn: "https://www.linkedin.com/in/connie-ding/",
+    },
+    {
+      name: "Miguel Balingit",
+      role: "Treasurer",
+      imageName: "miguel",
+      linkedIn: "https://www.linkedin.com/in/miguelbalingit/",
+    },
+    {
+      name: "Nadia Askari",
+      role: "Sponsorship Manager",
+      imageName: "nadia",
+      linkedIn: "https://www.linkedin.com/in/nadiaaskari/",
+    },
+    {
+      name: "Tony Lim",
+      role: "Industry Event Lead",
+      imageName: "tony",
+      linkedIn: "https://www.linkedin.com/in/tonylxm/",
+    },
+    {
+      name: "Richman Tan",
+      role: "Social Event Lead",
+      imageName: "richman",
+      linkedIn: "https://www.linkedin.com/in/richman-tan-9961442b1/",
+    },
+    {
+      name: "Becky Ngan",
+      role: "Marketing Lead",
+      imageName: "becky",
+      linkedIn: "https://www.linkedin.com/in/becky-ngan/",
+    },
+    {
+      name: "Aye Thu",
+      role: "Women's Representative",
+      imageName: "aye",
+      linkedIn: "https://www.linkedin.com/in/ayemyatthu04/",
+    },
+    {
+      name: "Uday Jain",
+      role: "Industry Event Coordinator",
+      imageName: "uday",
+      linkedIn: "https://www.linkedin.com/in/uday-jain-0782a02b7/",
+    },
+    {
+      name: "Noah Hagar-Dent",
+      role: "Industry Event Coordinator",
+      imageName: "noah",
+      linkedIn: "https://www.linkedin.com/in/noah-hagar-dent/?originalSubdomain=nz",
+    },
+    {
+      name: "Andy Zhang",
+      role: "Social Event Coordinator",
+      imageName: "andy",
+      linkedIn: "https://www.linkedin.com/in/andy-zhang-40160926b/",
+    },
+    {
+      name: "Chris Kang",
+      role: "Social Event Coordinator",
+      imageName: "chris",
+      linkedIn: "https://www.linkedin.com/in/kang05/?originalSubdomain=nz",
+    },
+    {
+      name: "Gian Mohinani",
+      role: "Marketing Coordinator",
+      imageName: "gian",
+      linkedIn: "https://www.linkedin.com/in/gianmohinani/",
+    },
+    {
+      name: "Dhruv Sawant",
+      role: "Marketing Coordinator",
+      imageName: "dhruv",
+      linkedIn: "https://www.linkedin.com/in/dhruv-sawant/",
+    }
+  ],
   2024: [
     {
       name: "Tony Lim",

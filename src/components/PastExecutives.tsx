@@ -4,11 +4,10 @@ import { useState } from "react";
 import React from 'react';
 import ExecTable from "@/components/ExecTable";
 import ExecTeamImages from "@/components/ExecTeamImages";
-import { Statistics } from "@/data/statistics";
 import { executives } from "@/data/executives";
 
 export default function PastExecutives() {
-  const [selectedYear, setSelectedYear] = useState(Statistics.YEAR);
+  const [selectedYear, setSelectedYear] = useState(2024);
   const years = Object.keys(executives).map((year) => parseInt(year)).reverse();
 
   return (
