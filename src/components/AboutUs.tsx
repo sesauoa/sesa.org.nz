@@ -7,6 +7,8 @@ import Card from "@/components/Card";
 import JoinInfo from "@/components/JoinInfo";
 
 function ContentSections() {
+  const currentYear = new Date().getFullYear();
+
   const aboutCards = [
     {
       imgSrc: IndustryImage.src,
@@ -53,6 +55,17 @@ function ContentSections() {
             {Statistics.MEMBERS}+ members, connecting them with each other as
             well as industry professionals.
           </p>
+        </div>
+      </div>
+
+      <div className="flex justify-center text-center space-x-8">
+        <div className="w-[130px]">
+          <p className="">Founded in</p>
+          <strong className="text-4xl">{Statistics.FOUNDING_YEAR}</strong>
+        </div>
+        <div className="w-[130px]">
+          <p className="">Years active</p>
+          <strong className="text-4xl">{currentYear - Statistics.FOUNDING_YEAR + 1}</strong>
         </div>
       </div>
 

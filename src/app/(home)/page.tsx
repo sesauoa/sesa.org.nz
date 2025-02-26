@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </div>
       <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6 text-center pt-4">
-        Our {Statistics.YEAR} Sponsors
+        Our 2024 Sponsors
       </h1>
       <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[1.5px]"></div>
       <OurSponsors title="Gold Sponsor" sponsors={goldSponsors} type="gold" />
