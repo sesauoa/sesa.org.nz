@@ -21,18 +21,24 @@ export const routes = [
   },
   {
     id: 5,
+    name: "Hackathon",
+    href: "https://wdccxsesahackathon.com/",
+    target: "_blank",
+  },
+  {
+    id: 6,
     name: "Linktree",
     href: "https://linktr.ee/sesa.uoa",
     target: "_blank",
   },
   // Depricated
   // {
-  //   id: 6,
+  //   id: 7,
   //   name: "Event Calendar",
   //   href: "/event-calendar",
   // },
   {
-    id: 7,
+    id: 8,
     name: "Contact",
     href: "/contact",
   },

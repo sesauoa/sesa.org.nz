@@ -2,6 +2,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { routes } from "@/data/routes";
 import JoinButton from "./JoinButton";
+import { useRouter } from "next/navigation";
 
 interface NavSideProps {
   setActive: React.Dispatch<React.SetStateAction<boolean>>;
@@ -31,16 +32,24 @@ const slide = {
 export default function NavSide({
   setActive,
 }: NavSideProps): React.ReactElement {
+  const router = useRouter();
   const handleClick = (
     e: React.MouseEvent<HTMLAnchorElement>,
-    path: string
+    path: string,
+    setActive: (value: boolean) => void,
+    router: any
   ) => {
     e.preventDefault();
     setActive(false);
     setTimeout(() => {
-      window.location.href = path;
-    }, 800);
+      if (path.startsWith("http")) {
+        window.open(path, "_blank", "noopener,noreferrer");
+      } else {
+        router.push(path);
+      }
+    }, 500);
   };
+
 
   return (
     <motion.div
@@ -52,12 +61,13 @@ export default function NavSide({
     >
       <div className="box-border h-full px-24 pt-10 flex flex-col justify-between">
         <div className="flex flex-col text-xl gap-3 mt-20">
-          {routes.map((data) => {
+          {routes.map((route) => {
+            const { id, name, href, target } = route;
             return (
               <motion.div
-                key={data.id}
+                key={id}
                 className="relative flex items-center group"
-                custom={data.id}
+                custom={id}
                 variants={slide}
                 initial="initial"
                 animate="enter"
@@ -65,10 +75,14 @@ export default function NavSide({
               >
                 <div className="relative inline-block">
                   <Link
-                    href={data.href}
-                    onClick={(e) => handleClick(e, data.href)}
+                    href={href}
+                    onClick={(e) => handleClick(e, href, setActive, router)}
+                    target={target}
+                    rel={
+                      target === "_blank" ? "noopener noreferrer" : undefined
+                    }
                   >
-                    {data.name}
+                    {name}
                   </Link>
                   <span className="absolute -bottom-0.5 -left-2 -right-2 h-[2px] origin-left scale-x-0 group-hover:scale-100 rounded-full bg-white transition-transform duration-300 ease-out" />
                 </div>
