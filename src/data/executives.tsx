@@ -73,7 +73,7 @@ export const executives: TeamMember = {
       linkedIn: "https://www.linkedin.com/in/andy-zhang-40160926b/",
     },
     {
-      name: "Chris Kang",
+      name: "JooHyun Kang",
       role: "Social Event Coordinator",
       imageName: "chris",
       linkedIn: "https://www.linkedin.com/in/kang05/?originalSubdomain=nz",
