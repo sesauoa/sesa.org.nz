@@ -8,7 +8,7 @@ import { executives } from "@/data/executives";
 
 export default function PastExecutives() {
   const [selectedYear, setSelectedYear] = useState(2024);
-  const years = Object.keys(executives).map((year) => parseInt(year)).reverse();
+  const years = Object.keys(executives).map((year) => parseInt(year)).reverse().slice(1);
 
   return (
     <div className='bg-white rounded-lg shadow-lg px-4 py-6 w-full sm:w-[90%] md:w-[80%] lg:w-[70%]'>
