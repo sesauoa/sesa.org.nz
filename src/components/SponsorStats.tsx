@@ -1,6 +1,6 @@
 import { Statistics } from "@/data/statistics";
 
-const StatisticsSection: React.FC = () => {
+const SponsorStats: React.FC = () => {
   return (
     <div>
       <div className="text-center my-8">
@@ -13,8 +13,8 @@ const StatisticsSection: React.FC = () => {
             <strong className="text-2xl">
               {Statistics.ATTENDEES_TO_FLAGSHIP_EVENTS}+
             </strong>
-            <p className="">
-              <span className="block">Attendees to our</span>
+            <p>
+              <span className="block">Attendees to</span>
               <span className="block">flagship events</span>
             </p>
           </div>
@@ -28,4 +28,4 @@ const StatisticsSection: React.FC = () => {
   );
 };
 
-export default StatisticsSection;
+export default SponsorStats;

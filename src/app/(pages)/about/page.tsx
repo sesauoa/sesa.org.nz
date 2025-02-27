@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs";
+import React from "react";
 
 export const metadata = {
   title: "SESA - About Us",

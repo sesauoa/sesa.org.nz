@@ -1,10 +1,9 @@
 import { executives } from "@/data/executives";
-import { Statistics } from "@/data/statistics";
 
 const ExecDisplay = () => {
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-8 items-center justify-center pb-16">
-      {executives[Statistics.YEAR].map((executive, index) => (
+      {executives[2025].map((executive, index) => (
         <a
           className="rounded-lg shadow-lg w-[150px] h-[250px] sm:w-[200px] sm:h-[300px] md:w-[210px] md:h-[280px] flex justify-center transition-transform duration-200 hover:scale-105"
           href={executive.linkedIn}

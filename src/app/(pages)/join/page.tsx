@@ -10,7 +10,7 @@ export default function JoinPage() {
       </h1>
       <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[2px]"></div>
       <iframe
-        src="https://forms.gle/DDKjJ2K91jHmKXPw9"
+        src="https://forms.gle/mTgnytcWUxMA6HET9"
         className="w-full h-screen rounded-lg shadow-md"
       >
         Loading...
