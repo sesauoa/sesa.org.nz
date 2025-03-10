@@ -5,6 +5,7 @@ interface Sponsor {
   name: string;
   logo: string;
   link: string;
+  size: string;
 }
 
 interface SponsorSectionProps {
@@ -38,6 +39,7 @@ const OurSponsors: React.FC<SponsorSectionProps> = ({
                 name={sponsor.name}
                 logo={sponsor.logo}
                 link={sponsor.link}
+                size={sponsor.size}
                 type="gold"
               />
             ) : (
@@ -46,6 +48,7 @@ const OurSponsors: React.FC<SponsorSectionProps> = ({
                 name={sponsor.name}
                 logo={sponsor.logo}
                 link={sponsor.link}
+                size={sponsor.size}
                 type="silver"
               />
             )}

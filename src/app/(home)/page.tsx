@@ -6,7 +6,6 @@ import Slideshow from "@/components/Slideshow";
 import SplashHeader from "@/components/SplashHeader";
 import OurSponsors from "@/components/OurSponsors";
 import { goldSponsors, silverSponsors } from "@/data/sponsors";
-import { Statistics } from "@/data/statistics";
 import JoinInfo from "@/components/JoinInfo";
 import EmbeddedSocial from "@/components/EmbeddedSocial";
 
