@@ -25,7 +25,7 @@ const SponsorCard: React.FC<SponsorCardProps> = ({
     >
       <div
         className={
-          (type === "gold" ? `w-${size} h-32` : `w-${size} h-24`) +
+          (type === "gold" ? `w-${size} h-24 ` : `w-${size} h-18 `) +
           "flex items-center justify-center transform hover:scale-105 hover:shadow-2xl transition-transform duration-300"
         }
       >

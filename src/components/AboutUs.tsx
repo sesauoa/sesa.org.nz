@@ -2,7 +2,7 @@ import React from "react";
 import IndustryImage from "../../public/about-images/industry.jpg";
 import WorkshopImage from "../../public/about-images/workshop.jpg";
 import SocialImage from "../../public/about-images/social.jpg";
-import { Statistics } from "@/data/statistics";
+import { statistics } from "@/data/statistics";
 import Card from "@/components/Card";
 import JoinInfo from "@/components/JoinInfo";
 
@@ -52,7 +52,7 @@ function ContentSections() {
               University of Auckland
             </a>
             . We organise and run social and career-focused events for our{" "}
-            {Statistics.MEMBERS}+ members, connecting them with each other as
+            {statistics.MEMBERS}+ members, connecting them with each other as
             well as industry professionals.
           </p>
         </div>
@@ -61,11 +61,11 @@ function ContentSections() {
       <div className="flex justify-center text-center space-x-8">
         <div className="w-[130px]">
           <p className="">Founded in</p>
-          <strong className="text-4xl">{Statistics.FOUNDING_YEAR}</strong>
+          <strong className="text-4xl">{statistics.FOUNDING_YEAR}</strong>
         </div>
         <div className="w-[130px]">
           <p className="">Years active</p>
-          <strong className="text-4xl">{currentYear - Statistics.FOUNDING_YEAR + 1}</strong>
+          <strong className="text-4xl">{currentYear - statistics.FOUNDING_YEAR + 1}</strong>
         </div>
       </div>
 

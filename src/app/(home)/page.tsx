@@ -8,6 +8,7 @@ import OurSponsors from "@/components/OurSponsors";
 import { goldSponsors, silverSponsors } from "@/data/sponsors";
 import JoinInfo from "@/components/JoinInfo";
 import EmbeddedSocial from "@/components/EmbeddedSocial";
+import { statistics } from "@/data/statistics";
 
 export default function Home() {
   useEffect(() => {
@@ -30,10 +31,10 @@ export default function Home() {
         </div>
       </div>
       <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6 text-center pt-4">
-        Our 2025 Sponsors
+        Our {statistics.SPONSOR_YEAR} Sponsors
       </h1>
       <div className="mx-auto w-20 mb-6 bg-sesa-teal-dark h-[1.5px]"></div>
-      <OurSponsors title="Gold Sponsor" sponsors={goldSponsors} type="gold" />
+      <OurSponsors title="Gold Sponsors" sponsors={goldSponsors} type="gold" />
       <OurSponsors
         title="Silver Sponsors"
         sponsors={silverSponsors}

@@ -60,7 +60,7 @@ export const silverSponsors = [
     name: "2degrees",
     logo: "sponsors-images/logos/2degrees.png",
     link: "https://careers.2degrees.nz/graduates",
-    size: "20",
+    size: "10",
   },
   {
     name: "Visa",
