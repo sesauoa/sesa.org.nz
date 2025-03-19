@@ -21,13 +21,11 @@ const SponsorCard: React.FC<SponsorCardProps> = ({
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="w-32 h-32"
+      className="block"
     >
       <div
-        className={
-          (type === "gold" ? `w-${size} h-24 ` : `w-${size} h-18 `) +
-          "flex items-center justify-center transform hover:scale-105 hover:shadow-2xl transition-transform duration-300"
-        }
+        className="flex items-center justify-center transform hover:scale-105 hover:shadow-2xl transition-transform duration-300"
+        style={{ width: `${size}px`, height: type === "gold" ? "96px" : "72px" }}
       >
         <img
           src={logo}
