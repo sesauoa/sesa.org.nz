@@ -5,6 +5,7 @@ interface SponsorCardProps {
   name: string;
   logo: string;
   link: string;
+  size: string;
   type: string;
 }
 
@@ -12,6 +13,7 @@ const SponsorCard: React.FC<SponsorCardProps> = ({
   name,
   logo,
   link,
+  size,
   type,
 }) => {
   return (
@@ -23,7 +25,7 @@ const SponsorCard: React.FC<SponsorCardProps> = ({
     >
       <div
         className={
-          (type === "gold" ? "w-64 h-32" : "w-32 h-24") +
+          (type === "gold" ? `w-${size} h-24 ` : `w-${size} h-18 `) +
           "flex items-center justify-center transform hover:scale-105 hover:shadow-2xl transition-transform duration-300"
         }
       >
