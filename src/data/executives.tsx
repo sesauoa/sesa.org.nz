@@ -83,12 +83,6 @@ export const executives: TeamMember = {
       role: "Marketing Coordinator",
       imageName: "gian",
       linkedIn: "https://www.linkedin.com/in/gianmohinani/",
-    },
-    {
-      name: "Dhruv Sawant",
-      role: "Marketing Coordinator",
-      imageName: "dhruv",
-      linkedIn: "https://www.linkedin.com/in/dhruv-sawant/",
     }
   ],
   2024: [
