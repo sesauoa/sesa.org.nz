@@ -67,22 +67,46 @@ export const executives: TeamMember = {
       linkedIn: "https://www.linkedin.com/in/noah-hagar-dent/?originalSubdomain=nz",
     },
     {
+      name: "Igor Moreira Castro",
+      role: "Industry Event Coordinator",
+      imageName: "igor",
+      linkedIn: "https://www.linkedin.com/in/igor-moreira-castro/",
+    },
+    {
       name: "Andy Zhang",
       role: "Social Event Coordinator",
       imageName: "andy",
       linkedIn: "https://www.linkedin.com/in/andy-zhang-40160926b/",
     },
     {
-      name: "JooHyun Kang",
+      name: "JooHyun (Chris) Kang",
       role: "Social Event Coordinator",
       imageName: "chris",
       linkedIn: "https://www.linkedin.com/in/kang05/?originalSubdomain=nz",
+    },
+    {
+      name: "Hyungjae (Colin) Kim",
+      role: "Social Event Coordinator",
+      imageName: "colin",
+      linkedIn: "https://www.linkedin.com/in/hjkim120",
     },
     {
       name: "Gian Mohinani",
       role: "Marketing Coordinator",
       imageName: "gian",
       linkedIn: "https://www.linkedin.com/in/gianmohinani/",
+    },
+    {
+      name: "Caitlin Kuan",
+      role: "Marketing Coordinator",
+      imageName: "caitlin",
+      linkedIn: "https://www.linkedin.com/in/caitlin-kuan-babb70208/",
+    },
+    {
+      name: "Abbey Martinez",
+      role: "Marketing Coordinator",
+      imageName: "abbey",
+      linkedIn: "https://www.linkedin.com/in/abbey-martinez-4aa07731a/",
     }
   ],
   2024: [
