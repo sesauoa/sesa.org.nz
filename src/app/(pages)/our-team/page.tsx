@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function OurTeamPage() {
   return (
-    <div className="w-full flex flex-col font-sans p-6 lg:px-24 text-center items-center">
+    <div className="w-full flex flex-col font-sans p-3 md:p-6 lg:px-24 text-center items-center">
       <h1 className="text-2xl md:text-3xl text-sesa-teal-dark font-bold m-6">
         SESA Executive Team 2025
       </h1>
