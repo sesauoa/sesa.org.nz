@@ -260,7 +260,7 @@ export const executives: TeamMember = {
       imageName: "sharjil",
     },
     {
-      name: "Aaruhi Parasrampuria",
+      name: "Aarushi Parasrampuria",
       role: "Women's Representative",
       imageName: "aarushi",
     },
