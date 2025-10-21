@@ -13,6 +13,7 @@ Each year, please update:
 - Sign up form
 - Statistics
 - Photos
+- Constitution
 
 ### Updating sponsors:
 
@@ -40,6 +41,10 @@ Each year, please update:
 ### Updating the images header slideshow:
 
 1. To update the images, add the new files in the `public/header-images` folder.
+
+### Updating the Constitution
+
+1. Replace `public/SESAConstitution.pdf`
 
 ## SESA Colours
 
