@@ -21,7 +21,7 @@ export const goldSponsors = [
 
 export const silverSponsors = [
   {
-    name: "Citadel",
+    name: "Citadel Securities",
     logo: "sponsors-images/logos/citadel_securities.png",
     link: "https://www.citadelsecurities.com/careers/students/",
     size: "130",
