@@ -7,7 +7,7 @@ import ExecTeamImages from "@/components/ExecTeamImages";
 import { executives } from "@/data/executives";
 
 export default function PastExecutives() {
-  const [selectedYear, setSelectedYear] = useState(2024);
+  const [selectedYear, setSelectedYear] = useState(2025);
   const years = Object.keys(executives).map((year) => parseInt(year)).reverse().slice(1);
 
   return (
