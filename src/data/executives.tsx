@@ -1,4 +1,96 @@
 export const executives: TeamMember = {
+  2026: [
+    {
+      name: "Igor Moreira Castro",
+      role: "President",
+      imageName: "igor",
+      linkedIn: "https://www.linkedin.com/in/igor-moreira-castro/",
+    },
+    {
+      name: "Nadia Askari",
+      role: "Vice President",
+      imageName: "nadia",
+      linkedIn: "https://www.linkedin.com/in/nadiaaskari/",
+    },
+    {
+      name: "Oorja Gandhi",
+      role: "Secretary",
+      imageName: "oorja",
+      linkedIn: "https://www.linkedin.com/in/oorja-gandhi/",
+    },
+    {
+      name: "Richman Tan",
+      role: "Treasurer",
+      imageName: "richman",
+      linkedIn: "https://www.linkedin.com/in/richman-tan-9961442b1/",
+    },
+    {
+      name: "Abbey Martinez",
+      role: "Sponsorship Manager",
+      imageName: "abbey",
+      linkedIn: "https://www.linkedin.com/in/abbey-martinez-4aa07731a/",
+    },
+    {
+      name: "Connie Ding",
+      role: "Industry Event Lead",
+      imageName: "connie",
+      linkedIn: "https://www.linkedin.com/in/connie-ding/",
+    },
+    {
+      name: "Miguel Balingit",
+      role: "Social Event Lead",
+      imageName: "miguel",
+      linkedIn: "https://www.linkedin.com/in/miguelbalingit/",
+    },
+    {
+      name: "Caitlin Kuan",
+      role: "Marketing Lead",
+      imageName: "caitlin",
+      linkedIn: "https://www.linkedin.com/in/caitlin-kuan-babb70208/",
+    },
+    {
+      name: "Becky Ngan",
+      role: "Women's Representative",
+      imageName: "becky",
+      linkedIn: "https://www.linkedin.com/in/becky-ngan/",
+    },
+    {
+      name: "JooHyun (Chris) Kang",
+      role: "Industry Event Coordinator",
+      imageName: "chris",
+      linkedIn: "https://www.linkedin.com/in/kang05/?originalSubdomain=nz",
+    },
+    {
+      name: "Nicholas Garcia-Scholtz",
+      role: "Industry Event Coordinator",
+      imageName: "nick1",
+      linkedIn: "https://www.linkedin.com/in/nicholas-garcia-scholtz/",
+    },
+    {
+      name: "Hyungjae (Colin) Kim",
+      role: "Social Event Coordinator",
+      imageName: "colin",
+      linkedIn: "https://www.linkedin.com/in/hjkim120",
+    },
+    {
+      name: "Jack Preston",
+      role: "Social Event Coordinator",
+      imageName: "jack1",
+      linkedIn: "https://www.linkedin.com/in/jackdpreston/",
+    },
+    {
+      name: "Gian Mohinani",
+      role: "Marketing Coordinator",
+      imageName: "gian",
+      linkedIn: "https://www.linkedin.com/in/gianmohinani/",
+    },
+    {
+      name: "Andrew Chen",
+      role: "Marketing Coordinator",
+      imageName: "andrew1",
+      linkedIn: "https://www.linkedin.com/in/andrew-chen1/",
+    },
+  ],
   2025: [
     {
       name: "Oorja Gandhi",
@@ -52,7 +144,6 @@ export const executives: TeamMember = {
       name: "Aye Thu",
       role: "Women's Representative",
       imageName: "aye",
-      linkedIn: "https://www.linkedin.com/in/ayemyatthu04/",
     },
     {
       name: "Uday Jain",
@@ -64,7 +155,6 @@ export const executives: TeamMember = {
       name: "Noah Hagar-Dent",
       role: "Industry Event Coordinator",
       imageName: "noah",
-      linkedIn: "https://www.linkedin.com/in/noah-hagar-dent/?originalSubdomain=nz",
     },
     {
       name: "Igor Moreira Castro",
@@ -107,7 +197,7 @@ export const executives: TeamMember = {
       role: "Marketing Coordinator",
       imageName: "abbey",
       linkedIn: "https://www.linkedin.com/in/abbey-martinez-4aa07731a/",
-    }
+    },
   ],
   2024: [
     {

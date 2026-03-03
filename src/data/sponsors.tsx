@@ -1,31 +1,25 @@
 export const goldSponsors = [
   {
-    name: "Jane Street",
-    logo: "sponsors-images/logos/jane_street.png",
-    link: "https://www.janestreet.com/join-jane-street/overview/",
-    size: "300",
-  },
-  {
     name: "IMC Trading",
     logo: "sponsors-images/logos/imc.png",
     link: "https://www.imc.com/ap/careers/students-graduates",
-    size: "280",
+    size: "240",
   },
   {
-    name: "Tidy International",
-    logo: "sponsors-images/logos/Tidy.svg",
-    link: "https://www.tidyinternational.com/tidy-careers/opportunities",
-    size: "180",
-  }
+    name: "Susquehanna",
+    logo: "sponsors-images/logos/susquehanna.png",
+    link: "https://careers.sig.com/",
+    size: "235",
+  },
+  {
+    name: "Jane Street",
+    logo: "sponsors-images/logos/jane_street.png",
+    link: "https://www.janestreet.com/join-jane-street/overview/",
+    size: "255",
+  },
 ];
 
 export const silverSponsors = [
-  {
-    name: "Optiver",
-    logo: "sponsors-images/logos/optiver.png",
-    link: "https://optiver.com/working-at-optiver/early-careers/",
-    size: "180",
-  },
   {
     name: "Citadel Securities",
     logo: "sponsors-images/logos/citadel_securities.png",
@@ -45,10 +39,10 @@ export const silverSponsors = [
     size: "200",
   },
   {
-    name: "Susquehanna",
-    logo: "sponsors-images/logos/susquehanna.png",
-    link: "https://careers.sig.com/",
-    size: "275",
+    name: "VivCourt",
+    logo: "sponsors-images/logos/vivcourt.png",
+    link: "https://vivcourt.com/",
+    size: "220",
   },
   {
     name: "Serato",
@@ -57,10 +51,16 @@ export const silverSponsors = [
     size: "140",
   },
   {
-    name: "2degrees",
-    logo: "sponsors-images/logos/2degrees.png",
-    link: "https://careers.2degrees.nz/graduates",
-    size: "75",
+    name: "Optiver",
+    logo: "sponsors-images/logos/optiver.png",
+    link: "https://optiver.com/working-at-optiver/early-careers/",
+    size: "180",
+  },
+  {
+    name: "Marops",
+    logo: "sponsors-images/logos/marops.png",
+    link: "https://marops.com/",
+    size: "110",
   },
   {
     name: "Visa",

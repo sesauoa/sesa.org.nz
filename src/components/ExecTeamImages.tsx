@@ -1,6 +1,7 @@
 import React from "react";
 
 const teamImages: { [key: number]: string } = {
+  2025: "/team-images/team-photos/team_2025.jpg",
   2024: "/team-images/team-photos/team_2024.jpg",
   2023: "/team-images/team-photos/team_2023.jpg",
   2022: "/team-images/team-photos/team_2022.jpg",
