@@ -59,7 +59,7 @@ export const silverSponsors = [
   {
     name: "Marops",
     logo: "sponsors-images/logos/marops.png",
-    link: "https://marops.com/",
+    link: "https://www.marops.net/",
     size: "110",
   },
   {
